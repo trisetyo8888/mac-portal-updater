@@ -3,8 +3,8 @@ import json
 
 def fetch_and_update():
     # === SILAKAN SESUAIKAN DUA BARIS DI BAWAH INI ===
-    portal_url = "http://contoh-portal.com" 
-    mac_address = "00:1A:79:XX:XX:XX"
+    portal_url = "http://nk.team-tx.st/c/" 
+    mac_address = "1A:79:b6:eb:68"
     
     # Menambahkan User-Agent agar tidak terdeteksi sebagai robot/bot otomatis
     headers = {
