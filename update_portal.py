@@ -13,7 +13,7 @@ def fetch_and_update():
         "X-User-Agent": "model=MAG250; gpsi=6/22/2013-1; mac=1A:79:b6:eb:68",
         "Referer": "http://team-tx.st",
         "Accept": "*/*",
-        "Host": "nk.team-tx.st",
+        "Host": "http://nk.team-tx.st/c/",
         "Connection": "Keep-Alive"
     }
     
@@ -21,7 +21,7 @@ def fetch_and_update():
     session.headers.update(headers)
     
     # URL API internal stalker untuk otentikasi
-    api_url = "http://team-tx.st"
+    api_url = "http://nk.team-tx.st/c/"
     
     try:
         # Langkah 1: Handshake untuk meminta Token / Cookies
