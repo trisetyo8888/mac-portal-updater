@@ -25,8 +25,8 @@ jobs:
         pip install requests
 
     - name: Run update script
-      run: python update_portal.py
-
+     run: python fetch_portal.py
+     
     # Langkah menyimpan file yang telah diperbaiki
     - name: Commit and Push changes
       run: |
