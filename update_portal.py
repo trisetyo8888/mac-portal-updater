@@ -29,13 +29,11 @@ def fetch_and_update():
         response = session.get(api_url, params=params_handshake, timeout=15)
         print("Status Koneksi Awal:", response.status_code)
         
-        # Cek jika diblokir firewall (Cloudflare/DDoS protection)
         if response.status_code != 200:
             print(f"Akses ditolak server portal! Status: {response.status_code}")
             print("Isi balasan server:", response.text[:300])
             return
 
-        # Membaca balasan data secara aman
         try:
             res_json = response.json()
             print("Balasan Struktur Server Sukses Dibaca.")
@@ -44,7 +42,6 @@ def fetch_and_update():
             print(response.text[:500])
             return
             
-        # Mencari token di berbagai kemungkinan folder struktur Stalker
         token = None
         if isinstance(res_json, dict):
             if "js" in res_json and isinstance(res_json["js"], dict):
