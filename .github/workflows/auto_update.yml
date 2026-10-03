@@ -2,6 +2,7 @@ name: Auto Update MAC Portal
 
 on:
   schedule:
+    # Berjalan otomatis setiap 6 jam sekali
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
@@ -10,31 +11,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # LANGKAH PENTING: Mengunduh file dari repositori ke mesin server GitHub
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    # Menyiapkan Python
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.x'
 
-    # Menginstal modul pendukung
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install requests
 
-    # Menjalankan skrip Anda yang ada di halaman utama
     - name: Run update script
       run: python update_portal.py
 
-    # Menyimpan kembali hasil ekspor data ke GitHub
+    # Langkah menyimpan file yang telah diperbaiki
     - name: Commit and Push changes
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@://github.com"
-        git add exported_portal.json
-        git diff-index --quiet HEAD || git commit -m "Auto-update portal data [skip ci]"
-        git push
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        
+        if [ -f exported_portal.json ]; then
+          git add exported_portal.json
+          # Hanya commit jika ada perubahan pada file untuk menghindari error "nothing to commit"
+          git diff-index --quiet HEAD || git commit -m "Auto-update portal data [skip ci]"
+          git push
+        else
+          echo "File exported_portal.json tidak ditemukan. Melewati proses push."
+        fi
