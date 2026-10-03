@@ -1,65 +1,83 @@
 import requests
 import json
+import re
 
 def fetch_and_update():
-    # === SILAKAN SESUAIKAN DUA BARIS DI BAWAH INI ===
-    portal_url = "http://nk.team-tx.st/c/" 
-    mac_address = "1A:79:b6:eb:68"
+    # URL dasar portal stalker Anda
+    base_url = "http://nk.team-tx.st/c/" 
+    mac_address = "1A:79:b6:eb:68" # MAC dari log Anda
     
-    # Menambahkan User-Agent agar tidak terdeteksi sebagai robot/bot otomatis
+    # Header wajib untuk mengelabui server seolah-olah kita adalah STB MAG
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 aurora/2.1.2 Safari/533.3",
+        "X-User-Agent": "model=MAG250; gpsi=6/22/2013-1; mac=1A:79:b6:eb:68",
+        "Referer": "http://team-tx.st",
+        "Accept": "*/*",
+        "Host": "nk.team-tx.st",
+        "Connection": "Keep-Alive"
     }
     
     session = requests.Session()
     session.headers.update(headers)
     
+    # URL API internal stalker untuk otentikasi
+    api_url = "http://team-tx.st"
+    
     try:
-        # Menghubungi portal untuk meminta token/akses
-        login_url = f"{portal_url}?mac={mac_address}"
-        print(f"Mencoba menghubungi: {login_url}")
+        # Langkah 1: Handshake untuk meminta Token / Cookies
+        print("Mencoba melakukan Handshake ke Stalker Portal...")
+        params_handshake = {
+            "type": "stb",
+            "action": "handshake",
+            "js": "true"
+        }
         
-        response = session.get(login_url, timeout=15)
+        # Stalker Portal membutuhkan Cookies untuk menjaga sesi login
+        response = session.get(api_url, params=params_handshake, timeout=15)
+        print("Handshake Status:", response.status_code)
         
-        # Cetak isi respons mentah untuk proses analisa jika terjadi eror lagi
-        print("Respons Status Code:", response.status_code)
-        print("Isi Respons Mentah (100 karakter pertama):", response.text[:100])
-        
-        # Mencoba membaca data JSON
-        res_data = response.json()
-        token = res_data.get("js", {}).get("token")
+        res_json = response.json()
+        token = res_json.get("js", {}).get("token")
         
         if not token:
-            print("Portal menolak MAC Address atau token tidak ditemukan.")
+            print("Gagal mendapatkan token Stalker. Respons:", response.text)
             return
             
+        print("Token Stalker didapatkan:", token)
+        
+        # Daftarkan token ke header Authorization untuk request selanjutnya
         session.headers.update({"Authorization": f"Bearer {token}"})
         
-        # Langkah 2: Mengambil daftar siaran/channel
-        data_url = f"{portal_url}?type=itv&action=get_all_channels"
-        data_response = session.get(data_url, timeout=15)
+        # Langkah 2: Proses Login/Otentikasi menggunakan MAC Address
+        print("Mencoba login dengan MAC Address...")
+        params_login = {
+            "type": "stb",
+            "action": "do_auth",
+            "mac": mac_address
+        }
+        login_res = session.get(api_url, params=params_login, timeout=15)
+        print("Login Status:", login_res.status_code)
         
-        if data_response.status_code == 200:
-            portal_data = data_response.json()
+        # Langkah 3: Mengambil semua daftar siaran (All Channels)
+        print("Mengambil daftar channel...")
+        params_channels = {
+            "type": "itv",
+            "action": "get_all_channels"
+        }
+        channels_res = session.get(api_url, params=params_channels, timeout=15)
+        
+        if channels_res.status_code == 200:
+            portal_data = channels_res.json()
             
-            # Simpan hasil ke file JSON
+            # Simpan data asli berbentuk JSON ke repositori
             with open("exported_portal.json", "w", encoding="utf-8") as f:
                 json.dump(portal_data, f, indent=4, ensure_ascii=False)
             print("Pembaruan data portal berhasil disimpan ke exported_portal.json.")
         else:
-            print(f"Gagal mengambil channel. Status: {data_response.status_code}")
+            print(f"Gagal mengambil channel. Status: {channels_res.status_code}")
             
     except Exception as e:
-        print(f"Terjadi kesalahan teknis: {e}")
+        print(f"Terjadi kesalahan teknis Stalker: {e}")
 
 if __name__ == "__main__":
     fetch_and_update()
-
-
-
-
-
-
-
-
-
