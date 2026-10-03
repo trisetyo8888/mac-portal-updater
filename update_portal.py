@@ -2,17 +2,20 @@ import requests
 import json
 
 def fetch_and_update():
-    # Menggunakan URL load.php absolut
-    api_url = "http://team-tx.st"
+    # Menggunakan Proxy Server untuk membongkar pemblokiran DNS/IP di GitHub Actions
+    proxy_url = "https://herokuapp.com"
+    target_url = "http://team-tx.st"
+    api_url = proxy_url + target_url
+    
     mac_address = "1A:79:b6:eb:68"
     
-    # Menambahkan 'Host' header secara manual agar koneksi tidak dipotong oleh requests Python
+    # Header wajib agar lolos validasi keamanan portal
     headers = {
-        "Host": "nk.team-tx.st",
         "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 aurora/2.1.2 Safari/533.3",
         "X-User-Agent": f"model=MAG250; gpsi=6/22/2013-1; mac={mac_address}",
+        "Origin": "http://team-tx.st",
+        "X-Requested-With": "XMLHttpRequest",
         "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
         "Connection": "keep-alive"
     }
     
@@ -20,7 +23,8 @@ def fetch_and_update():
     session.headers.update(headers)
     
     try:
-        print("--- MEMULAI PROSES EKSPOR MAC PORTAL ---")
+        print("--- MEMULAI PROSES EKSPOR MAC PORTAL VIA PROXY ---")
+        print(f"Menghubungi alamat bypass: {api_url}")
         
         # Langkah 1: Handshake Awal
         params_handshake = {
@@ -29,21 +33,20 @@ def fetch_and_update():
             "js": "true"
         }
         
-        # menonaktifkan allow_redirects agar requests tidak melompat ke domain induk yang rusak
-        response = session.get(api_url, params=params_handshake, timeout=15, allow_redirects=False)
+        response = session.get(api_url, params=params_handshake, timeout=25)
         print("Status Koneksi Awal:", response.status_code)
         
         if response.status_code != 200:
-            print(f"Akses ditolak server portal! Status: {response.status_code}")
-            print("Isi balasan server:", response.text[:300])
+            print(f"Akses ditolak server proxy/portal! Status: {response.status_code}")
+            print("Isi teks server:", response.text[:300])
             return
 
         try:
             res_json = response.json()
             print("Balasan Struktur Server Sukses Dibaca.")
         except Exception:
-            print("Server tidak membalas dengan JSON yang valid! Isi teks asli server:")
-            print(response.text[:500])
+            print("Server tidak membalas dengan JSON yang valid! Isi teks asli:")
+            print(response.text[:400])
             return
             
         token = None
@@ -54,7 +57,7 @@ def fetch_and_update():
                 token = res_json.get("token")
                 
         if not token:
-            print("Gagal menemukan token akses. Isi JSON dari server adalah:", res_json)
+            print("Gagal menemukan token akses. Isi JSON server:", res_json)
             return
             
         print("Akses Diterima! Token sukses didapatkan.")
@@ -66,7 +69,7 @@ def fetch_and_update():
             "action": "get_profile",
             "token": token
         }
-        session.get(api_url, params=params_profile, timeout=15, allow_redirects=False)
+        session.get(api_url, params=params_profile, timeout=25)
         
         # Langkah 3: Ambil Seluruh Data Channel IPTV
         print("Mengunduh seluruh daftar siaran...")
@@ -75,7 +78,7 @@ def fetch_and_update():
             "action": "get_all_channels",
             "token": token
         }
-        channels_res = session.get(api_url, params=params_channels, timeout=15, allow_redirects=False)
+        channels_res = session.get(api_url, params=params_channels, timeout=25)
         
         if channels_res.status_code == 200:
             try:
@@ -90,7 +93,7 @@ def fetch_and_update():
             print(f"Gagal mengambil siaran. Status server: {channels_res.status_code}")
             
     except Exception as e:
-        print(f"Terjadi kesalahan koneksi absolut: {e}")
+        print(f"Terjadi kesalahan koneksi absolut via Proxy: {e}")
 
 if __name__ == "__main__":
     fetch_and_update()
