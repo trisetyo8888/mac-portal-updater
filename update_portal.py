@@ -2,15 +2,14 @@ import requests
 import json
 
 def fetch_and_update():
-    # TETAP GUNAKAN load.php agar server merespon perintah API dengan format JSON
+    # Mengunci alamat sub-domain penuh 'nk.team-tx.st' agar tidak memicu NameResolutionError
     api_url = "http://team-tx.st"
     mac_address = "1A:79:b6:eb:68"
     
     # Kumpulan Header MAG STB murni untuk lolos dari filter firewall portal
     headers = {
         "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 aurora/2.1.2 Safari/533.3",
-        "X-User-Agent": "model=MAG250; gpsi=6/22/2013-1; mac=1A:79:b6:eb:68",
-        # Alamat /c/ dimasukkan ke sini sebagai penanda asal perangkat (Referer)
+        "X-User-Agent": f"model=MAG250; gpsi=6/22/2013-1; mac={mac_address}",
         "Referer": "http://nk.team-tx.st/c/",
         "Accept": "*/*",
         "Accept-Language": "en-US,en;q=0.9",
@@ -21,7 +20,7 @@ def fetch_and_update():
     session.headers.update(headers)
     
     try:
-        # Langkah 1: Handshake Bersih (Hanya mengirim parameter mutlak untuk menghindari error 400)
+        # Langkah 1: Handshake Bersih
         print("Mencoba melakukan Handshake ke Stalker Portal...")
         params_handshake = {
             "type": "stb",
@@ -32,7 +31,6 @@ def fetch_and_update():
         response = session.get(api_url, params=params_handshake, timeout=15)
         print("Handshake Status:", response.status_code)
         
-        # Analisis jika balasan bukan JSON
         try:
             res_json = response.json()
         except Exception:
@@ -52,7 +50,7 @@ def fetch_and_update():
             
         print("Token Stalker Berhasil Didapatkan:", token)
         
-        # Rekatkan Token dan Cookie Sesi
+        # Rekatkan Token dan Cookie Sesi (domain diubah secara presisi ke nk.team-tx.st)
         session.headers.update({"Authorization": f"Bearer {token}"})
         session.cookies.set("mac", mac_address, domain="nk.team-tx.st", path="/")
         
