@@ -2,10 +2,13 @@ import requests
 import json
 
 def fetch_and_update():
+    # Menggunakan URL load.php absolut
     api_url = "http://team-tx.st"
     mac_address = "1A:79:b6:eb:68"
     
+    # Menambahkan 'Host' header secara manual agar koneksi tidak dipotong oleh requests Python
     headers = {
+        "Host": "nk.team-tx.st",
         "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 aurora/2.1.2 Safari/533.3",
         "X-User-Agent": f"model=MAG250; gpsi=6/22/2013-1; mac={mac_address}",
         "Accept": "*/*",
@@ -26,7 +29,8 @@ def fetch_and_update():
             "js": "true"
         }
         
-        response = session.get(api_url, params=params_handshake, timeout=15)
+        # menonaktifkan allow_redirects agar requests tidak melompat ke domain induk yang rusak
+        response = session.get(api_url, params=params_handshake, timeout=15, allow_redirects=False)
         print("Status Koneksi Awal:", response.status_code)
         
         if response.status_code != 200:
@@ -62,7 +66,7 @@ def fetch_and_update():
             "action": "get_profile",
             "token": token
         }
-        session.get(api_url, params=params_profile, timeout=15)
+        session.get(api_url, params=params_profile, timeout=15, allow_redirects=False)
         
         # Langkah 3: Ambil Seluruh Data Channel IPTV
         print("Mengunduh seluruh daftar siaran...")
@@ -71,7 +75,7 @@ def fetch_and_update():
             "action": "get_all_channels",
             "token": token
         }
-        channels_res = session.get(api_url, params=params_channels, timeout=15)
+        channels_res = session.get(api_url, params=params_channels, timeout=15, allow_redirects=False)
         
         if channels_res.status_code == 200:
             try:
