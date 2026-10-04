@@ -1,34 +1,59 @@
-name: Perbarui MAC Portal Otomatis
+name: Auto Update MAC Portal
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
-  workflow_dispatch: 
+    # Berjalan otomatis setiap hari jam 00:00 UTC (Jam 07:00 WIB)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Menyediakan tombol untuk menjalankan manual kapan saja
 
 jobs:
-  update-link:
+  update-and-push:
     runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+    permissions:
+      contents: write # Izin wajib agar GitHub bisa menulis/push file ke repo Anda
 
+    steps:
+    # 1. Mengambil kode dari repositori Anda
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    # 2. Menyiapkan lingkungan Python
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.x'
 
-    - name: Install dependencies
+    # 3. Menginstal library yang dibutuhkan skrip
+    - name: Install Dependencies
       run: |
+        python -m pip install --upgrade pip
         pip install requests
 
-    - name: Run update script
+    # 4. Menjalankan skrip update_portal.py Anda
+    - name: Run Update Script
       run: python update_portal.py
 
-    - name: Commit and Push changes
+    # 5. Menyimpan dan mengunggah kembali file mac_playlist.m3u terbaru ke GitHub
+    - name: Commit and Push Changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@://github.com"
-        git add portal.txt playlist.m3u || true
-        git diff-index --quiet HEAD || git commit -m "Otomatis: Perbarui berkas playlist M3U"
-        git push
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        
+        # MENYINKRONKAN NAMA FILE: Pastikan memakai mac_playlist.m3u sesuai output skrip Python
+        if [ -f "mac_playlist.m3u" ]; then
+          git add mac_playlist.m3u
+          
+          # Hanya lakukan commit jika ada perubahan konten file
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update MAC Portal: $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          else
+            echo "Tidak ada perubahan data baru pada portal hari ini."
+          fi
+        else
+          echo "Error: File mac_playlist.m3u tidak ditemukan!"
+          exit 1
+        fi
