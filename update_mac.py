@@ -1,18 +1,22 @@
 import requests
 import json
 import sys
+import hashlib
 
 def fetch_stalker_m3u():
     # ==================== PENGATURAN PORTAL ANDA ====================
-    # Pastikan URL ini sudah benar menggunakan milik Anda
-    portal_host = "http://z1.babo01.com:8080/c/" 
+    portal_host = "https://z1.babo01.com:8080/c/" 
     mac_address = "00:1A:79:1f:0e:30" 
     output_file = "mac_playlist.m3u"
     # ================================================================
 
     portal_url = f"{portal_host}/portal.php"
     
-    # Menggunakan User-Agent murni MAG250 standar yang paling kompatibel dengan server stalker
+    # Membuat Serial Number & Device ID tiruan berbasis MAC Address agar konsisten
+    mac_clean = mac_address.replace(":", "").upper()
+    serial_mock = hashlib.md5(mac_clean.encode()).hexdigest()[:15].upper()
+    device_id_mock = hashlib.sha256(mac_clean.encode()).hexdigest()[:40].upper()
+
     headers = {
         "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
         "Cookie": f"mac={mac_address}; stb_lang=en; timezone=GMT",
@@ -25,31 +29,36 @@ def fetch_stalker_m3u():
     session.headers.update(headers)
 
     try:
-        print("1. Mencoba Handshake dengan server...")
-        handshake_url = f"{portal_url}?type=stb&action=handshake&mac={mac_address}"
+        print("1. Mencoba Handshake dengan parameter perangkat...")
+        # Mengirimkan jabat tangan lengkap dengan data serial number tiruan
+        handshake_url = (
+            f"{portal_url}?type=stb&action=handshake&mac={mac_address}"
+            f"&sn={serial_mock}&device_id={device_id_mock}&device_id2={device_id_mock}"
+        )
         req_handshake = session.get(handshake_url, timeout=20)
         
+        token = ""
         if req_handshake.status_code == 200:
             try:
                 res_json = req_handshake.json()
                 token = res_json.get("js", {}).get("token", "")
                 if token:
-                    # Pasang token murni di header sesuai protokol MAG STB resmi
-                    session.headers.update({
-                        "Authorization": f"Bearer {token}"
-                    })
+                    session.headers.update({"Authorization": f"Bearer {token}"})
                     print("   [Log] Token otentikasi berhasil diterapkan ke Header.")
             except:
                 print("   [Log] Handshake sukses tanpa pembacaan token JSON.")
 
-        print("2. Mengambil daftar kategori...")
-        # Kembalikan URL ke format standar tanpa modifikasi token di URL string
-        cat_url = f"{portal_url}?type=itv&action=get_categories&mac={mac_address}"
+        print("2. Mengambil daftar kategori dengan otentikasi ketat...")
+        # Beberapa server memerlukan parameter aksi tambahan "get_modules" sebelum memanggil kategori
+        # Namun kita langsung coba ke get_categories dengan membawa data identitas STB lengkap
+        cat_url = (
+            f"{portal_url}?type=itv&action=get_categories&mac={mac_address}"
+            f"&sn={serial_mock}&device_id={device_id_mock}"
+        )
         req_cat = session.get(cat_url, timeout=20)
         
         print(f"   [Log] Status Kategori: {req_cat.status_code}")
         
-        # Jika respon masih kosong/bukan JSON, kita intip tipenya
         raw_text = req_cat.text.strip()
         if not raw_text.startswith("{") and not raw_text.startswith("["):
             print(f"   [Log] Respon Mentah Server: '{raw_text[:100]}'")
@@ -72,7 +81,10 @@ def fetch_stalker_m3u():
             cat_id = cat.get("id")
             cat_name = cat.get("title")
             
-            data_url = f"{portal_url}?type=itv&action=get_ordered_list&category={cat_id}&mac={mac_address}"
+            data_url = (
+                f"{portal_url}?type=itv&action=get_ordered_list&category={cat_id}&mac={mac_address}"
+                f"&sn={serial_mock}&device_id={device_id_mock}"
+            )
             req_data = session.get(data_url, timeout=20)
             
             if req_data.status_code == 200:
