@@ -1,92 +1,93 @@
-import requests
 import json
+import os
 import sys
-import hashlib
 
-def fetch_stalker_m3u():
-    # ==================== PENGATURAN PORTAL ANDA ====================
-    portal_host = "http://babo01.com" 
-    mac_address = "00:1A:79:1f:0e:30" 
+def convert_txt_to_m3u():
+    input_file = "portal.txt"
     output_file = "mac_playlist.m3u"
-    # ================================================================
+    portal_host = "http://babo01.com"
+    mac_address = "00:1A:79:1f:0e:30"
 
-    portal_url = f"{portal_host}/portal.php"
-    
-    mac_clean = mac_address.replace(":", "").upper()
-    serial_mock = hashlib.md5(mac_clean.encode()).hexdigest()[:15].upper()
-    device_id_mock = hashlib.sha256(mac_clean.encode()).hexdigest()[:40].upper()
+    # 1. Cek apakah file portal.txt ada di repositori
+    if not os.path.exists(input_file):
+        print(f"❌ Error: File '{input_file}' tidak ditemukan di repositori!")
+        sys.exit(1)
 
-    headers = {
-        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
-        "Cookie": f"mac={mac_address}; stb_lang=en; timezone=GMT",
-        "Accept": "*/*",
-        "X-User-Agent": "model=MAG250; gpsi=unknown; ver=0.2.18-r14-pub-250; flash=3.3.4",
-        "Connection": "keep-alive"
-    }
+    print(f"1. Membaca data dari {input_file}...")
+    with open(input_file, "r", encoding="utf-8") as f:
+        raw_data = f.read().strip()
 
-    session = requests.Session()
-    session.headers.update(headers)
+    if not raw_data:
+        print("❌ Error: File portal.txt kosong!")
+        sys.exit(1)
 
+    m3u_content = "#EXTM3U\n"
+    channel_count = 0
+
+    print("2. Memproses dan mengonversi data ke format M3U...")
     try:
-        print("1. Mencoba Handshake...")
-        handshake_url = f"{portal_url}?type=stb&action=handshake&mac={mac_address}&sn={serial_mock}&device_id={device_id_mock}&device_id2={device_id_mock}"
-        req_handshake = session.get(handshake_url, timeout=20)
+        # Mencoba membaca data sebagai JSON (format bawaan get_ordered_list Stalker)
+        data_json = json.loads(raw_data)
         
-        if req_handshake.status_code != 200:
-            print(f"❌ Gagal Handshake. Status: {req_handshake.status_code}")
-            return
+        # Ekstrak daftar channel dari struktur JSON Stalker Portal
+        # (Mengantisipasi jika JSON dibungkus di dalam key 'js' -> 'data')
+        channels = data_json.get("js", {}).get("data", []) if isinstance(data_json.get("js"), dict) else data_json.get("data", [])
+        if not channels and isinstance(data_json, list):
+            channels = data_json
+        elif not channels and isinstance(data_json, dict):
+            channels = data_json.get("js", []) if isinstance(data_json.get("js"), list) else []
 
-        try:
-            res_json = req_handshake.json()
-            token = res_json.get("js", {}).get("token", "")
-            if token:
-                session.headers.update({"Authorization": f"Bearer {token}"})
-        except:
-            pass
-
-        print("2. Mengambil daftar kategori...")
-        cat_url = f"{portal_url}?type=itv&action=get_categories&mac={mac_address}&sn={serial_mock}&device_id={device_id_mock}"
-        req_cat = session.get(cat_url, timeout=20)
-        categories = req_cat.json().get("js", [])
-        
-        m3u_content = "#EXTM3U\n"
-        channel_count = 0
-
-        print("3. Mengunduh data saluran...")
-        for cat in categories:
-            cat_id = cat.get("id")
-            cat_name = cat.get("title")
-            
-            data_url = f"{portal_url}?type=itv&action=get_ordered_list&category={cat_id}&mac={mac_address}&sn={serial_mock}&device_id={device_id_mock}"
-            req_data = session.get(data_url, timeout=20)
-            
-            if req_data.status_code == 200:
-                try:
-                    channels = req_data.json().get("js", {}).get("data", [])
-                    for ch in channels:
-                        ch_name = ch.get("name")
-                        ch_id = ch.get("id")
-                        cmd = ch.get("cmd", "")
-                        
-                        if cmd.startswith("ffmpeg "):
-                            cmd = cmd.replace("ffmpeg ", "", 1)
-                            
-                        stream_url = f"{portal_host}/portal.php?type=itv&action=create_link&cmd={cmd}&mac={mac_address}"
-                        m3u_content += f'#EXTINF:-1 tvg-id="{ch_id}" group-title="{cat_name}",{ch_name}\n'
-                        m3u_content += f'{stream_url}\n'
-                        channel_count += 1
-                except:
-                    continue
+        if channels:
+            for ch in channels:
+                if isinstance(ch, dict):
+                    ch_name = ch.get("name", "Unknown Channel")
+                    ch_id = ch.get("id", "")
+                    cmd = ch.get("cmd", "")
                     
-        if channel_count > 0:
-            with open(output_file, "w", encoding="utf-8") as f:
-                f.write(m3u_content)
-            print(f"✅ Berhasil mengekspor {channel_count} saluran.")
+                    if cmd.startswith("ffmpeg "):
+                        cmd = cmd.replace("ffmpeg ", "", 1)
+                        
+                    stream_url = f"{portal_host}/portal.php?type=itv&action=create_link&cmd={cmd}&mac={mac_address}"
+                    
+                    m3u_content += f'#EXTINF:-1 tvg-id="{ch_id}",{ch_name}\n'
+                    m3u_content += f'{stream_url}\n'
+                    channel_count += 1
         else:
-            print("❌ Saluran kosong.")
+            # JALUR FALLBACK: Jika portal.txt bukan JSON, melainkan teks berisi daftar cmd/nama baris per baris
+            lines = raw_data.split("\n")
+            for line in lines:
+                if line.strip():
+                    # Contoh jika format teks biasa, sesuaikan logika pemisahnya di sini jika perlu
+                    m3u_content += f'#EXTINF:-1,Channel {channel_count + 1}\n'
+                    m3u_content += f'{portal_host}/portal.php?type=itv&action=create_link&cmd={line.strip()}&mac={mac_address}\n'
+                    channel_count += 1
 
-    except Exception as e:
-        print(f"❌ Terjadi kesalahan: {e}")
+    except json.JSONDecodeError:
+        # Jika bukan JSON, langsung proses sebagai teks baris per baris
+        print("   [Log] Format bukan JSON, memproses sebagai teks baris per baris...")
+        lines = raw_data.split("\n")
+        for line in lines:
+            if line.strip():
+                cmd = line.strip()
+                if "portal.php" in cmd:
+                    # Jika teks di portal.txt sudah berupa link utuh
+                    m3u_content += f'#EXTINF:-1,Channel {channel_count + 1}\n'
+                    m3u_content += f'{cmd}\n'
+                else:
+                    # Jika teks di portal.txt hanya baris command (cmd) siaran
+                    stream_url = f"{portal_host}/portal.php?type=itv&action=create_link&cmd={cmd}&mac={mac_address}"
+                    m3u_content += f'#EXTINF:-1,Channel {channel_count + 1}\n'
+                    m3u_content += f'{stream_url}\n'
+                channel_count += 1
+
+    # 3. Simpan hasil akhir ke file M3U
+    if channel_count > 0:
+        with open(output_file, "w", encoding="utf-8") as f:
+            f.write(m3u_content)
+        print(f"✅ Selesai! Berhasil mengonversi {channel_count} saluran ke {output_file}.")
+    else:
+        print("❌ Gagal: Tidak ada saluran yang berhasil diekstrak dari portal.txt.")
+        sys.exit(1)
 
 if __name__ == "__main__":
-    fetch_stalker_m3u()
+    convert_txt_to_m3u()
