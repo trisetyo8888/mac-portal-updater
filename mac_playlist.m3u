@@ -1,5 +1,0 @@
-#EXTM3U
-#EXTINF:-1,Channel 1
-http://babo01.com/portal.php?type=itv&action=create_link&cmd=http://z1.babo01.com:8080/c/&mac=00:1A:79:1f:0e:30
-#EXTINF:-1,Channel 2
-http://babo01.com/portal.php?type=itv&action=create_link&cmd=00:1A:79:1f:0e:30&mac=00:1A:79:1f:0e:30
