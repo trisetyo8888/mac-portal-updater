@@ -1,11 +1,19 @@
 import os
 import sys
-import re
 
-def create_playlist_from_direct_links():
-    input_file = "portal.txt"
-    output_file = "mac_playlist.m3u"
+# Ambil data otomatis dari GitHub Secrets yang sudah Anda isi
+PORTAL_URL = os.environ.get('PORTAL_URL', 'http://babo01.com')
+MAC_ADDRESS = os.environ.get('MAC_ADDRESS')
 
+# Pengecekan keamanan agar skrip tidak berjalan kosong
+if not MAC_ADDRESS:
+    print("Error: Variabel MAC_ADDRESS di GitHub Secrets belum diisi!")
+    sys.exit(1)
+
+# --- LANJUTAN KODE SKRIP ASLI ANDA DI BAWAH ---
+# Cari baris yang mendefinisikan URL lama atau MAC lama, lalu hapus atau ubah 
+# agar menggunakan variabel PORTAL_URL dan MAC_ADDRESS di atas.
+    
     # 1. Pastikan file portal.txt ada di dalam repositori
     if not os.path.exists(input_file):
         print(f"❌ Error: File '{input_file}' tidak ditemukan di repositori!")
