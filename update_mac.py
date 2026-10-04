@@ -1,54 +1,107 @@
-import os
-import sys
+import requests
+import json
 import re
 
-def convert_links_to_m3u():
-    input_file = "portal.txt"
-    output_file = "mac_playlist.m3u"
-
-    # 1. Cek apakah file portal.txt ada
-    if not os.path.exists(input_file):
-        print(f"❌ Error: File '{input_file}' tidak ditemukan di repositori!")
-        sys.exit(1)
-
-    print(f"1. Membaca daftar link dari {input_file}...")
-    with open(input_file, "r", encoding="utf-8") as f:
-        lines = f.readlines()
-
-    m3u_content = "#EXTM3U\n"
-    channel_count = 0
-
-    print("2. Menyusun ulang link menjadi format M3U...")
-    for line in lines:
-        url = line.strip()
+def fetch_stalker_to_m3u():
+    try:
+        # 1. Membaca data URL dan MAC dari portal.txt
+        with open("portal.txt", "r", encoding="utf-8") as f:
+            lines = [line.strip() for line in f.readlines() if line.strip()]
         
-        # Validasi: Pastikan baris tersebut adalah link (mengandung http atau https)
-        if url.startswith("http://") or url.startswith("https://"):
-            channel_count += 1
+        if len(lines) < 2:
+            print("Error: portal.txt harus berisi URL di baris ke-1 dan MAC di baris ke-2.")
+            return
             
-            # Mencoba mengekstrak nama channel atau ID dari parameter 'cmd' di dalam URL jika ada
-            # Contoh: jika ada &cmd=ffmpeg+http://.../Movie_Name, kita ambil nama belakangnya
-            ch_name = f"Channel {channel_count}"
-            cmd_match = re.search(r'cmd=([^&]+)', url)
-            if cmd_match:
-                cmd_value = cmd_match.group(1)
-                # Ambil bagian teks terakhir setelah garis miring jika berupa path file video
-                name_extract = cmd_value.split("/")[-1].replace("+", " ").replace("%20", " ")
-                if name_extract and not name_extract.startswith("http"):
-                    ch_name = name_extract
-
-            # Tulis ke format standar M3U
-            m3u_content += f'#EXTINF:-1 tvg-id="ch_{channel_count}",{ch_name}\n'
-            m3u_content += f'{url}\n'
-
-    # 3. Simpan hasil akhir ke file M3U
-    if channel_count > 0:
-        with open(output_file, "w", encoding="utf-8") as f:
-            f.write(m3u_content)
-        print(f"✅ Selesai! Berhasil membungkus {channel_count} saluran ke dalam {output_file}.")
-    else:
-        print("❌ Gagal: Tidak ada baris link URL yang valid ditemukan di portal.txt.")
-        sys.exit(1)
+        raw_url = lines[0]
+        mac_address = lines[1]
+        
+        base_url = re.sub(r'/c/?$', '', raw_url).rstrip('/')
+        
+        headers = {
+            "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+            "Cookie": f"mac={mac_address}; stb_lang=en; timezone=GMT",
+            "Referer": f"{base_url}/c/",
+            "X-User-Agent": "model=MAG250; link=fast"
+        }
+        
+        # Handshake
+        handshake_url = f"{base_url}/server/load.php?type=stb&action=handshake&JsHttpRequest=1-xml"
+        req = requests.get(handshake_url, headers=headers, timeout=15)
+        token = req.json().get('js', {}).get('token')
+        
+        if not token:
+            print("Gagal melakukan handshake.")
+            return
+            
+        headers["Authorization"] = f"Bearer {token}"
+        
+        # Mengambil data kategori
+        genres_url = f"{base_url}/server/load.php?type=itv&action=get_genres&JsHttpRequest=1-xml"
+        genres_req = requests.get(genres_url, headers=headers, timeout=15)
+        genres_data = genres_req.json().get('js', [])
+        
+        category_map = {}
+        if isinstance(genres_data, list):
+            for genre in genres_data:
+                c_id = str(genre.get('id'))
+                c_name = genre.get('title', '').strip()
+                if c_name:
+                    category_map[c_id] = c_name
+                    
+        # Mengambil data semua saluran
+        channels_url = f"{base_url}/server/load.php?type=itv&action=get_all_channels&JsHttpRequest=1-xml"
+        channels_req = requests.get(channels_url, headers=headers, timeout=20)
+        channels_data = channels_req.json().get('js', {}).get('data', [])
+        
+        if not channels_data:
+            print("Daftar siaran kosong.")
+            return
+            
+        # Menyusun data ke M3U
+        with open("playlist.m3u", "w", encoding="utf-8") as m3u:
+            m3u.write("#EXTM3U\n")
+            count = 0
+            for ch in channels_data:
+                if ch.get('is_vod') == 1 or ch.get('open') == 0:
+                    continue
+                    
+                name = ch.get('name', 'Unknown Channel').strip()
+                cmd = ch.get('cmd', '')
+                
+                # Mengambil nama folder kategori
+                group_name = ch.get('category_name', '').strip()
+                if not group_name:
+                    cat_id = str(ch.get('tv_genre_id'))
+                    group_name = category_map.get(cat_id, "Uncategorized")
+                
+                # PERBAIKAN: Mengambil data Logo/Icon dari respons server
+                logo_val = ch.get('logo', '').strip()
+                logo_url = ""
+                
+                if logo_val:
+                    # Jika data logo sudah berupa link web utuh (http/https)
+                    if logo_val.startswith("http"):
+                        logo_url = logo_val
+                    else:
+                        # Jika hanya berupa nama berkas gambar, gabungkan dengan URL dasar portal
+                        logo_url = f"{base_url}/stalker_portal/misc/logos/{logo_val}"
+                
+                if "http" in cmd:
+                    stream_url = cmd.replace("ffmpeg ", "").replace("ch/ ", "ch/").strip()
+                    
+                    # Menyusun tag M3U dengan tambahan parameter tvg-logo untuk ikon gambar
+                    if logo_url:
+                        m3u.write(f'#EXTINF:-1 tvg-logo="{logo_url}" group-title="{group_name}",{name}\n')
+                    else:
+                        m3u.write(f'#EXTINF:-1 group-title="{group_name}",{name}\n')
+                        
+                    m3u.write(f"{stream_url}\n")
+                    count += 1
+                
+        print(f"Sukses mengonversi {count} saluran dengan penambahan logo gambar.")
+        
+    except Exception as e:
+        print(f"Terjadi masalah: {e}")
 
 if __name__ == "__main__":
-    convert_links_to_m3u()
+    fetch_stalker_to_m3u()
