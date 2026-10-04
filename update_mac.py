@@ -5,7 +5,9 @@ import hashlib
 
 def fetch_stalker_m3u():
     # ==================== PENGATURAN PORTAL ANDA ====================
-    portal_host = "https://z1.babo01.com:8080/c/" 
+    # Menggunakan http:// tanpa S karena port 8080 umumnya tidak menggunakan SSL
+    # Bagian /c di ujungnya sudah dirapikan agar tidak menghasilkan garis miring ganda
+    portal_host = "http://babo01.com" 
     mac_address = "00:1A:79:1f:0e:30" 
     output_file = "mac_playlist.m3u"
     # ================================================================
@@ -30,12 +32,12 @@ def fetch_stalker_m3u():
 
     try:
         print("1. Mencoba Handshake dengan parameter perangkat...")
-        # Mengirimkan jabat tangan lengkap dengan data serial number tiruan
         handshake_url = (
             f"{portal_url}?type=stb&action=handshake&mac={mac_address}"
             f"&sn={serial_mock}&device_id={device_id_mock}&device_id2={device_id_mock}"
         )
-        req_handshake = session.get(handshake_url, timeout=20)
+        # Menambahkan verify=False untuk mengabaikan kendala sertifikat SSL jika sewaktu-waktu beralih ke https
+        req_handshake = session.get(handshake_url, timeout=20, verify=False)
         
         token = ""
         if req_handshake.status_code == 200:
@@ -47,15 +49,16 @@ def fetch_stalker_m3u():
                     print("   [Log] Token otentikasi berhasil diterapkan ke Header.")
             except:
                 print("   [Log] Handshake sukses tanpa pembacaan token JSON.")
+        else:
+            print(f"❌ Gagal Handshake. Status Server: {req_handshake.status_code}")
+            sys.exit(1)
 
         print("2. Mengambil daftar kategori dengan otentikasi ketat...")
-        # Beberapa server memerlukan parameter aksi tambahan "get_modules" sebelum memanggil kategori
-        # Namun kita langsung coba ke get_categories dengan membawa data identitas STB lengkap
         cat_url = (
             f"{portal_url}?type=itv&action=get_categories&mac={mac_address}"
             f"&sn={serial_mock}&device_id={device_id_mock}"
         )
-        req_cat = session.get(cat_url, timeout=20)
+        req_cat = session.get(cat_url, timeout=20, verify=False)
         
         print(f"   [Log] Status Kategori: {req_cat.status_code}")
         
@@ -85,7 +88,7 @@ def fetch_stalker_m3u():
                 f"{portal_url}?type=itv&action=get_ordered_list&category={cat_id}&mac={mac_address}"
                 f"&sn={serial_mock}&device_id={device_id_mock}"
             )
-            req_data = session.get(data_url, timeout=20)
+            req_data = session.get(data_url, timeout=20, verify=False)
             
             if req_data.status_code == 200:
                 try:
