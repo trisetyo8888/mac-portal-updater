@@ -3,8 +3,8 @@ import sys
 import requests
 
 # 1. Membaca data dari Portal.txt bawaan Anda
-if os.path.exists('Portal.txt'):
-    with open('Portal.txt', 'r') as f:
+if os.path.exists('portal.txt'):
+    with open('portal.txt', 'r') as f:
         content = f.read().strip()
     
     # Memisahkan baris atau karakter pemisah '|'
@@ -19,7 +19,7 @@ if os.path.exists('Portal.txt'):
             print("Eror: Format di dalam file Portal.txt tidak lengkap!")
             sys.exit(1)
 else:
-    print("Eror: File Portal.txt tidak ditemukan!")
+    print("Eror: File portal.txt tidak ditemukan!")
     sys.exit(1)
 
 # Membersihkan spasi atau teks yang tidak diinginkan
