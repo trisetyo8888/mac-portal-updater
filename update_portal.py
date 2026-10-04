@@ -45,70 +45,69 @@ try:
     # Langkah A: Handshake Token
     handshake_url = f"{api_url}?type=stb&action=handshake&token="
     response = requests.get(handshake_url, headers=headers, timeout=15)
-    token = ""
     if response.status_code == 200:
         try:
             json_data = response.json()
             token = json_data.get('js', {}).get('token', '')
             if token:
                 headers['Authorization'] = f"Bearer {token}"
-                print(f"Autentikasi Berhasil! Token diperoleh.")
-        except Exception:
+                print("Autentikasi Berhasil! Token diperoleh.")
+        except:
             pass
 
-    # Langkah B: Ambil data channel
+    # Langkah B: Ambil data menggunakan metode paksa (Mendukung All Channels & Categories)
+    print("Mencoba menarik seluruh data siaran...")
     channels_url = f"{api_url}?type=itv&action=get_all_channels"
     res = requests.get(channels_url, headers=headers, timeout=20)
     
-    if res.status_code != 200:
-        print(f"Gagal mengambil data dari server. Status Code: {res.status_code}")
-        sys.exit(1)
-        
-    try:
-        data = res.json()
-        channels_list = data.get('js', [])
-    except Exception:
-        # Jika server merespons dalam format string teks JSON murni
-        try:
-            data = json.loads(res.text)
-            channels_list = data.get('js', [])
-        except Exception:
-            print("Gagal membaca struktur data dari server.")
-            sys.exit(1)
-            
-    print(f"Berhasil menarik data! Memproses data channel...")
-
-    # 3. Menyusun ulang data menjadi file Playlist M3U (Proteksi Eror Tipe Data)
-    m3u_content = "#EXTM3U\n"
+    # Simpan response text mentah untuk di-analisis secara mendalam
+    raw_text = res.text
     
-    # Jika data berupa List Kamus (Format Standard)
-    if isinstance(channels_list, list):
-        for ch in channels_list:
-            if isinstance(ch, dict):
-                ch_name = ch.get('name', 'Unknown Channel')
-                ch_cmd = ch.get('cmd', '')
-                ch_id = ch.get('id', '')
-                ch_group = ch.get('tv_genre_name', 'Lainnya')
+    m3u_content = "#EXTM3U\n"
+    count = 0
+
+    # Pengecekan 1: Menggunakan Regular Expression langsung ke text mentah (Paling Ampuh)
+    # Mencari pola nama dan perintah streaming dari server IPTV Stalker
+    matches = re.findall(r'"name"\s*:\s*"([^"]+)"[^}]+?"cmd"\s*:\s*"([^"]+)"', raw_text)
+    
+    if matches:
+        for name, cmd in matches:
+            # Bersihkan tautan streaming dari karakter backslash escape
+            stream_url = cmd.replace('\\', '')
+            
+            # Cari link http/https asli di dalam cmd
+            link_match = re.search(r'(http[s]?://\S+)', stream_url)
+            if link_match:
+                stream_url = link_match.group(1).split('"')[0].split("'")[0]
             else:
-                # Jika item di dalam list berupa string text
-                ch_name = "Channel"
-                ch_cmd = str(ch)
-                ch_id = "tv"
-                ch_group = "IPTV"
+                # Jika berbentuk perintah internal portal, ubah ke format direct streaming port
+                if "localhost" in stream_url or "/" in stream_url:
+                    clean_cmd = stream_url.split('/')[-1]
+                    stream_url = f"{base_url}/play/live.php?mac={MAC_ADDRESS}&stream={clean_cmd}"
             
-            # Cari link streaming tersembunyi di dalam cmd
-            stream_url = ""
-            if ch_cmd and isinstance(ch_cmd, str):
-                match = re.search(r'(http[s]?://\S+)', ch_cmd)
-                if match:
-                    stream_url = match.group(1)
-                else:
-                    stream_url = f"{base_url}/playlist/live/{ch_id}.ts"
+            m3u_content += f'#EXTINF:-1 group-title="IPTV TV",{name}\n{stream_url}\n'
+            count += 1
+
+    # Pengecekan 2: Jika regex gagal, bongkar menggunakan JSON standard secara fleksibel
+    if count == 0:
+        try:
+            data = json.loads(raw_text)
+            items = data.get('js', [])
+            if isinstance(items, dict):
+                items = list(items.values())
             
-            if stream_url:
-                m3u_content += f'#EXTINF:-1 tvg-id="{ch_id}" group-title="{ch_group}",{ch_name}\n{stream_url}\n'
-                
-    print("Menyusun data ke dalam file M3U...")
+            for item in items:
+                if isinstance(item, dict):
+                    name = item.get('name', 'IPTV Channel')
+                    cmd = item.get('cmd', '')
+                    if cmd:
+                        stream_url = cmd.replace('\\', '')
+                        m3u_content += f'#EXTINF:-1 group-title="IPTV TV",{name}\n{stream_url}\n'
+                        count += 1
+        except:
+            pass
+
+    print(f"Berhasil mengekstrak {count} channel ke dalam M3U.")
 
     # 4. Menulis data ke file mac_playlist.m3u
     with open('mac_playlist.m3u', 'w', encoding='utf-8') as f:
