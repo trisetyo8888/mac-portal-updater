@@ -1,3 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="all_channels" group-title="Bypass Portal",MAC Portal Stream
-http://z1.babo01.com:8080/c/portal.php?type=itv&action=create_link&mac=00:1A:79:1f:0e:30
