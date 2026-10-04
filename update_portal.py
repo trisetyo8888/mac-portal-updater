@@ -12,7 +12,7 @@ if not os.path.exists('Portal.txt'):
     print("Error: File Portal.txt tidak ditemukan!")
     sys.exit(1)
 
-# 读取 Portal.txt baris demi baris
+# Membaca Portal.txt baris demi baris
 with open('Portal.txt', 'r') as f:
     lines = [line.strip() for line in f if line.strip()]
 
@@ -34,8 +34,12 @@ for index, account in enumerate(lines, start=1):
     
     print(f"\n[{index}/{len(lines)}] Memproses: {PORTAL_URL} | MAC: {MAC_ADDRESS}")
     
-    # Ekstraksi base URL untuk keperluan endpoint API
-    base_url = PORTAL_URL.split('/c/')
+    # PERBAIKAN: Memastikan pemotongan URL menghasilkan string murni, bukan list
+    if '/c/' in PORTAL_URL:
+        base_url = PORTAL_URL.split('/c/')[0]
+    else:
+        base_url = PORTAL_URL.rstrip('/')
+        
     api_url = f"{base_url}/server/load.php"
     
     headers = {
@@ -73,7 +77,7 @@ for index, account in enumerate(lines, start=1):
                 stream_url = cmd.replace('\\', '')
                 link_match = re.search(r'(http[s]?://\S+)', stream_url)
                 if link_match:
-                    stream_url = link_match.group(1).split('"').split("'")
+                    stream_url = link_match.group(1).replace('"', '').replace("'", "")
                 else:
                     if "localhost" in stream_url or "/" in stream_url:
                         clean_cmd = stream_url.split('/')[-1]
