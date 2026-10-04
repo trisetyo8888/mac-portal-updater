@@ -2,7 +2,7 @@ import os
 import sys
 import requests
 
-# 1. Membaca data dari Portal.txt bawaan Anda
+# 1. Membaca data dari portal.txt bawaan Anda
 if os.path.exists('portal.txt'):
     with open('portal.txt', 'r') as f:
         content = f.read().strip()
