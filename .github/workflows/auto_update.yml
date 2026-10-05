@@ -1,45 +1,35 @@
-name: Auto Update MAC Portal
+name: Auto-update MAC Portal
 
 on:
+  workflow_dispatch:
   schedule:
-    # Berjalan otomatis setiap hari jam 00:00 UTC (Jam 07:00 WIB)
-    - cron: '0 0 * * *'
-  workflow_dispatch: # Menyediakan tombol untuk menjalankan manual kapan saja
+    - cron: '0 */6 * * *' # Otomatis berjalan setiap 6 jam sekali
 
 jobs:
-  update-and-push:
+  build:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write # Izin wajib agar GitHub bisa menulis/push file ke repo Anda
-
     steps:
-    # 1. Mengambil kode dari repositori Anda
-    - name: Checkout Code
-      uses: actions/checkout@v4
+    - name: Checkout Repository
+      uses: actions/checkout@v3
 
-    # 2. Menyiapkan lingkungan Python
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
 
-    # 3. Menginstal library yang dibutuhkan skrip
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
         pip install requests
 
-    # 4. Menjalankan skrip update_portal.py Anda
-    - name: Run Update Script
+    - name: Run Updater Script
       run: python update_portal.py
 
-    # 5. Menyimpan dan mengunggah kembali file mac_playlist.m3u terbaru ke GitHub
-    - - name: Commit and Push Changes
+    - name: Commit and Push Changes
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
-        git add Portal.txt update_portal.py  # (Sesuaikan dengan file pendukung Anda)
-        git add playlist_*.m3u               # PERBAIKAN: Mengunggah semua playlist terpisah
-        git commit -m "Auto-update split MAC playlists" || exit 0
-        git push
+        git add *.m3u || true
+        git commit -m "Auto-update playlist channels" || true
+        git push || true
