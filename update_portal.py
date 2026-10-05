@@ -4,36 +4,42 @@ import requests
 import re
 import json
 
-# Inisialisasi isi awal file M3U
 m3u_content = "#EXTM3U\n"
 total_all_channels = 0
 
-# 1. Memeriksa keberadaan file Portal.txt
-if not os.path.exists('Portal.txt'):
-    print("Error: File Portal.txt tidak ditemukan!")
+# PERBAIKAN: Sistem pencarian otomatis file portal (Mendukung Portal.txt atau portal.txt)
+target_file = ""
+for filename in os.listdir('.'):
+    if filename.lower() == 'portal.txt':
+        target_file = filename
+        break
+
+if not target_file or not os.path.exists(target_file):
+    print("Error: File Portal.txt atau portal.txt TIDAK ditemukan di repositori!")
+    print("Daftar file yang ada saat ini:", os.listdir('.'))
     sys.exit(1)
 
-# Membaca Portal.txt baris demi baris
-with open('Portal.txt', 'r') as f:
+print(f"Berhasil menemukan file konfigurasi: {target_file}")
+
+with open(target_file, 'r', encoding='utf-8', errors='ignore') as f:
     lines = [line.strip() for line in f if line.strip()]
 
 if not lines:
-    print("Error: File Portal.txt kosong!")
+    print(f"Error: File {target_file} kosong!")
     sys.exit(1)
 
 print(f"Membaca {len(lines)} akun MAC Portal dari file...")
 
-# 2. Lakukan perulangan untuk memproses setiap akun MAC satu per satu
 for index, account in enumerate(lines, start=1):
     if '|' not in account:
-        print(f"Skipping baris {index}: Format salah (tidak ada tanda |)")
+        print(f"Skipping baris {index}: Format salah")
         continue
         
     PORTAL_URL, MAC_ADDRESS = account.split('|', 1)
     PORTAL_URL = PORTAL_URL.strip()
     MAC_ADDRESS = MAC_ADDRESS.strip()
     
-    print(f"\n[{index}/{len(lines)}] Memproses: {PORTAL_URL} | MAC: {MAC_ADDRESS}")
+    print(f"\n[{index}/{len(lines)}] Memproses: {PORTAL_URL}")
     
     if '/c/' in PORTAL_URL:
         base_url = PORTAL_URL.split('/c/')[0]
@@ -51,70 +57,69 @@ for index, account in enumerate(lines, start=1):
     }
     
     try:
-        # Langkah A: Handshake Token untuk akun saat ini
+        # Handshake Token
         handshake_url = f"{api_url}?type=stb&action=handshake&token="
         response = requests.get(handshake_url, headers=headers, timeout=12)
         if response.status_code == 200:
             try:
-                json_data = response.json()
-                token = json_data.get('js', {}).get('token', '')
+                token = response.json().get('js', {}).get('token', '')
                 if token:
                     headers['Authorization'] = f"Bearer {token}"
-                    print("-> Autentikasi Berhasil! Token diperoleh.")
+                    print("-> Autentikasi Berhasil!")
             except:
                 pass
 
-        # Langkah B: Tarik data siaran dari akun saat ini
+        # Tarik data siaran
         channels_url = f"{api_url}?type=itv&action=get_all_channels"
         res = requests.get(channels_url, headers=headers, timeout=15)
         raw_text = res.text
         
         count = 0
         
-        # Ekstraksi menggunakan metode JSON loads untuk membaca objek gambar secara akurat
+        # METODE 1: Membaca secara JSON
         try:
             data = json.loads(raw_text)
             channels_list = data.get('js', [])
             if isinstance(channels_list, dict):
                 channels_list = list(channels_list.values())
                 
-            for ch in channels_list:
-                if isinstance(ch, dict):
-                    name = ch.get('name', 'Unknown Channel')
-                    cmd = ch.get('cmd', '')
-                    ch_id = ch.get('id', '')
-                    ch_group = ch.get('tv_genre_name', f'Portal_{index}')
-                    logo = ch.get('logo', '') # Menarik data nama file logo dari server
-                    
-                    if not cmd:
-                        continue
+            if isinstance(channels_list, list) and len(channels_list) > 0:
+                for ch in channels_list:
+                    if isinstance(ch, dict):
+                        name = ch.get('name', 'Unknown Channel')
+                        cmd = ch.get('cmd', '')
+                        ch_id = ch.get('id', '')
+                        ch_group = ch.get('tv_genre_name', f'Portal_{index}')
+                        logo = ch.get('logo', '')
                         
-                    stream_url = cmd.replace('\\', '')
-                    link_match = re.search(r'(http[s]?://\S+)', stream_url)
-                    if link_match:
-                        stream_url = link_match.group(1).replace('"', '').replace("'", "")
-                    else:
-                        if "localhost" in stream_url or "/" in stream_url:
-                            clean_cmd = stream_url.split('/')[-1]
-                            stream_url = f"{base_url}/play/live.php?mac={MAC_ADDRESS}&stream={clean_cmd}"
-                    
-                    # Menyusun alamat URL gambar logo lengkap jika disediakan oleh server
-                    logo_url = ""
-                    if logo:
-                        if logo.startswith('http'):
-                            logo_url = logo
+                        stream_url = ""
+                        if cmd:
+                            stream_url = str(cmd).replace('\\', '')
+                            link_match = re.search(r'(http[s]?://\S+)', stream_url)
+                            if link_match:
+                                stream_url = link_match.group(1).replace('"', '').replace("'", "")
+                            else:
+                                if "localhost" in stream_url or "/" in stream_url:
+                                    clean_cmd = stream_url.split('/')[-1]
+                                    stream_url = f"{base_url}/play/live.php?mac={MAC_ADDRESS}&stream={clean_cmd}"
+                        
+                        if not stream_url:
+                            stream_url = f"{base_url}/playlist/live/{ch_id}.ts"
+                            
+                        logo_url = ""
+                        if logo:
+                            logo_url = logo if str(logo).startswith('http') else f"{base_url}/misc/logos/320/{logo}"
+                        
+                        if logo_url:
+                            m3u_content += f'#EXTINF:-1 tvg-id="{ch_id}" tvg-logo="{logo_url}" group-title="{ch_group}",{name}\n{stream_url}\n'
                         else:
-                            logo_url = f"{base_url}/misc/logos/320/{logo}"
-                    
-                    # Menyusun baris M3U dengan menyertakan tag tvg-logo
-                    if logo_url:
-                        m3u_content += f'#EXTINF:-1 tvg-id="{ch_id}" tvg-logo="{logo_url}" group-title="{ch_group}",{name}\n{stream_url}\n'
-                    else:
-                        m3u_content += f'#EXTINF:-1 tvg-id="{ch_id}" group-title="{ch_group}",{name}\n{stream_url}\n'
-                        
-                    count += 1
-        except Exception as json_err:
-            # Fallback metode Regular Expression jika parser JSON standard menemui kendala struktur data
+                            m3u_content += f'#EXTINF:-1 tvg-id="{ch_id}" group-title="{ch_group}",{name}\n{stream_url}\n'
+                        count += 1
+        except:
+            pass
+
+        # METODE FALLBACK 2: Regular Expression
+        if count == 0:
             matches = re.findall(r'"name"\s*:\s*"([^"]+)"[^}]+?"cmd"\s*:\s*"([^"]+)"', raw_text)
             if matches:
                 for name, cmd in matches:
@@ -123,33 +128,19 @@ for index, account in enumerate(lines, start=1):
                     if link_match:
                         stream_url = link_match.group(1).replace('"', '').replace("'", "")
                     else:
-                        if "localhost" in stream_url or "/" in stream_url:
-                            clean_cmd = stream_url.split('/')[-1]
-                            stream_url = f"{base_url}/play/live.php?mac={MAC_ADDRESS}&stream={clean_cmd}"
+                        clean_cmd = stream_url.split('/')[-1]
+                        stream_url = f"{base_url}/play/live.php?mac={MAC_ADDRESS}&stream={clean_cmd}"
                     
-                    # Cari kecocokan data logo menggunakan potongan regex cepat
-                    logo_match = re.search(r'"logo"\s*:\s*"([^"]+)"', raw_text)
-                    logo_url = ""
-                    if logo_match:
-                        logo = logo_match.group(1)
-                        logo_url = logo if logo.startswith('http') else f"{base_url}/misc/logos/320/{logo}"
-                    
-                    if logo_url:
-                        m3u_content += f'#EXTINF:-1 tvg-logo="{logo_url}" group-title="Portal_{index}",{name}\n{stream_url}\n'
-                    else:
-                        m3u_content += f'#EXTINF:-1 group-title="Portal_{index}",{name}\n{stream_url}\n'
+                    m3u_content += f'#EXTINF:-1 group-title="Portal_{index}",{name}\n{stream_url}\n'
                     count += 1
                 
         print(f"-> Sukses mengekstrak {count} channel dari akun ini.")
         total_all_channels += count
 
     except Exception as e:
-        print(f"-> Gagal memproses akun ini karena gangguan teknis: {e}")
+        print(f"-> Gagal memproses: {e}")
         continue
 
-# 3. Langkah Akhir: Simpan hasil penggabungan berlogo ke file M3U
 print(f"\nSelesai! Total keseluruhan: {total_all_channels} channel berhasil dikumpulkan.")
 with open('mac_playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(m3u_content)
-    
-print("File mac_playlist.m3u berhasil diperbarui dengan tautan logo gambar!")
