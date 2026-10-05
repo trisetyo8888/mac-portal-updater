@@ -35,25 +35,11 @@ jobs:
       run: python update_portal.py
 
     # 5. Menyimpan dan mengunggah kembali file mac_playlist.m3u terbaru ke GitHub
-    - name: Commit and Push Changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - - name: Commit and Push Changes
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
-        
-        # MENYINKRONKAN NAMA FILE: Pastikan memakai mac_playlist.m3u sesuai output skrip Python
-        if [ -f "mac_playlist.m3u" ]; then
-          git add mac_playlist.m3u
-          
-          # Hanya lakukan commit jika ada perubahan konten file
-          if ! git diff --cached --quiet; then
-            git commit -m "Auto-update MAC Portal: $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
-          else
-            echo "Tidak ada perubahan data baru pada portal hari ini."
-          fi
-        else
-          echo "Error: File mac_playlist.m3u tidak ditemukan!"
-          exit 1
-        fi
+        git add Portal.txt update_portal.py  # (Sesuaikan dengan file pendukung Anda)
+        git add playlist_*.m3u               # PERBAIKAN: Mengunggah semua playlist terpisah
+        git commit -m "Auto-update split MAC playlists" || exit 0
+        git push
