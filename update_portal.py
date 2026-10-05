@@ -3,11 +3,12 @@ import sys
 import requests
 import re
 import json
+import urllib.parse
 
 m3u_content = "#EXTM3U\n"
 total_all_channels = 0
 
-# Sistem pencarian otomatis file portal
+# Pencarian file Portal.txt otomatis
 target_file = ""
 for filename in os.listdir('.'):
     if filename.lower() == 'portal.txt':
@@ -15,23 +16,20 @@ for filename in os.listdir('.'):
         break
 
 if not target_file or not os.path.exists(target_file):
-    print("Error: File Portal.txt atau portal.txt TIDAK ditemukan di repositori!")
+    print("Error: File Portal.txt tidak ditemukan!")
     sys.exit(1)
-
-print(f"Berhasil menemukan file konfigurasi: {target_file}")
 
 with open(target_file, 'r', encoding='utf-8', errors='ignore') as f:
     lines = [line.strip() for line in f if line.strip()]
 
 if not lines:
-    print(f"Error: File {target_file} kosong!")
+    print("Error: File Portal.txt kosong!")
     sys.exit(1)
 
 print(f"Membaca {len(lines)} akun MAC Portal dari file...")
 
 for index, account in enumerate(lines, start=1):
     if '|' not in account:
-        print(f"Skipping baris {index}: Format salah")
         continue
         
     PORTAL_URL, MAC_ADDRESS = account.split('|', 1)
@@ -41,7 +39,7 @@ for index, account in enumerate(lines, start=1):
     print(f"\n[{index}/{len(lines)}] Memproses: {PORTAL_URL}")
     
     if '/c/' in PORTAL_URL:
-        base_url = PORTAL_URL.split('/c/')[0]
+        base_url = PORTAL_URL.split('/c/')
     else:
         base_url = PORTAL_URL.rstrip('/')
         
@@ -64,11 +62,10 @@ for index, account in enumerate(lines, start=1):
                 token = response.json().get('js', {}).get('token', '')
                 if token:
                     headers['Authorization'] = f"Bearer {token}"
-                    print("-> Autentikasi Berhasil!")
             except:
                 pass
 
-        # Tarik data siaran
+        # Ambil data channel
         channels_url = f"{api_url}?type=itv&action=get_all_channels"
         res = requests.get(channels_url, headers=headers, timeout=15)
         raw_text = res.text
@@ -88,7 +85,6 @@ for index, account in enumerate(lines, start=1):
                         cmd = ch.get('cmd', '')
                         ch_id = ch.get('id', '')
                         ch_group = ch.get('tv_genre_name', f'Portal_{index}').strip()
-                        logo = ch.get('logo', '')
                         
                         stream_url = ""
                         if cmd:
@@ -104,26 +100,17 @@ for index, account in enumerate(lines, start=1):
                         if not stream_url:
                             stream_url = f"{base_url}/playlist/live/{ch_id}.ts"
                             
-                        # PERBAIKAN LOGIKA LOGO: Mencoba berbagai variasi folder logo server Stalker
-                        logo_url = ""
-                        if logo:
-                            logo_str = str(logo).strip()
-                            if logo_str.startswith('http'):
-                                logo_url = logo_str
-                            else:
-                                # Beberapa server menaruh logo langsung di /misc/logos/, /images/, atau /misc/logos/320/
-                                logo_url = f"{base_url}/misc/logos/{logo_str}"
+                        # SOLUSI MASTER LOGO: Menggunakan API Logo IPTV Bebas Macet berbasis Nama Channel
+                        # Mengubah spasi dan karakter khusus menjadi format URL aman
+                        clean_name_encoded = urllib.parse.quote(name.lower())
+                        logo_url = f"https://github.io{clean_name_encoded}.png"
                         
-                        # Menyusun baris M3U dengan standar format IPTV Player universal (OTT Navigator / TiviMate)
-                        if logo_url:
-                            m3u_content += f'#EXTINF:-1 tvg-id="{name}" tvg-name="{name}" tvg-logo="{logo_url}" group-title="{ch_group}",{name}\n{stream_url}\n'
-                        else:
-                            m3u_content += f'#EXTINF:-1 tvg-id="{name}" tvg-name="{name}" group-title="{ch_group}",{name}\n{stream_url}\n'
+                        m3u_content += f'#EXTINF:-1 tvg-id="{name}" tvg-name="{name}" tvg-logo="{logo_url}" group-title="{ch_group}",{name}\n{stream_url}\n'
                         count += 1
         except:
             pass
 
-        # METODE FALLBACK 2: Regular Expression (Jaminan Channel Tetap Keluar)
+        # FALLBACK JIKA METODE JSON GAGAL
         if count == 0:
             matches = re.findall(r'"name"\s*:\s*"([^"]+)"[^}]+?"cmd"\s*:\s*"([^"]+)"', raw_text)
             if matches:
@@ -137,7 +124,10 @@ for index, account in enumerate(lines, start=1):
                         clean_cmd = stream_url.split('/')[-1]
                         stream_url = f"{base_url}/play/live.php?mac={MAC_ADDRESS}&stream={clean_cmd}"
                     
-                    m3u_content += f'#EXTINF:-1 tvg-id="{name_str}" tvg-name="{name_str}" group-title="Portal_{index}",{name_str}\n{stream_url}\n'
+                    clean_name_encoded = urllib.parse.quote(name_str.lower())
+                    logo_url = f"https://github.io{clean_name_encoded}.png"
+                    
+                    m3u_content += f'#EXTINF:-1 tvg-id="{name_str}" tvg-name="{name_str}" tvg-logo="{logo_url}" group-title="Portal_{index}",{name_str}\n{stream_url}\n'
                     count += 1
                 
         print(f"-> Sukses mengekstrak {count} channel dari akun ini.")
@@ -150,4 +140,4 @@ for index, account in enumerate(lines, start=1):
 print(f"\nSelesai! Total keseluruhan: {total_all_channels} channel berhasil dikumpulkan.")
 with open('mac_playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(m3u_content)
-print("File mac_playlist.m3u berhasil diperbarui dengan penguat indeks logo gambar!")
+print("File mac_playlist.m3u berhasil diperbarui dengan sistem pencocokan logo global otomatis!")
