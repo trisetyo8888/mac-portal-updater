@@ -7,7 +7,7 @@ import json
 m3u_content = "#EXTM3U\n"
 total_all_channels = 0
 
-# PERBAIKAN: Sistem pencarian otomatis file portal (Mendukung Portal.txt atau portal.txt)
+# Sistem pencarian otomatis file portal
 target_file = ""
 for filename in os.listdir('.'):
     if filename.lower() == 'portal.txt':
@@ -16,7 +16,6 @@ for filename in os.listdir('.'):
 
 if not target_file or not os.path.exists(target_file):
     print("Error: File Portal.txt atau portal.txt TIDAK ditemukan di repositori!")
-    print("Daftar file yang ada saat ini:", os.listdir('.'))
     sys.exit(1)
 
 print(f"Berhasil menemukan file konfigurasi: {target_file}")
@@ -76,7 +75,6 @@ for index, account in enumerate(lines, start=1):
         
         count = 0
         
-        # METODE 1: Membaca secara JSON
         try:
             data = json.loads(raw_text)
             channels_list = data.get('js', [])
@@ -86,10 +84,10 @@ for index, account in enumerate(lines, start=1):
             if isinstance(channels_list, list) and len(channels_list) > 0:
                 for ch in channels_list:
                     if isinstance(ch, dict):
-                        name = ch.get('name', 'Unknown Channel')
+                        name = ch.get('name', 'Unknown Channel').strip()
                         cmd = ch.get('cmd', '')
                         ch_id = ch.get('id', '')
-                        ch_group = ch.get('tv_genre_name', f'Portal_{index}')
+                        ch_group = ch.get('tv_genre_name', f'Portal_{index}').strip()
                         logo = ch.get('logo', '')
                         
                         stream_url = ""
@@ -106,23 +104,31 @@ for index, account in enumerate(lines, start=1):
                         if not stream_url:
                             stream_url = f"{base_url}/playlist/live/{ch_id}.ts"
                             
+                        # PERBAIKAN LOGIKA LOGO: Mencoba berbagai variasi folder logo server Stalker
                         logo_url = ""
                         if logo:
-                            logo_url = logo if str(logo).startswith('http') else f"{base_url}/misc/logos/320/{logo}"
+                            logo_str = str(logo).strip()
+                            if logo_str.startswith('http'):
+                                logo_url = logo_str
+                            else:
+                                # Beberapa server menaruh logo langsung di /misc/logos/, /images/, atau /misc/logos/320/
+                                logo_url = f"{base_url}/misc/logos/{logo_str}"
                         
+                        # Menyusun baris M3U dengan standar format IPTV Player universal (OTT Navigator / TiviMate)
                         if logo_url:
-                            m3u_content += f'#EXTINF:-1 tvg-id="{ch_id}" tvg-logo="{logo_url}" group-title="{ch_group}",{name}\n{stream_url}\n'
+                            m3u_content += f'#EXTINF:-1 tvg-id="{name}" tvg-name="{name}" tvg-logo="{logo_url}" group-title="{ch_group}",{name}\n{stream_url}\n'
                         else:
-                            m3u_content += f'#EXTINF:-1 tvg-id="{ch_id}" group-title="{ch_group}",{name}\n{stream_url}\n'
+                            m3u_content += f'#EXTINF:-1 tvg-id="{name}" tvg-name="{name}" group-title="{ch_group}",{name}\n{stream_url}\n'
                         count += 1
         except:
             pass
 
-        # METODE FALLBACK 2: Regular Expression
+        # METODE FALLBACK 2: Regular Expression (Jaminan Channel Tetap Keluar)
         if count == 0:
             matches = re.findall(r'"name"\s*:\s*"([^"]+)"[^}]+?"cmd"\s*:\s*"([^"]+)"', raw_text)
             if matches:
                 for name, cmd in matches:
+                    name_str = name.strip()
                     stream_url = cmd.replace('\\', '')
                     link_match = re.search(r'(http[s]?://\S+)', stream_url)
                     if link_match:
@@ -131,7 +137,7 @@ for index, account in enumerate(lines, start=1):
                         clean_cmd = stream_url.split('/')[-1]
                         stream_url = f"{base_url}/play/live.php?mac={MAC_ADDRESS}&stream={clean_cmd}"
                     
-                    m3u_content += f'#EXTINF:-1 group-title="Portal_{index}",{name}\n{stream_url}\n'
+                    m3u_content += f'#EXTINF:-1 tvg-id="{name_str}" tvg-name="{name_str}" group-title="Portal_{index}",{name_str}\n{stream_url}\n'
                     count += 1
                 
         print(f"-> Sukses mengekstrak {count} channel dari akun ini.")
@@ -144,3 +150,4 @@ for index, account in enumerate(lines, start=1):
 print(f"\nSelesai! Total keseluruhan: {total_all_channels} channel berhasil dikumpulkan.")
 with open('mac_playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(m3u_content)
+print("File mac_playlist.m3u berhasil diperbarui dengan penguat indeks logo gambar!")
