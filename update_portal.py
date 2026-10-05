@@ -5,10 +5,7 @@ import re
 import json
 import urllib.parse
 
-m3u_content = "#EXTM3U\n"
-total_all_channels = 0
-
-# Sistem pencarian otomatis file portal
+# 1. Sistem pencarian otomatis file portal
 target_file = ""
 for filename in os.listdir('.'):
     if filename.lower() == 'portal.txt':
@@ -28,6 +25,7 @@ if not lines:
 
 print(f"Membaca {len(lines)} akun MAC Portal dari file...")
 
+# 2. Lakukan perulangan untuk memproses dan membuat file M3U terpisah
 for index, account in enumerate(lines, start=1):
     if '|' not in account:
         continue
@@ -38,7 +36,9 @@ for index, account in enumerate(lines, start=1):
     
     print(f"\n[{index}/{len(lines)}] Memproses: {PORTAL_URL}")
     
-    # PERBAIKAN UTAMA: Memastikan base_url berupa STRING murni, bukan LIST
+    # Menyiapkan struktur awal teks untuk playlist saat ini saja
+    current_m3u_content = "#EXTM3U\n"
+    
     if '/c/' in PORTAL_URL:
         base_url = PORTAL_URL.split('/c/')[0]
     else:
@@ -54,6 +54,7 @@ for index, account in enumerate(lines, start=1):
         'Connection': 'keep-alive'
     }
     
+    count = 0
     try:
         # Handshake Token
         handshake_url = f"{api_url}?type=stb&action=handshake&token="
@@ -71,8 +72,6 @@ for index, account in enumerate(lines, start=1):
         channels_url = f"{api_url}?type=itv&action=get_all_channels"
         res = requests.get(channels_url, headers=headers, timeout=15)
         raw_text = res.text
-        
-        count = 0
         
         # METODE 1: Membaca secara JSON
         try:
@@ -103,16 +102,16 @@ for index, account in enumerate(lines, start=1):
                         if not stream_url:
                             stream_url = f"{base_url}/playlist/live/{ch_id}.ts"
                             
-                        # Logo Otomatis Global berdasarkan Nama Channel
+                        # Logo Otomatis Global
                         clean_name_encoded = urllib.parse.quote(name.lower())
                         logo_url = f"https://github.io{clean_name_encoded}.png"
                         
-                        m3u_content += f'#EXTINF:-1 tvg-id="{name}" tvg-name="{name}" tvg-logo="{logo_url}" group-title="{ch_group}",{name}\n{stream_url}\n'
+                        current_m3u_content += f'#EXTINF:-1 tvg-id="{name}" tvg-name="{name}" tvg-logo="{logo_url}" group-title="{ch_group}",{name}\n{stream_url}\n'
                         count += 1
         except:
             pass
 
-        # METODE FALLBACK 2: Regular Expression (Jaminan Channel Tetap Keluar)
+        # METODE FALLBACK 2: Regular Expression
         if count == 0:
             matches = re.findall(r'"name"\s*:\s*"([^"]+)"[^}]+?"cmd"\s*:\s*"([^"]+)"', raw_text)
             if matches:
@@ -129,17 +128,18 @@ for index, account in enumerate(lines, start=1):
                     clean_name_encoded = urllib.parse.quote(name_str.lower())
                     logo_url = f"https://github.io{clean_name_encoded}.png"
                     
-                    m3u_content += f'#EXTINF:-1 tvg-id="{name_str}" tvg-name="{name_str}" tvg-logo="{logo_url}" group-title="Portal_{index}",{name_str}\n{stream_url}\n'
+                    current_m3u_content += f'#EXTINF:-1 tvg-id="{name_str}" tvg-name="{name_str}" tvg-logo="{logo_url}" group-title="Portal_{index}",{name_str}\n{stream_url}\n'
                     count += 1
                 
-        print(f"-> Sukses mengekstrak {count} channel dari akun ini.")
-        total_all_channels += count
+        print(f"-> Sukses mengekstrak {count} channel.")
 
     except Exception as e:
-        print(f"-> Gagal memproses: {e}")
-        continue
+        print(f"-> Gagal memproses portal ini: {e}")
+        
+    # PERBAIKAN: Menyimpan file M3U sendiri-sendiri berdasarkan urutan baris akun
+    output_filename = f"playlist_{index}.m3u"
+    with open(output_filename, 'w', encoding='utf-8') as f:
+        f.write(current_m3u_content)
+    print(f"-> File terpisah [{output_filename}] berhasil dibuat!")
 
-print(f"\nSelesai! Total keseluruhan: {total_all_channels} channel berhasil dikumpulkan.")
-with open('mac_playlist.m3u', 'w', encoding='utf-8') as f:
-    f.write(m3u_content)
-print("File mac_playlist.m3u berhasil diperbarui!")
+print("\nSelesai! Semua playlist M3U telah dipisahkan secara mandiri.")
