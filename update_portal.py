@@ -8,7 +8,7 @@ import urllib.parse
 m3u_content = "#EXTM3U\n"
 total_all_channels = 0
 
-# Pencarian file Portal.txt otomatis
+# Sistem pencarian otomatis file portal
 target_file = ""
 for filename in os.listdir('.'):
     if filename.lower() == 'portal.txt':
@@ -38,8 +38,9 @@ for index, account in enumerate(lines, start=1):
     
     print(f"\n[{index}/{len(lines)}] Memproses: {PORTAL_URL}")
     
+    # PERBAIKAN UTAMA: Memastikan base_url berupa STRING murni, bukan LIST
     if '/c/' in PORTAL_URL:
-        base_url = PORTAL_URL.split('/c/')
+        base_url = PORTAL_URL.split('/c/')[0]
     else:
         base_url = PORTAL_URL.rstrip('/')
         
@@ -62,16 +63,18 @@ for index, account in enumerate(lines, start=1):
                 token = response.json().get('js', {}).get('token', '')
                 if token:
                     headers['Authorization'] = f"Bearer {token}"
+                    print("-> Autentikasi Berhasil!")
             except:
                 pass
 
-        # Ambil data channel
+        # Tarik data siaran
         channels_url = f"{api_url}?type=itv&action=get_all_channels"
         res = requests.get(channels_url, headers=headers, timeout=15)
         raw_text = res.text
         
         count = 0
         
+        # METODE 1: Membaca secara JSON
         try:
             data = json.loads(raw_text)
             channels_list = data.get('js', [])
@@ -100,8 +103,7 @@ for index, account in enumerate(lines, start=1):
                         if not stream_url:
                             stream_url = f"{base_url}/playlist/live/{ch_id}.ts"
                             
-                        # SOLUSI MASTER LOGO: Menggunakan API Logo IPTV Bebas Macet berbasis Nama Channel
-                        # Mengubah spasi dan karakter khusus menjadi format URL aman
+                        # Logo Otomatis Global berdasarkan Nama Channel
                         clean_name_encoded = urllib.parse.quote(name.lower())
                         logo_url = f"https://github.io{clean_name_encoded}.png"
                         
@@ -110,7 +112,7 @@ for index, account in enumerate(lines, start=1):
         except:
             pass
 
-        # FALLBACK JIKA METODE JSON GAGAL
+        # METODE FALLBACK 2: Regular Expression (Jaminan Channel Tetap Keluar)
         if count == 0:
             matches = re.findall(r'"name"\s*:\s*"([^"]+)"[^}]+?"cmd"\s*:\s*"([^"]+)"', raw_text)
             if matches:
@@ -140,4 +142,4 @@ for index, account in enumerate(lines, start=1):
 print(f"\nSelesai! Total keseluruhan: {total_all_channels} channel berhasil dikumpulkan.")
 with open('mac_playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(m3u_content)
-print("File mac_playlist.m3u berhasil diperbarui dengan sistem pencocokan logo global otomatis!")
+print("File mac_playlist.m3u berhasil diperbarui!")
