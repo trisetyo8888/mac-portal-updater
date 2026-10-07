@@ -1,7 +1,5 @@
 http://z1.babo01.com:8080/c/|00:1A:79:1F:0E:30
 http://mag.tiger-ott.net:80/c/|00:1A:79:78:31:42
 http://line.mag7070.eu:80/c/|00:1B:79:4A:26:D8
-http://tlmr.online/c/|00:1A:79:53:35:98
 http://mag.marsweb.co/c/|00:1A:79:CD:DD:F8
 http://pro.8k-strong.tv:80/c/|00:1A:79:7C:CD:76
-http://safetv.vip:8080/c/|00:1A:79:C1:EE:4A
