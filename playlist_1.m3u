@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="PROMI BIG BROTHER" tvg-name="PROMI BIG BROTHER" tvg-logo="https://github.iopromi%20big%20brother.png" group-title="Portal_1",PROMI BIG BROTHER
+http://localhost/ch/934844_
 #EXTINF:-1 tvg-id="\u21baDAS ERSTE FHD" tvg-name="\u21baDAS ERSTE FHD" tvg-logo="https://github.io%5Cu21badas%20erste%20fhd.png" group-title="Portal_1",\u21baDAS ERSTE FHD
 http://localhost/ch/534_
 #EXTINF:-1 tvg-id="\u21baZDF FHD" tvg-name="\u21baZDF FHD" tvg-logo="https://github.io%5Cu21bazdf%20fhd.png" group-title="Portal_1",\u21baZDF FHD
