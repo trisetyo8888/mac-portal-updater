@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="\u2605\u2606\u2605 Deutschland \u2605\u2606\u2605" tvg-name="\u2605\u2606\u2605 Deutschland \u2605\u2606\u2605" tvg-logo="https://github.io%5Cu2605%5Cu2606%5Cu2605%20deutschland%20%5Cu2605%5Cu2606%5Cu2605.png" group-title="Portal_1",\u2605\u2606\u2605 Deutschland \u2605\u2606\u2605
-http://localhost/ch/679826_
 #EXTINF:-1 tvg-id="PROMI BIG BROTHER" tvg-name="PROMI BIG BROTHER" tvg-logo="https://github.iopromi%20big%20brother.png" group-title="Portal_1",PROMI BIG BROTHER
 http://localhost/ch/1455778_
 #EXTINF:-1 tvg-id="DAS ERSTE FHD \u21ba" tvg-name="DAS ERSTE FHD \u21ba" tvg-logo="https://github.iodas%20erste%20fhd%20%5Cu21ba.png" group-title="Portal_1",DAS ERSTE FHD \u21ba
@@ -129,8 +127,6 @@ http://localhost/ch/762112_
 http://localhost/ch/762111_
 #EXTINF:-1 tvg-id="PEARL TV FHD" tvg-name="PEARL TV FHD" tvg-logo="https://github.iopearl%20tv%20fhd.png" group-title="Portal_1",PEARL TV FHD
 http://localhost/ch/875383_
-#EXTINF:-1 tvg-id="\u2605\u2606\u2605 Hevc \u2605\u2606\u2605" tvg-name="\u2605\u2606\u2605 Hevc \u2605\u2606\u2605" tvg-logo="https://github.io%5Cu2605%5Cu2606%5Cu2605%20hevc%20%5Cu2605%5Cu2606%5Cu2605.png" group-title="Portal_1",\u2605\u2606\u2605 Hevc \u2605\u2606\u2605
-http://localhost/ch/679734_
 #EXTINF:-1 tvg-id="DAS ERSTE HEVC" tvg-name="DAS ERSTE HEVC" tvg-logo="https://github.iodas%20erste%20hevc.png" group-title="Portal_1",DAS ERSTE HEVC
 http://localhost/ch/680357_
 #EXTINF:-1 tvg-id="ZDF HEVC" tvg-name="ZDF HEVC" tvg-logo="https://github.iozdf%20hevc.png" group-title="Portal_1",ZDF HEVC
@@ -191,8 +187,6 @@ http://localhost/ch/680326_
 http://localhost/ch/680325_
 #EXTINF:-1 tvg-id="COMEDY CENTRAL HEVC" tvg-name="COMEDY CENTRAL HEVC" tvg-logo="https://github.iocomedy%20central%20hevc.png" group-title="Portal_1",COMEDY CENTRAL HEVC
 http://localhost/ch/680323_
-#EXTINF:-1 tvg-id="\u2605\u2606\u2605 Raw \u2605\u2606\u2605" tvg-name="\u2605\u2606\u2605 Raw \u2605\u2606\u2605" tvg-logo="https://github.io%5Cu2605%5Cu2606%5Cu2605%20raw%20%5Cu2605%5Cu2606%5Cu2605.png" group-title="Portal_1",\u2605\u2606\u2605 Raw \u2605\u2606\u2605
-http://localhost/ch/1314601_
 #EXTINF:-1 tvg-id="DAS ERSTE RAW" tvg-name="DAS ERSTE RAW" tvg-logo="https://github.iodas%20erste%20raw.png" group-title="Portal_1",DAS ERSTE RAW
 http://localhost/ch/1314605_
 #EXTINF:-1 tvg-id="ZDF RAW" tvg-name="ZDF RAW" tvg-logo="https://github.iozdf%20raw.png" group-title="Portal_1",ZDF RAW
@@ -251,8 +245,6 @@ http://localhost/ch/1314631_
 http://localhost/ch/1314632_
 #EXTINF:-1 tvg-id="COMEDY CENTRAL RAW" tvg-name="COMEDY CENTRAL RAW" tvg-logo="https://github.iocomedy%20central%20raw.png" group-title="Portal_1",COMEDY CENTRAL RAW
 http://localhost/ch/1314633_
-#EXTINF:-1 tvg-id="\u2605\u2606\u2605 Deutschland Qhd \u2605\u2606\u2605" tvg-name="\u2605\u2606\u2605 Deutschland Qhd \u2605\u2606\u2605" tvg-logo="https://github.io%5Cu2605%5Cu2606%5Cu2605%20deutschland%20qhd%20%5Cu2605%5Cu2606%5Cu2605.png" group-title="Portal_1",\u2605\u2606\u2605 Deutschland Qhd \u2605\u2606\u2605
-http://localhost/ch/679761_
 #EXTINF:-1 tvg-id="DAS ERSTE 4K" tvg-name="DAS ERSTE 4K" tvg-logo="https://github.iodas%20erste%204k.png" group-title="Portal_1",DAS ERSTE 4K
 http://localhost/ch/680394_
 #EXTINF:-1 tvg-id="DAS ERSTE 2K" tvg-name="DAS ERSTE 2K" tvg-logo="https://github.iodas%20erste%202k.png" group-title="Portal_1",DAS ERSTE 2K
@@ -425,8 +417,6 @@ http://localhost/ch/679426_
 http://localhost/ch/679438_
 #EXTINF:-1 tvg-id="RT DEUTSCH NEWS HD" tvg-name="RT DEUTSCH NEWS HD" tvg-logo="https://github.iort%20deutsch%20news%20hd.png" group-title="Portal_1",RT DEUTSCH NEWS HD
 http://localhost/ch/679437_
-#EXTINF:-1 tvg-id="\u2605\u2606\u2605 Doku \u2605\u2606\u2605" tvg-name="\u2605\u2606\u2605 Doku \u2605\u2606\u2605" tvg-logo="https://github.io%5Cu2605%5Cu2606%5Cu2605%20doku%20%5Cu2605%5Cu2606%5Cu2605.png" group-title="Portal_1",\u2605\u2606\u2605 Doku \u2605\u2606\u2605
-http://localhost/ch/762093_
 #EXTINF:-1 tvg-id="N24 DOKU FHD" tvg-name="N24 DOKU FHD" tvg-logo="https://github.ion24%20doku%20fhd.png" group-title="Portal_1",N24 DOKU FHD
 http://localhost/ch/761947_
 #EXTINF:-1 tvg-id="N24 DOKU HD" tvg-name="N24 DOKU HD" tvg-logo="https://github.ion24%20doku%20hd.png" group-title="Portal_1",N24 DOKU HD
@@ -619,8 +609,6 @@ http://localhost/ch/679624_
 http://localhost/ch/864485_
 #EXTINF:-1 tvg-id="TOGGO PLUS" tvg-name="TOGGO PLUS" tvg-logo="https://github.iotoggo%20plus.png" group-title="Portal_1",TOGGO PLUS
 http://localhost/ch/679622_
-#EXTINF:-1 tvg-id="\u2605\u2606\u2605 Sky Cinema \u2605\u2606\u2605" tvg-name="\u2605\u2606\u2605 Sky Cinema \u2605\u2606\u2605" tvg-logo="https://github.io%5Cu2605%5Cu2606%5Cu2605%20sky%20cinema%20%5Cu2605%5Cu2606%5Cu2605.png" group-title="Portal_1",\u2605\u2606\u2605 Sky Cinema \u2605\u2606\u2605
-http://localhost/ch/679621_
 #EXTINF:-1 tvg-id="SKY ONE FHD \u21ba" tvg-name="SKY ONE FHD \u21ba" tvg-logo="https://github.iosky%20one%20fhd%20%5Cu21ba.png" group-title="Portal_1",SKY ONE FHD \u21ba
 http://localhost/ch/870732_
 #EXTINF:-1 tvg-id="SKY ONE HD" tvg-name="SKY ONE HD" tvg-logo="https://github.iosky%20one%20hd.png" group-title="Portal_1",SKY ONE HD
@@ -1041,8 +1029,6 @@ http://localhost/ch/761950_
 http://localhost/ch/761949_
 #EXTINF:-1 tvg-id="KINDERFILME 10" tvg-name="KINDERFILME 10" tvg-logo="https://github.iokinderfilme%2010.png" group-title="Portal_1",KINDERFILME 10
 http://localhost/ch/761948_
-#EXTINF:-1 tvg-id="\u2605\u2606\u2605 Blackbox Actor 24\/7 \u2605\u2606\u2605" tvg-name="\u2605\u2606\u2605 Blackbox Actor 24\/7 \u2605\u2606\u2605" tvg-logo="https://github.io%5Cu2605%5Cu2606%5Cu2605%20blackbox%20actor%2024%5C/7%20%5Cu2605%5Cu2606%5Cu2605.png" group-title="Portal_1",\u2605\u2606\u2605 Blackbox Actor 24\/7 \u2605\u2606\u2605
-http://localhost/ch/1314994_
 #EXTINF:-1 tvg-id="Blackbox Adam Sandler" tvg-name="Blackbox Adam Sandler" tvg-logo="https://github.ioblackbox%20adam%20sandler.png" group-title="Portal_1",Blackbox Adam Sandler
 http://localhost/ch/1314880_
 #EXTINF:-1 tvg-id="Blackbox Adriano Celentano" tvg-name="Blackbox Adriano Celentano" tvg-logo="https://github.ioblackbox%20adriano%20celentano.png" group-title="Portal_1",Blackbox Adriano Celentano
@@ -1195,8 +1181,6 @@ http://localhost/ch/1314953_
 http://localhost/ch/1314954_
 #EXTINF:-1 tvg-id="Blackbox Will Smith" tvg-name="Blackbox Will Smith" tvg-logo="https://github.ioblackbox%20will%20smith.png" group-title="Portal_1",Blackbox Will Smith
 http://localhost/ch/1314955_
-#EXTINF:-1 tvg-id="\u2605\u2606\u2605 Actor 24\/7 \u2605\u2606\u2605" tvg-name="\u2605\u2606\u2605 Actor 24\/7 \u2605\u2606\u2605" tvg-logo="https://github.io%5Cu2605%5Cu2606%5Cu2605%20actor%2024%5C/7%20%5Cu2605%5Cu2606%5Cu2605.png" group-title="Portal_1",\u2605\u2606\u2605 Actor 24\/7 \u2605\u2606\u2605
-http://localhost/ch/1314875_
 #EXTINF:-1 tvg-id="DENZEL WASH\u0130NGTON" tvg-name="DENZEL WASH\u0130NGTON" tvg-logo="https://github.iodenzel%20wash%5Cu0130ngton.png" group-title="Portal_1",DENZEL WASH\u0130NGTON
 http://localhost/ch/1314959_
 #EXTINF:-1 tvg-id="TOM CRUISE" tvg-name="TOM CRUISE" tvg-logo="https://github.iotom%20cruise.png" group-title="Portal_1",TOM CRUISE
@@ -1263,8 +1247,6 @@ http://localhost/ch/1314989_
 http://localhost/ch/1314990_
 #EXTINF:-1 tvg-id="BRUCE LEE" tvg-name="BRUCE LEE" tvg-logo="https://github.iobruce%20lee.png" group-title="Portal_1",BRUCE LEE
 http://localhost/ch/1314991_
-#EXTINF:-1 tvg-id="\u2605\u2606\u2605 Magicbox Serien 24\/7 \u2605\u2606\u2605" tvg-name="\u2605\u2606\u2605 Magicbox Serien 24\/7 \u2605\u2606\u2605" tvg-logo="https://github.io%5Cu2605%5Cu2606%5Cu2605%20magicbox%20serien%2024%5C/7%20%5Cu2605%5Cu2606%5Cu2605.png" group-title="Portal_1",\u2605\u2606\u2605 Magicbox Serien 24\/7 \u2605\u2606\u2605
-http://localhost/ch/1315249_
 #EXTINF:-1 tvg-id="Blackbox Bobs Burgers" tvg-name="Blackbox Bobs Burgers" tvg-logo="https://github.ioblackbox%20bobs%20burgers.png" group-title="Portal_1",Blackbox Bobs Burgers
 http://localhost/ch/1315253_
 #EXTINF:-1 tvg-id="Blackbox Rick and Morty" tvg-name="Blackbox Rick and Morty" tvg-logo="https://github.ioblackbox%20rick%20and%20morty.png" group-title="Portal_1",Blackbox Rick and Morty
@@ -1477,8 +1459,6 @@ http://localhost/ch/1315356_
 http://localhost/ch/1315357_
 #EXTINF:-1 tvg-id="Magicbox Zwei Supertypen in Miami" tvg-name="Magicbox Zwei Supertypen in Miami" tvg-logo="https://github.iomagicbox%20zwei%20supertypen%20in%20miami.png" group-title="Portal_1",Magicbox Zwei Supertypen in Miami
 http://localhost/ch/1315358_
-#EXTINF:-1 tvg-id="\u2605\u2606\u2605 Blackbox Filme 24\/7 \u2605\u2606\u2605" tvg-name="\u2605\u2606\u2605 Blackbox Filme 24\/7 \u2605\u2606\u2605" tvg-logo="https://github.io%5Cu2605%5Cu2606%5Cu2605%20blackbox%20filme%2024%5C/7%20%5Cu2605%5Cu2606%5Cu2605.png" group-title="Portal_1",\u2605\u2606\u2605 Blackbox Filme 24\/7 \u2605\u2606\u2605
-http://localhost/ch/1314997_
 #EXTINF:-1 tvg-id="Blackbox 96 Hours Taken" tvg-name="Blackbox 96 Hours Taken" tvg-logo="https://github.ioblackbox%2096%20hours%20taken.png" group-title="Portal_1",Blackbox 96 Hours Taken
 http://localhost/ch/1315001_
 #EXTINF:-1 tvg-id="Blackbox American Fighter" tvg-name="Blackbox American Fighter" tvg-logo="https://github.ioblackbox%20american%20fighter.png" group-title="Portal_1",Blackbox American Fighter
@@ -1643,8 +1623,6 @@ http://localhost/ch/1315080_
 http://localhost/ch/1315081_
 #EXTINF:-1 tvg-id="Blackbox Zurueck in die Zukunft" tvg-name="Blackbox Zurueck in die Zukunft" tvg-logo="https://github.ioblackbox%20zurueck%20in%20die%20zukunft.png" group-title="Portal_1",Blackbox Zurueck in die Zukunft
 http://localhost/ch/1315082_
-#EXTINF:-1 tvg-id="\u2605\u2606\u2605 Box Set Filme 24\/7 \u2605\u2606\u2605" tvg-name="\u2605\u2606\u2605 Box Set Filme 24\/7 \u2605\u2606\u2605" tvg-logo="https://github.io%5Cu2605%5Cu2606%5Cu2605%20box%20set%20filme%2024%5C/7%20%5Cu2605%5Cu2606%5Cu2605.png" group-title="Portal_1",\u2605\u2606\u2605 Box Set Filme 24\/7 \u2605\u2606\u2605
-http://localhost/ch/1315085_
 #EXTINF:-1 tvg-id="CREED" tvg-name="CREED" tvg-logo="https://github.iocreed.png" group-title="Portal_1",CREED
 http://localhost/ch/1315089_
 #EXTINF:-1 tvg-id="KARATE K\u0130D" tvg-name="KARATE K\u0130D" tvg-logo="https://github.iokarate%20k%5Cu0130d.png" group-title="Portal_1",KARATE K\u0130D
@@ -1775,8 +1753,6 @@ http://localhost/ch/1315151_
 http://localhost/ch/1315152_
 #EXTINF:-1 tvg-id="THE EXPENDABLES" tvg-name="THE EXPENDABLES" tvg-logo="https://github.iothe%20expendables.png" group-title="Portal_1",THE EXPENDABLES
 http://localhost/ch/1315153_
-#EXTINF:-1 tvg-id="\u2605\u2606\u2605 Kino Filme 24\/7 \u2605\u2606\u2605" tvg-name="\u2605\u2606\u2605 Kino Filme 24\/7 \u2605\u2606\u2605" tvg-logo="https://github.io%5Cu2605%5Cu2606%5Cu2605%20kino%20filme%2024%5C/7%20%5Cu2605%5Cu2606%5Cu2605.png" group-title="Portal_1",\u2605\u2606\u2605 Kino Filme 24\/7 \u2605\u2606\u2605
-http://localhost/ch/1315156_
 #EXTINF:-1 tvg-id="GERMANY BOX ACTION" tvg-name="GERMANY BOX ACTION" tvg-logo="https://github.iogermany%20box%20action.png" group-title="Portal_1",GERMANY BOX ACTION
 http://localhost/ch/1315161_
 #EXTINF:-1 tvg-id="GERMANY BOX AMAZON PRIME" tvg-name="GERMANY BOX AMAZON PRIME" tvg-logo="https://github.iogermany%20box%20amazon%20prime.png" group-title="Portal_1",GERMANY BOX AMAZON PRIME
@@ -2183,8 +2159,6 @@ http://localhost/ch/1445299_
 http://localhost/ch/1445300_
 #EXTINF:-1 tvg-id="WESTWORLD | PRIME BOX" tvg-name="WESTWORLD | PRIME BOX" tvg-logo="https://github.iowestworld%20%7C%20prime%20box.png" group-title="Portal_1",WESTWORLD | PRIME BOX
 http://localhost/ch/1445301_
-#EXTINF:-1 tvg-id="\u2726\u262a\u2726 2026 KINO LOUNGE \u2726\u262a\u2726" tvg-name="\u2726\u262a\u2726 2026 KINO LOUNGE \u2726\u262a\u2726" tvg-logo="https://github.io%5Cu2726%5Cu262a%5Cu2726%202026%20kino%20lounge%20%5Cu2726%5Cu262a%5Cu2726.png" group-title="Portal_1",\u2726\u262a\u2726 2026 KINO LOUNGE \u2726\u262a\u2726
-http://localhost/ch/1316439_
 #EXTINF:-1 tvg-id="1- Greenland 2 (2026)" tvg-name="1- Greenland 2 (2026)" tvg-logo="https://github.io1-%20greenland%202%20%282026%29.png" group-title="Portal_1",1- Greenland 2 (2026)
 http://localhost/ch/592778_
 #EXTINF:-1 tvg-id="2- Final Fight - Die letzte Chance (2025)" tvg-name="2- Final Fight - Die letzte Chance (2025)" tvg-logo="https://github.io2-%20final%20fight%20-%20die%20letzte%20chance%20%282025%29.png" group-title="Portal_1",2- Final Fight - Die letzte Chance (2025)
@@ -2225,8 +2199,6 @@ http://localhost/ch/1429058_
 http://localhost/ch/1429061_
 #EXTINF:-1 tvg-id="Accused (2026)" tvg-name="Accused (2026)" tvg-logo="https://github.ioaccused%20%282026%29.png" group-title="Portal_1",Accused (2026)
 http://localhost/ch/1429064_
-#EXTINF:-1 tvg-id="\u2605\u2606\u2605 Sky Bundesliga \u2605\u2606\u2605" tvg-name="\u2605\u2606\u2605 Sky Bundesliga \u2605\u2606\u2605" tvg-logo="https://github.io%5Cu2605%5Cu2606%5Cu2605%20sky%20bundesliga%20%5Cu2605%5Cu2606%5Cu2605.png" group-title="Portal_1",\u2605\u2606\u2605 Sky Bundesliga \u2605\u2606\u2605
-http://localhost/ch/678757_
 #EXTINF:-1 tvg-id="DAZN KONFERENZ FHD" tvg-name="DAZN KONFERENZ FHD" tvg-logo="https://github.iodazn%20konferenz%20fhd.png" group-title="Portal_1",DAZN KONFERENZ FHD
 http://localhost/ch/1376405_
 #EXTINF:-1 tvg-id="DAZN KONFERENZ HD" tvg-name="DAZN KONFERENZ HD" tvg-logo="https://github.iodazn%20konferenz%20hd.png" group-title="Portal_1",DAZN KONFERENZ HD
