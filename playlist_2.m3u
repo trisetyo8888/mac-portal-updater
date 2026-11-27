@@ -1,1017 +1,1017 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="GR\u2503 EPT 1 FHD" tvg-name="GR\u2503 EPT 1 FHD" tvg-logo="https://github.iogr%5Cu2503%20ept%201%20fhd.png" group-title="Portal_2",GR\u2503 EPT 1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=670952&extension=ts&play_token=1l3VbisTHR
+http://localhost/ch/670952_
 #EXTINF:-1 tvg-id="GR\u2503 EPT 1 HD" tvg-name="GR\u2503 EPT 1 HD" tvg-logo="https://github.iogr%5Cu2503%20ept%201%20hd.png" group-title="Portal_2",GR\u2503 EPT 1 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671261&extension=ts&play_token=oiltRJAeex
+http://localhost/ch/671261_
 #EXTINF:-1 tvg-id="GR\u2503 EPT 1 SD" tvg-name="GR\u2503 EPT 1 SD" tvg-logo="https://github.iogr%5Cu2503%20ept%201%20sd.png" group-title="Portal_2",GR\u2503 EPT 1 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671405&extension=ts&play_token=3U6ZrWp0vC
+http://localhost/ch/671405_
 #EXTINF:-1 tvg-id="GR\u2503 EPT 2 FHD" tvg-name="GR\u2503 EPT 2 FHD" tvg-logo="https://github.iogr%5Cu2503%20ept%202%20fhd.png" group-title="Portal_2",GR\u2503 EPT 2 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671353&extension=ts&play_token=RebqERUEZ1
+http://localhost/ch/671353_
 #EXTINF:-1 tvg-id="GR\u2503 EPT 2 HD" tvg-name="GR\u2503 EPT 2 HD" tvg-logo="https://github.iogr%5Cu2503%20ept%202%20hd.png" group-title="Portal_2",GR\u2503 EPT 2 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671260&extension=ts&play_token=VBoKdOmTcM
+http://localhost/ch/671260_
 #EXTINF:-1 tvg-id="GR\u2503 EPT 2 SD" tvg-name="GR\u2503 EPT 2 SD" tvg-logo="https://github.iogr%5Cu2503%20ept%202%20sd.png" group-title="Portal_2",GR\u2503 EPT 2 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671406&extension=ts&play_token=GTvx9ADL32
+http://localhost/ch/671406_
 #EXTINF:-1 tvg-id="GR\u2503 EPT 3 FHD" tvg-name="GR\u2503 EPT 3 FHD" tvg-logo="https://github.iogr%5Cu2503%20ept%203%20fhd.png" group-title="Portal_2",GR\u2503 EPT 3 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671352&extension=ts&play_token=OSAp3yNB7b
+http://localhost/ch/671352_
 #EXTINF:-1 tvg-id="GR\u2503 EPT 3 HD" tvg-name="GR\u2503 EPT 3 HD" tvg-logo="https://github.iogr%5Cu2503%20ept%203%20hd.png" group-title="Portal_2",GR\u2503 EPT 3 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671259&extension=ts&play_token=Qz7rKFIU8M
+http://localhost/ch/671259_
 #EXTINF:-1 tvg-id="GR\u2503 EPT 3 SD" tvg-name="GR\u2503 EPT 3 SD" tvg-logo="https://github.iogr%5Cu2503%20ept%203%20sd.png" group-title="Portal_2",GR\u2503 EPT 3 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671407&extension=ts&play_token=eWN3GNyJ7V
+http://localhost/ch/671407_
 #EXTINF:-1 tvg-id="GR\u2503 EPT NEWS FHD" tvg-name="GR\u2503 EPT NEWS FHD" tvg-logo="https://github.iogr%5Cu2503%20ept%20news%20fhd.png" group-title="Portal_2",GR\u2503 EPT NEWS FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671351&extension=ts&play_token=KQQzg1ipmW
+http://localhost/ch/671351_
 #EXTINF:-1 tvg-id="GR\u2503 EPT NEWS SD" tvg-name="GR\u2503 EPT NEWS SD" tvg-logo="https://github.iogr%5Cu2503%20ept%20news%20sd.png" group-title="Portal_2",GR\u2503 EPT NEWS SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=699595&extension=ts&play_token=XnXPH0IbOg
+http://localhost/ch/699595_
 #EXTINF:-1 tvg-id="GR\u2503 EPT WORLD FHD" tvg-name="GR\u2503 EPT WORLD FHD" tvg-logo="https://github.iogr%5Cu2503%20ept%20world%20fhd.png" group-title="Portal_2",GR\u2503 EPT WORLD FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671349&extension=ts&play_token=c3w7Q3Z1Yz
+http://localhost/ch/671349_
 #EXTINF:-1 tvg-id="GR\u2503 ANT 1 FHD" tvg-name="GR\u2503 ANT 1 FHD" tvg-logo="https://github.iogr%5Cu2503%20ant%201%20fhd.png" group-title="Portal_2",GR\u2503 ANT 1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=194797&extension=ts&play_token=SloGkoNnYD
+http://localhost/ch/194797_
 #EXTINF:-1 tvg-id="GR\u2503 ANT 1 HD" tvg-name="GR\u2503 ANT 1 HD" tvg-logo="https://github.iogr%5Cu2503%20ant%201%20hd.png" group-title="Portal_2",GR\u2503 ANT 1 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671255&extension=ts&play_token=zZc4Oq3TyP
+http://localhost/ch/671255_
 #EXTINF:-1 tvg-id="GR\u2503 ANT 1 SD" tvg-name="GR\u2503 ANT 1 SD" tvg-logo="https://github.iogr%5Cu2503%20ant%201%20sd.png" group-title="Portal_2",GR\u2503 ANT 1 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671408&extension=ts&play_token=vtVsSTMyzH
+http://localhost/ch/671408_
 #EXTINF:-1 tvg-id="GR\u2503 ALPHA FHD" tvg-name="GR\u2503 ALPHA FHD" tvg-logo="https://github.iogr%5Cu2503%20alpha%20fhd.png" group-title="Portal_2",GR\u2503 ALPHA FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=194714&extension=ts&play_token=QoyObhyQLO
+http://localhost/ch/194714_
 #EXTINF:-1 tvg-id="GR\u2503 ALPHA HD" tvg-name="GR\u2503 ALPHA HD" tvg-logo="https://github.iogr%5Cu2503%20alpha%20hd.png" group-title="Portal_2",GR\u2503 ALPHA HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671251&extension=ts&play_token=LLeWWeCkPz
+http://localhost/ch/671251_
 #EXTINF:-1 tvg-id="GR\u2503 ALPHA SD" tvg-name="GR\u2503 ALPHA SD" tvg-logo="https://github.iogr%5Cu2503%20alpha%20sd.png" group-title="Portal_2",GR\u2503 ALPHA SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671409&extension=ts&play_token=nQoKth1sqT
+http://localhost/ch/671409_
 #EXTINF:-1 tvg-id="GR\u2503 STAR FHD" tvg-name="GR\u2503 STAR FHD" tvg-logo="https://github.iogr%5Cu2503%20star%20fhd.png" group-title="Portal_2",GR\u2503 STAR FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671348&extension=ts&play_token=FQlu3cjGNF
+http://localhost/ch/671348_
 #EXTINF:-1 tvg-id="GR\u2503 STAR HD" tvg-name="GR\u2503 STAR HD" tvg-logo="https://github.iogr%5Cu2503%20star%20hd.png" group-title="Portal_2",GR\u2503 STAR HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671249&extension=ts&play_token=s5Mj34GuA3
+http://localhost/ch/671249_
 #EXTINF:-1 tvg-id="GR\u2503 STAR SD" tvg-name="GR\u2503 STAR SD" tvg-logo="https://github.iogr%5Cu2503%20star%20sd.png" group-title="Portal_2",GR\u2503 STAR SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671410&extension=ts&play_token=QeMIkHCkdf
+http://localhost/ch/671410_
 #EXTINF:-1 tvg-id="GR\u2503 SKAI FHD" tvg-name="GR\u2503 SKAI FHD" tvg-logo="https://github.iogr%5Cu2503%20skai%20fhd.png" group-title="Portal_2",GR\u2503 SKAI FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=194715&extension=ts&play_token=WG67cqAlIx
+http://localhost/ch/194715_
 #EXTINF:-1 tvg-id="GR\u2503 SKAI HD" tvg-name="GR\u2503 SKAI HD" tvg-logo="https://github.iogr%5Cu2503%20skai%20hd.png" group-title="Portal_2",GR\u2503 SKAI HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671248&extension=ts&play_token=hjNFVB3nfa
+http://localhost/ch/671248_
 #EXTINF:-1 tvg-id="GR\u2503 SKAI SD" tvg-name="GR\u2503 SKAI SD" tvg-logo="https://github.iogr%5Cu2503%20skai%20sd.png" group-title="Portal_2",GR\u2503 SKAI SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671411&extension=ts&play_token=O7fwXga2uE
+http://localhost/ch/671411_
 #EXTINF:-1 tvg-id="GR\u2503 MEGA FHD" tvg-name="GR\u2503 MEGA FHD" tvg-logo="https://github.iogr%5Cu2503%20mega%20fhd.png" group-title="Portal_2",GR\u2503 MEGA FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671347&extension=ts&play_token=cWV0SfD4K0
+http://localhost/ch/671347_
 #EXTINF:-1 tvg-id="GR\u2503 MEGA HD" tvg-name="GR\u2503 MEGA HD" tvg-logo="https://github.iogr%5Cu2503%20mega%20hd.png" group-title="Portal_2",GR\u2503 MEGA HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671247&extension=ts&play_token=xQ1ZX3X2MM
+http://localhost/ch/671247_
 #EXTINF:-1 tvg-id="GR\u2503 MEGA SD" tvg-name="GR\u2503 MEGA SD" tvg-logo="https://github.iogr%5Cu2503%20mega%20sd.png" group-title="Portal_2",GR\u2503 MEGA SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671412&extension=ts&play_token=3yCQS2En8n
+http://localhost/ch/671412_
 #EXTINF:-1 tvg-id="GR\u2503 OPEN BEYOND FHD" tvg-name="GR\u2503 OPEN BEYOND FHD" tvg-logo="https://github.iogr%5Cu2503%20open%20beyond%20fhd.png" group-title="Portal_2",GR\u2503 OPEN BEYOND FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671346&extension=ts&play_token=Hl2vmWqY1u
+http://localhost/ch/671346_
 #EXTINF:-1 tvg-id="GR\u2503 OPEN BEYOND HD" tvg-name="GR\u2503 OPEN BEYOND HD" tvg-logo="https://github.iogr%5Cu2503%20open%20beyond%20hd.png" group-title="Portal_2",GR\u2503 OPEN BEYOND HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671246&extension=ts&play_token=bWsBk6EMNR
+http://localhost/ch/671246_
 #EXTINF:-1 tvg-id="GR\u2503 OPEN BEYOND SD" tvg-name="GR\u2503 OPEN BEYOND SD" tvg-logo="https://github.iogr%5Cu2503%20open%20beyond%20sd.png" group-title="Portal_2",GR\u2503 OPEN BEYOND SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671413&extension=ts&play_token=CLk6yzZT3p
+http://localhost/ch/671413_
 #EXTINF:-1 tvg-id="GR\u2503 MAKEDONIA TV FHD" tvg-name="GR\u2503 MAKEDONIA TV FHD" tvg-logo="https://github.iogr%5Cu2503%20makedonia%20tv%20fhd.png" group-title="Portal_2",GR\u2503 MAKEDONIA TV FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671345&extension=ts&play_token=R0B65MNp4c
+http://localhost/ch/671345_
 #EXTINF:-1 tvg-id="GR\u2503 MAKEDONIA TV HD" tvg-name="GR\u2503 MAKEDONIA TV HD" tvg-logo="https://github.iogr%5Cu2503%20makedonia%20tv%20hd.png" group-title="Portal_2",GR\u2503 MAKEDONIA TV HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671245&extension=ts&play_token=hhJhBBSefk
+http://localhost/ch/671245_
 #EXTINF:-1 tvg-id="GR\u2503 MAKEDONIA TV SD" tvg-name="GR\u2503 MAKEDONIA TV SD" tvg-logo="https://github.iogr%5Cu2503%20makedonia%20tv%20sd.png" group-title="Portal_2",GR\u2503 MAKEDONIA TV SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671414&extension=ts&play_token=WqONjllXam
+http://localhost/ch/671414_
 #EXTINF:-1 tvg-id="GR\u2503 MEGA NEWS HD" tvg-name="GR\u2503 MEGA NEWS HD" tvg-logo="https://github.iogr%5Cu2503%20mega%20news%20hd.png" group-title="Portal_2",GR\u2503 MEGA NEWS HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1161477&extension=ts&play_token=IFZBFCWHBB
+http://localhost/ch/1161477_
 #EXTINF:-1 tvg-id="GR\u2503 EURONEWS GREEK HD" tvg-name="GR\u2503 EURONEWS GREEK HD" tvg-logo="https://github.iogr%5Cu2503%20euronews%20greek%20hd.png" group-title="Portal_2",GR\u2503 EURONEWS GREEK HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671244&extension=ts&play_token=iBHX4vs35I
+http://localhost/ch/671244_
 #EXTINF:-1 tvg-id="GR\u2503 \u0392\u039f\u03a5\u039b\u0397 \u03a4V 4K" tvg-name="GR\u2503 \u0392\u039f\u03a5\u039b\u0397 \u03a4V 4K" tvg-logo="https://github.iogr%5Cu2503%20%5Cu0392%5Cu039f%5Cu03a5%5Cu039b%5Cu0397%20%5Cu03a4v%204k.png" group-title="Portal_2",GR\u2503 \u0392\u039f\u03a5\u039b\u0397 \u03a4V 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=699593&extension=ts&play_token=KnBpGdw5VY
+http://localhost/ch/699593_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS NEWS FHD" tvg-name="GR\u2503 NOVA SPORTS NEWS FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20news%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS NEWS FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1880&extension=ts&play_token=f3IerxT59o
+http://localhost/ch/1880_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORT NEWS HD" tvg-name="GR\u2503 NOVA SPORT NEWS HD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sport%20news%20hd.png" group-title="Portal_2",GR\u2503 NOVA SPORT NEWS HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=174431&extension=ts&play_token=p9ok4HouUb
+http://localhost/ch/174431_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS PRIME FHD" tvg-name="GR\u2503 NOVA SPORTS PRIME FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20prime%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS PRIME FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1142146&extension=ts&play_token=dbt1P0VmZT
+http://localhost/ch/1142146_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS PRIME HD" tvg-name="GR\u2503 NOVA SPORTS PRIME HD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20prime%20hd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS PRIME HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1874&extension=ts&play_token=sUz1azuvgd
+http://localhost/ch/1874_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS PRIME SD" tvg-name="GR\u2503 NOVA SPORTS PRIME SD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20prime%20sd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS PRIME SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1648351&extension=ts&play_token=IFKr50YHj1
+http://localhost/ch/1648351_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS START FHD" tvg-name="GR\u2503 NOVA SPORTS START FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20start%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS START FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=56829&extension=ts&play_token=GgsJOU4ybB
+http://localhost/ch/56829_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS START HD" tvg-name="GR\u2503 NOVA SPORTS START HD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20start%20hd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS START HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=174254&extension=ts&play_token=mymFT3T95w
+http://localhost/ch/174254_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS START SD" tvg-name="GR\u2503 NOVA SPORTS START SD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20start%20sd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS START SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1648350&extension=ts&play_token=95M7Dj2TOI
+http://localhost/ch/1648350_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS LEAGUE 1 FHD" tvg-name="GR\u2503 NOVA SPORTS LEAGUE 1 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20league%201%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS LEAGUE 1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276440&extension=ts&play_token=jjHej0AzDh
+http://localhost/ch/2276440_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS LEAGUE 2 FHD" tvg-name="GR\u2503 NOVA SPORTS LEAGUE 2 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20league%202%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS LEAGUE 2 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276441&extension=ts&play_token=wtvdcccu4P
+http://localhost/ch/2276441_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS PREMIER LEAGUE FHD" tvg-name="GR\u2503 NOVA SPORTS PREMIER LEAGUE FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20premier%20league%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS PREMIER LEAGUE FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1879&extension=ts&play_token=modRfJbFbv
+http://localhost/ch/1879_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS PREMIER LEAGUE HD" tvg-name="GR\u2503 NOVA SPORTS PREMIER LEAGUE HD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20premier%20league%20hd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS PREMIER LEAGUE HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=663683&extension=ts&play_token=ZJ2YN5VIuA
+http://localhost/ch/663683_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS PREMIER LEAGUE SD" tvg-name="GR\u2503 NOVA SPORTS PREMIER LEAGUE SD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20premier%20league%20sd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS PREMIER LEAGUE SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1648349&extension=ts&play_token=LXHF7mtm4h
+http://localhost/ch/1648349_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 1 FHD" tvg-name="GR\u2503 NOVA SPORTS 1 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%201%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=173185&extension=ts&play_token=XJQ9RPqTYL
+http://localhost/ch/173185_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 1 HD" tvg-name="GR\u2503 NOVA SPORTS 1 HD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%201%20hd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 1 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=193070&extension=ts&play_token=905B3i1H2s
+http://localhost/ch/193070_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 1 SD" tvg-name="GR\u2503 NOVA SPORTS 1 SD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%201%20sd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 1 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1648348&extension=ts&play_token=wpSoAP3g4J
+http://localhost/ch/1648348_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 2 FHD" tvg-name="GR\u2503 NOVA SPORTS 2 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%202%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 2 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=173186&extension=ts&play_token=1vWa8HCexJ
+http://localhost/ch/173186_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 2 HD" tvg-name="GR\u2503 NOVA SPORTS 2 HD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%202%20hd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 2 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1878&extension=ts&play_token=H8Jz0go9KQ
+http://localhost/ch/1878_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 2 SD" tvg-name="GR\u2503 NOVA SPORTS 2 SD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%202%20sd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 2 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1648347&extension=ts&play_token=xn1mgkI3Yo
+http://localhost/ch/1648347_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 3 FHD" tvg-name="GR\u2503 NOVA SPORTS 3 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%203%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 3 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=174271&extension=ts&play_token=7tOROuHg0J
+http://localhost/ch/174271_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 3 HD" tvg-name="GR\u2503 NOVA SPORTS 3 HD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%203%20hd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 3 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1877&extension=ts&play_token=UWdr7Ej7Sv
+http://localhost/ch/1877_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 3 SD" tvg-name="GR\u2503 NOVA SPORTS 3 SD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%203%20sd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 3 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1648346&extension=ts&play_token=qbnPaIRqQ4
+http://localhost/ch/1648346_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 4 FHD" tvg-name="GR\u2503 NOVA SPORTS 4 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%204%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 4 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=174272&extension=ts&play_token=I2SxfwjMKV
+http://localhost/ch/174272_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 4 HD" tvg-name="GR\u2503 NOVA SPORTS 4 HD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%204%20hd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 4 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1876&extension=ts&play_token=xv6Y0P9reK
+http://localhost/ch/1876_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 4 SD" tvg-name="GR\u2503 NOVA SPORTS 4 SD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%204%20sd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 4 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1648345&extension=ts&play_token=V9IitxRTVm
+http://localhost/ch/1648345_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 5 FHD" tvg-name="GR\u2503 NOVA SPORTS 5 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%205%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 5 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1875&extension=ts&play_token=aBe5P1YUkh
+http://localhost/ch/1875_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 5 HD" tvg-name="GR\u2503 NOVA SPORTS 5 HD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%205%20hd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 5 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=193074&extension=ts&play_token=c3rKAysFp5
+http://localhost/ch/193074_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 5 SD" tvg-name="GR\u2503 NOVA SPORTS 5 SD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%205%20sd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 5 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1648344&extension=ts&play_token=2b3Gd7Rwbm
+http://localhost/ch/1648344_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 6 FHD" tvg-name="GR\u2503 NOVA SPORTS 6 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%206%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 6 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=174273&extension=ts&play_token=jY696BwKaX
+http://localhost/ch/174273_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 6 HD" tvg-name="GR\u2503 NOVA SPORTS 6 HD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%206%20hd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 6 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=699928&extension=ts&play_token=P4S0kGIsyT
+http://localhost/ch/699928_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS 6 SD" tvg-name="GR\u2503 NOVA SPORTS 6 SD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%206%20sd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS 6 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1648343&extension=ts&play_token=bBj2davziB
+http://localhost/ch/1648343_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS EXTRA 1 FHD" tvg-name="GR\u2503 NOVA SPORTS EXTRA 1 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20extra%201%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS EXTRA 1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=193071&extension=ts&play_token=cEHkHqk7Qk
+http://localhost/ch/193071_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS EXTRA 2 FHD" tvg-name="GR\u2503 NOVA SPORTS EXTRA 2 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20extra%202%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS EXTRA 2 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=193072&extension=ts&play_token=6oTjlCgX1S
+http://localhost/ch/193072_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS EXTRA 3 FHD" tvg-name="GR\u2503 NOVA SPORTS EXTRA 3 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20extra%203%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS EXTRA 3 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=193073&extension=ts&play_token=mHALHEYwUe
+http://localhost/ch/193073_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA SPORTS EXTRA 4 FHD" tvg-name="GR\u2503 NOVA SPORTS EXTRA 4 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20sports%20extra%204%20fhd.png" group-title="Portal_2",GR\u2503 NOVA SPORTS EXTRA 4 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=724019&extension=ts&play_token=HDC7uYh0UU
+http://localhost/ch/724019_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 4K" tvg-name="GR\u2503 MAGENTA SPORT 4K" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%204k.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1648352&extension=ts&play_token=iHSxWa7tMO
+http://localhost/ch/1648352_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT LEAGUE 1 FHD" tvg-name="GR\u2503 MAGENTA SPORT LEAGUE 1 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20league%201%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT LEAGUE 1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1977050&extension=ts&play_token=AmvLGs84Gg
+http://localhost/ch/1977050_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT LEAGUE 1 SD" tvg-name="GR\u2503 MAGENTA SPORT LEAGUE 1 SD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20league%201%20sd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT LEAGUE 1 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1977073&extension=ts&play_token=FRztPfADg1
+http://localhost/ch/1977073_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT LEAGUE 2 FHD" tvg-name="GR\u2503 MAGENTA SPORT LEAGUE 2 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20league%202%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT LEAGUE 2 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1977051&extension=ts&play_token=I4XA0UGSR9
+http://localhost/ch/1977051_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT LEAGUE 2 SD" tvg-name="GR\u2503 MAGENTA SPORT LEAGUE 2 SD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20league%202%20sd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT LEAGUE 2 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1977074&extension=ts&play_token=R2tUi9jQDP
+http://localhost/ch/1977074_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT LEAGUE 3 FHD" tvg-name="GR\u2503 MAGENTA SPORT LEAGUE 3 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20league%203%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT LEAGUE 3 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1977052&extension=ts&play_token=z4XubAzAqy
+http://localhost/ch/1977052_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT LEAGUE 3 SD" tvg-name="GR\u2503 MAGENTA SPORT LEAGUE 3 SD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20league%203%20sd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT LEAGUE 3 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1977075&extension=ts&play_token=6lE7ypp4Uv
+http://localhost/ch/1977075_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT LEAGUE 4 FHD" tvg-name="GR\u2503 MAGENTA SPORT LEAGUE 4 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20league%204%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT LEAGUE 4 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1977053&extension=ts&play_token=b66933drVl
+http://localhost/ch/1977053_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT LEAGUE 4 SD" tvg-name="GR\u2503 MAGENTA SPORT LEAGUE 4 SD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20league%204%20sd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT LEAGUE 4 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1977076&extension=ts&play_token=zINyG0GVkK
+http://localhost/ch/1977076_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT HIGHLIGHTS FHD" tvg-name="GR\u2503 MAGENTA SPORT HIGHLIGHTS FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20highlights%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT HIGHLIGHTS FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1891&extension=ts&play_token=AhIXouX3xT
+http://localhost/ch/1891_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT HIGHLIGHTS HD" tvg-name="GR\u2503 MAGENTA SPORT HIGHLIGHTS HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20highlights%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT HIGHLIGHTS HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671498&extension=ts&play_token=Hl1sj1Sc3L
+http://localhost/ch/671498_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 1 FHD" tvg-name="GR\u2503 MAGENTA SPORT 1 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%201%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=174426&extension=ts&play_token=9tzZxhYWzo
+http://localhost/ch/174426_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 1 HD" tvg-name="GR\u2503 MAGENTA SPORT 1 HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%201%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 1 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1890&extension=ts&play_token=iGMzi2f1xR
+http://localhost/ch/1890_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 1 SD" tvg-name="GR\u2503 MAGENTA SPORT 1 SD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%201%20sd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 1 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671508&extension=ts&play_token=xNX7pNiurA
+http://localhost/ch/671508_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 2 FHD" tvg-name="GR\u2503 MAGENTA SPORT 2 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%202%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 2 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=174427&extension=ts&play_token=faDashOurD
+http://localhost/ch/174427_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 2 HD" tvg-name="GR\u2503 MAGENTA SPORT 2 HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%202%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 2 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1889&extension=ts&play_token=hxnXSklv1Q
+http://localhost/ch/1889_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 2 SD" tvg-name="GR\u2503 MAGENTA SPORT 2 SD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%202%20sd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 2 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671509&extension=ts&play_token=jYd7RTeqT1
+http://localhost/ch/671509_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 3 FHD" tvg-name="GR\u2503 MAGENTA SPORT 3 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%203%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 3 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=174428&extension=ts&play_token=6mUefaSNsD
+http://localhost/ch/174428_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 3 HD" tvg-name="GR\u2503 MAGENTA SPORT 3 HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%203%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 3 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1888&extension=ts&play_token=NqyVdK1djq
+http://localhost/ch/1888_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 3 SD" tvg-name="GR\u2503 MAGENTA SPORT 3 SD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%203%20sd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 3 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671510&extension=ts&play_token=bmIXR8Y26C
+http://localhost/ch/671510_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 4 FHD" tvg-name="GR\u2503 MAGENTA SPORT 4 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%204%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 4 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=174429&extension=ts&play_token=pUn0TCxNvN
+http://localhost/ch/174429_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 4 HD" tvg-name="GR\u2503 MAGENTA SPORT 4 HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%204%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 4 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1887&extension=ts&play_token=DxXOzFTjwx
+http://localhost/ch/1887_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 4 SD" tvg-name="GR\u2503 MAGENTA SPORT 4 SD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%204%20sd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 4 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671511&extension=ts&play_token=X643wbLdCi
+http://localhost/ch/671511_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 5 FHD" tvg-name="GR\u2503 MAGENTA SPORT 5 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%205%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 5 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=174430&extension=ts&play_token=Wi0froyZU1
+http://localhost/ch/174430_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 5 HD" tvg-name="GR\u2503 MAGENTA SPORT 5 HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%205%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 5 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1886&extension=ts&play_token=IQHf2YZxPO
+http://localhost/ch/1886_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 5 SD" tvg-name="GR\u2503 MAGENTA SPORT 5 SD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%205%20sd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 5 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671512&extension=ts&play_token=7sJoJ3Y1nk
+http://localhost/ch/671512_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 6 FHD" tvg-name="GR\u2503 MAGENTA SPORT 6 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%206%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 6 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=174265&extension=ts&play_token=izF98JA0Rz
+http://localhost/ch/174265_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 6 HD" tvg-name="GR\u2503 MAGENTA SPORT 6 HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%206%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 6 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1885&extension=ts&play_token=mHkyTIKCmJ
+http://localhost/ch/1885_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 6 SD" tvg-name="GR\u2503 MAGENTA SPORT 6 SD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%206%20sd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 6 SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671513&extension=ts&play_token=iIjAM2wzb8
+http://localhost/ch/671513_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 7 FHD" tvg-name="GR\u2503 MAGENTA SPORT 7 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%207%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 7 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=174264&extension=ts&play_token=sx3h5PDMBQ
+http://localhost/ch/174264_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 7 HD" tvg-name="GR\u2503 MAGENTA SPORT 7 HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%207%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 7 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1884&extension=ts&play_token=1HYBEeS3tI
+http://localhost/ch/1884_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 8 FHD" tvg-name="GR\u2503 MAGENTA SPORT 8 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%208%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 8 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=174263&extension=ts&play_token=J7rp5LB72b
+http://localhost/ch/174263_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 8 HD" tvg-name="GR\u2503 MAGENTA SPORT 8 HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%208%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 8 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1883&extension=ts&play_token=lv77kvKchy
+http://localhost/ch/1883_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 9 FHD" tvg-name="GR\u2503 MAGENTA SPORT 9 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%209%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 9 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1882&extension=ts&play_token=TppNnqi64f
+http://localhost/ch/1882_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT 9 HD" tvg-name="GR\u2503 MAGENTA SPORT 9 HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%209%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT 9 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671507&extension=ts&play_token=0ytjsjMbx9
+http://localhost/ch/671507_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT SL PASS PANATHINAIKOS FHD" tvg-name="GR\u2503 MAGENTA SPORT SL PASS PANATHINAIKOS FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20sl%20pass%20panathinaikos%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT SL PASS PANATHINAIKOS FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=699599&extension=ts&play_token=Lqy5TbhbX1
+http://localhost/ch/699599_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT SL PANATHINAIKOS PASS HD" tvg-name="GR\u2503 MAGENTA SPORT SL PANATHINAIKOS PASS HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20sl%20panathinaikos%20pass%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT SL PANATHINAIKOS PASS HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=242084&extension=ts&play_token=vFg3kxLSMd
+http://localhost/ch/242084_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT SL PASS OLYMPIAKOS FHD" tvg-name="GR\u2503 MAGENTA SPORT SL PASS OLYMPIAKOS FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20sl%20pass%20olympiakos%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT SL PASS OLYMPIAKOS FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=699598&extension=ts&play_token=9jmAiOWVef
+http://localhost/ch/699598_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT SL PASS OLYMPIAKOS HD" tvg-name="GR\u2503 MAGENTA SPORT SL PASS OLYMPIAKOS HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20sl%20pass%20olympiakos%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT SL PASS OLYMPIAKOS HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=242085&extension=ts&play_token=D76XF9por0
+http://localhost/ch/242085_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT SL PASS AEK FHD" tvg-name="GR\u2503 MAGENTA SPORT SL PASS AEK FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20sl%20pass%20aek%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT SL PASS AEK FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=699597&extension=ts&play_token=R5733jPyWW
+http://localhost/ch/699597_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SPORT SL PASS AEK HD" tvg-name="GR\u2503 MAGENTA SPORT SL PASS AEK HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20sport%20sl%20pass%20aek%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA SPORT SL PASS AEK HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=242086&extension=ts&play_token=I4dUP3Ibjf
+http://localhost/ch/242086_
 #EXTINF:-1 tvg-id="GR\u2503 SPORT FM TV 1 HD" tvg-name="GR\u2503 SPORT FM TV 1 HD" tvg-logo="https://github.iogr%5Cu2503%20sport%20fm%20tv%201%20hd.png" group-title="Portal_2",GR\u2503 SPORT FM TV 1 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2051709&extension=ts&play_token=UPKsGfaByj
+http://localhost/ch/2051709_
 #EXTINF:-1 tvg-id="GR\u2503 SPORT FM TV 2 HD" tvg-name="GR\u2503 SPORT FM TV 2 HD" tvg-logo="https://github.iogr%5Cu2503%20sport%20fm%20tv%202%20hd.png" group-title="Portal_2",GR\u2503 SPORT FM TV 2 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2051710&extension=ts&play_token=oXVLxGwScS
+http://localhost/ch/2051710_
 #EXTINF:-1 tvg-id="GR\u2503 SPORT FM TV 3 HD" tvg-name="GR\u2503 SPORT FM TV 3 HD" tvg-logo="https://github.iogr%5Cu2503%20sport%20fm%20tv%203%20hd.png" group-title="Portal_2",GR\u2503 SPORT FM TV 3 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2051711&extension=ts&play_token=ap2ejhyssR
+http://localhost/ch/2051711_
 #EXTINF:-1 tvg-id="GR\u2503 SPORT FM TV 4 HD" tvg-name="GR\u2503 SPORT FM TV 4 HD" tvg-logo="https://github.iogr%5Cu2503%20sport%20fm%20tv%204%20hd.png" group-title="Portal_2",GR\u2503 SPORT FM TV 4 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2051712&extension=ts&play_token=slBRJIMXqC
+http://localhost/ch/2051712_
 #EXTINF:-1 tvg-id="GR\u2503 SPORT FM TV 5 HD" tvg-name="GR\u2503 SPORT FM TV 5 HD" tvg-logo="https://github.iogr%5Cu2503%20sport%20fm%20tv%205%20hd.png" group-title="Portal_2",GR\u2503 SPORT FM TV 5 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2051713&extension=ts&play_token=92vOwOjwO0
+http://localhost/ch/2051713_
 #EXTINF:-1 tvg-id="GR\u2503 ANT1+ SPORTS 1 FHD" tvg-name="GR\u2503 ANT1+ SPORTS 1 FHD" tvg-logo="https://github.iogr%5Cu2503%20ant1%2B%20sports%201%20fhd.png" group-title="Portal_2",GR\u2503 ANT1+ SPORTS 1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=253995&extension=ts&play_token=6Zf6z52Ue3
+http://localhost/ch/253995_
 #EXTINF:-1 tvg-id="GR\u2503 ANT1+ SPORTS 2 FHD" tvg-name="GR\u2503 ANT1+ SPORTS 2 FHD" tvg-logo="https://github.iogr%5Cu2503%20ant1%2B%20sports%202%20fhd.png" group-title="Portal_2",GR\u2503 ANT1+ SPORTS 2 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=697964&extension=ts&play_token=Zai79KcEJz
+http://localhost/ch/697964_
 #EXTINF:-1 tvg-id="GR\u2503 ANT1+ SPORTS 3 FHD" tvg-name="GR\u2503 ANT1+ SPORTS 3 FHD" tvg-logo="https://github.iogr%5Cu2503%20ant1%2B%20sports%203%20fhd.png" group-title="Portal_2",GR\u2503 ANT1+ SPORTS 3 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=697963&extension=ts&play_token=YWqAIu6O4R
+http://localhost/ch/697963_
 #EXTINF:-1 tvg-id="GR\u2503 FIGHT NETWORK FHD" tvg-name="GR\u2503 FIGHT NETWORK FHD" tvg-logo="https://github.iogr%5Cu2503%20fight%20network%20fhd.png" group-title="Portal_2",GR\u2503 FIGHT NETWORK FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=987467&extension=ts&play_token=QgKj4QiMdI
+http://localhost/ch/987467_
 #EXTINF:-1 tvg-id="GR\u2503 PADELTIME TV FHD" tvg-name="GR\u2503 PADELTIME TV FHD" tvg-logo="https://github.iogr%5Cu2503%20padeltime%20tv%20fhd.png" group-title="Portal_2",GR\u2503 PADELTIME TV FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=987468&extension=ts&play_token=U6DvY0RDNh
+http://localhost/ch/987468_
 #EXTINF:-1 tvg-id="GR\u2503 SPORT PLUS HD" tvg-name="GR\u2503 SPORT PLUS HD" tvg-logo="https://github.iogr%5Cu2503%20sport%20plus%20hd.png" group-title="Portal_2",GR\u2503 SPORT PLUS HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=663269&extension=ts&play_token=MfMOe8A1hN
+http://localhost/ch/663269_
 #EXTINF:-1 tvg-id="GR\u2503 EUROSPORT 1 FHD" tvg-name="GR\u2503 EUROSPORT 1 FHD" tvg-logo="https://github.iogr%5Cu2503%20eurosport%201%20fhd.png" group-title="Portal_2",GR\u2503 EUROSPORT 1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=173188&extension=ts&play_token=e9DAj5qVJI
+http://localhost/ch/173188_
 #EXTINF:-1 tvg-id="GR\u2503 EUROSPORT 2 FHD" tvg-name="GR\u2503 EUROSPORT 2 FHD" tvg-logo="https://github.iogr%5Cu2503%20eurosport%202%20fhd.png" group-title="Portal_2",GR\u2503 EUROSPORT 2 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=173189&extension=ts&play_token=L2QHqw44rU
+http://localhost/ch/173189_
 #EXTINF:-1 tvg-id="GR\u2503 MOTORVISION FHD" tvg-name="GR\u2503 MOTORVISION FHD" tvg-logo="https://github.iogr%5Cu2503%20motorvision%20fhd.png" group-title="Portal_2",GR\u2503 MOTORVISION FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=699601&extension=ts&play_token=OG6FUbCo2h
+http://localhost/ch/699601_
 #EXTINF:-1 tvg-id="GR\u2503 EPT SPORTS 1 FHD" tvg-name="GR\u2503 EPT SPORTS 1 FHD" tvg-logo="https://github.iogr%5Cu2503%20ept%20sports%201%20fhd.png" group-title="Portal_2",GR\u2503 EPT SPORTS 1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=699604&extension=ts&play_token=UGPd72TZa1
+http://localhost/ch/699604_
 #EXTINF:-1 tvg-id="GR\u2503 EPT SPORTS 2 FHD" tvg-name="GR\u2503 EPT SPORTS 2 FHD" tvg-logo="https://github.iogr%5Cu2503%20ept%20sports%202%20fhd.png" group-title="Portal_2",GR\u2503 EPT SPORTS 2 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=699605&extension=ts&play_token=Iaq3NLJCAn
+http://localhost/ch/699605_
 #EXTINF:-1 tvg-id="GR\u2503 EPT SPORTS 3 FHD" tvg-name="GR\u2503 EPT SPORTS 3 FHD" tvg-logo="https://github.iogr%5Cu2503%20ept%20sports%203%20fhd.png" group-title="Portal_2",GR\u2503 EPT SPORTS 3 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=866625&extension=ts&play_token=lFlcZMZzq1
+http://localhost/ch/866625_
 #EXTINF:-1 tvg-id="GR\u2503 ERT SPORTS 4 FHD" tvg-name="GR\u2503 ERT SPORTS 4 FHD" tvg-logo="https://github.iogr%5Cu2503%20ert%20sports%204%20fhd.png" group-title="Portal_2",GR\u2503 ERT SPORTS 4 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1648353&extension=ts&play_token=NuoFsPBcBr
+http://localhost/ch/1648353_
 #EXTINF:-1 tvg-id="GR\u2503 FX FHD" tvg-name="GR\u2503 FX FHD" tvg-logo="https://github.iogr%5Cu2503%20fx%20fhd.png" group-title="Portal_2",GR\u2503 FX FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671240&extension=ts&play_token=UMWcgn7U40
+http://localhost/ch/671240_
 #EXTINF:-1 tvg-id="GR\u2503 FX LIFE HD" tvg-name="GR\u2503 FX LIFE HD" tvg-logo="https://github.iogr%5Cu2503%20fx%20life%20hd.png" group-title="Portal_2",GR\u2503 FX LIFE HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671239&extension=ts&play_token=4DwTvzoQfg
+http://localhost/ch/671239_
 #EXTINF:-1 tvg-id="GR\u2503 E! ENTERTAINMENT FHD" tvg-name="GR\u2503 E! ENTERTAINMENT FHD" tvg-logo="https://github.iogr%5Cu2503%20e%21%20entertainment%20fhd.png" group-title="Portal_2",GR\u2503 E! ENTERTAINMENT FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671238&extension=ts&play_token=k9lvSbwwuB
+http://localhost/ch/671238_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA LIFE FHD" tvg-name="GR\u2503 NOVA LIFE FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20life%20fhd.png" group-title="Portal_2",GR\u2503 NOVA LIFE FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671314&extension=ts&play_token=ExVtGQ47vN
+http://localhost/ch/671314_
 #EXTINF:-1 tvg-id="GR\u2503 EPIC DRAMA FHD" tvg-name="GR\u2503 EPIC DRAMA FHD" tvg-logo="https://github.iogr%5Cu2503%20epic%20drama%20fhd.png" group-title="Portal_2",GR\u2503 EPIC DRAMA FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=699929&extension=ts&play_token=scBMI8nbmn
+http://localhost/ch/699929_
 #EXTINF:-1 tvg-id="GR\u2503 HGTV HD" tvg-name="GR\u2503 HGTV HD" tvg-logo="https://github.iogr%5Cu2503%20hgtv%20hd.png" group-title="Portal_2",GR\u2503 HGTV HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1461625&extension=ts&play_token=6RGbkpbAGQ
+http://localhost/ch/1461625_
 #EXTINF:-1 tvg-id="GR\u2503 ACTION 24 FHD" tvg-name="GR\u2503 ACTION 24 FHD" tvg-logo="https://github.iogr%5Cu2503%20action%2024%20fhd.png" group-title="Portal_2",GR\u2503 ACTION 24 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671241&extension=ts&play_token=x6xHk1VzDE
+http://localhost/ch/671241_
 #EXTINF:-1 tvg-id="GR\u2503 TLC FHD" tvg-name="GR\u2503 TLC FHD" tvg-logo="https://github.iogr%5Cu2503%20tlc%20fhd.png" group-title="Portal_2",GR\u2503 TLC FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=699931&extension=ts&play_token=Q0AcIiHOl9
+http://localhost/ch/699931_
 #EXTINF:-1 tvg-id="GR\u2503 INPLUS FHD" tvg-name="GR\u2503 INPLUS FHD" tvg-logo="https://github.iogr%5Cu2503%20inplus%20fhd.png" group-title="Portal_2",GR\u2503 INPLUS FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=699932&extension=ts&play_token=4r6YCCMh8n
+http://localhost/ch/699932_
 #EXTINF:-1 tvg-id="GR\u2503 VILLAGE WORLD" tvg-name="GR\u2503 VILLAGE WORLD" tvg-logo="https://github.iogr%5Cu2503%20village%20world.png" group-title="Portal_2",GR\u2503 VILLAGE WORLD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1187270&extension=ts&play_token=oea3N3RB8F
+http://localhost/ch/1187270_
 #EXTINF:-1 tvg-id="GR\u2503 NAUTICAL CHANNEL FHD" tvg-name="GR\u2503 NAUTICAL CHANNEL FHD" tvg-logo="https://github.iogr%5Cu2503%20nautical%20channel%20fhd.png" group-title="Portal_2",GR\u2503 NAUTICAL CHANNEL FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671286&extension=ts&play_token=XPHIHUBMMt
+http://localhost/ch/671286_
 #EXTINF:-1 tvg-id="GR\u2503 FOOD NETWORK FHD" tvg-name="GR\u2503 FOOD NETWORK FHD" tvg-logo="https://github.iogr%5Cu2503%20food%20network%20fhd.png" group-title="Portal_2",GR\u2503 FOOD NETWORK FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671285&extension=ts&play_token=fdEIEQFTbn
+http://localhost/ch/671285_
 #EXTINF:-1 tvg-id="GR\u2503 TRAVEL CHANNEL FHD" tvg-name="GR\u2503 TRAVEL CHANNEL FHD" tvg-logo="https://github.iogr%5Cu2503%20travel%20channel%20fhd.png" group-title="Portal_2",GR\u2503 TRAVEL CHANNEL FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671284&extension=ts&play_token=JvoF28Cu6s
+http://localhost/ch/671284_
 #EXTINF:-1 tvg-id="GR\u2503 NR1 HD" tvg-name="GR\u2503 NR1 HD" tvg-logo="https://github.iogr%5Cu2503%20nr1%20hd.png" group-title="Portal_2",GR\u2503 NR1 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=724023&extension=ts&play_token=PlZTHkIJKH
+http://localhost/ch/724023_
 #EXTINF:-1 tvg-id="GR\u2503 MAD WORLD" tvg-name="GR\u2503 MAD WORLD" tvg-logo="https://github.iogr%5Cu2503%20mad%20world.png" group-title="Portal_2",GR\u2503 MAD WORLD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1110861&extension=ts&play_token=hwukSMTGFI
+http://localhost/ch/1110861_
 #EXTINF:-1 tvg-id="GR\u2503 MAD GREEKZ HD" tvg-name="GR\u2503 MAD GREEKZ HD" tvg-logo="https://github.iogr%5Cu2503%20mad%20greekz%20hd.png" group-title="Portal_2",GR\u2503 MAD GREEKZ HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671270&extension=ts&play_token=3F84rKXb5v
+http://localhost/ch/671270_
 #EXTINF:-1 tvg-id="GR\u2503 MAD VIRAL HD" tvg-name="GR\u2503 MAD VIRAL HD" tvg-logo="https://github.iogr%5Cu2503%20mad%20viral%20hd.png" group-title="Portal_2",GR\u2503 MAD VIRAL HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671269&extension=ts&play_token=OpEzEdMpeV
+http://localhost/ch/671269_
 #EXTINF:-1 tvg-id="GR\u2503 MAD TV HD" tvg-name="GR\u2503 MAD TV HD" tvg-logo="https://github.iogr%5Cu2503%20mad%20tv%20hd.png" group-title="Portal_2",GR\u2503 MAD TV HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=724038&extension=ts&play_token=b5FfKvFnxr
+http://localhost/ch/724038_
 #EXTINF:-1 tvg-id="GR\u2503 PANIK TV HD" tvg-name="GR\u2503 PANIK TV HD" tvg-logo="https://github.iogr%5Cu2503%20panik%20tv%20hd.png" group-title="Portal_2",GR\u2503 PANIK TV HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=866634&extension=ts&play_token=SPj6BeE42j
+http://localhost/ch/866634_
 #EXTINF:-1 tvg-id="GR\u2503 JUST MUSIC HD" tvg-name="GR\u2503 JUST MUSIC HD" tvg-logo="https://github.iogr%5Cu2503%20just%20music%20hd.png" group-title="Portal_2",GR\u2503 JUST MUSIC HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=866633&extension=ts&play_token=T1xXdKEemj
+http://localhost/ch/866633_
 #EXTINF:-1 tvg-id="GR\u2503 ZONE+ MUSIC RAP" tvg-name="GR\u2503 ZONE+ MUSIC RAP" tvg-logo="https://github.iogr%5Cu2503%20zone%2B%20music%20rap.png" group-title="Portal_2",GR\u2503 ZONE+ MUSIC RAP
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=848515&extension=ts&play_token=YOzsY11qA6
+http://localhost/ch/848515_
 #EXTINF:-1 tvg-id="GR\u2503 ZONE+ MUSIC MIX" tvg-name="GR\u2503 ZONE+ MUSIC MIX" tvg-logo="https://github.iogr%5Cu2503%20zone%2B%20music%20mix.png" group-title="Portal_2",GR\u2503 ZONE+ MUSIC MIX
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=848514&extension=ts&play_token=UYFLSOKVSG
+http://localhost/ch/848514_
 #EXTINF:-1 tvg-id="GR\u2503 ZONE+ MUSIC HOUSE" tvg-name="GR\u2503 ZONE+ MUSIC HOUSE" tvg-logo="https://github.iogr%5Cu2503%20zone%2B%20music%20house.png" group-title="Portal_2",GR\u2503 ZONE+ MUSIC HOUSE
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=848513&extension=ts&play_token=ojgZieq5wd
+http://localhost/ch/848513_
 #EXTINF:-1 tvg-id="GR\u2503 ANT 1 COMEDY HD" tvg-name="GR\u2503 ANT 1 COMEDY HD" tvg-logo="https://github.iogr%5Cu2503%20ant%201%20comedy%20hd.png" group-title="Portal_2",GR\u2503 ANT 1 COMEDY HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671253&extension=ts&play_token=UXCtggQAH1
+http://localhost/ch/671253_
 #EXTINF:-1 tvg-id="GR\u2503 ANT 1 DRAMA HD" tvg-name="GR\u2503 ANT 1 DRAMA HD" tvg-logo="https://github.iogr%5Cu2503%20ant%201%20drama%20hd.png" group-title="Portal_2",GR\u2503 ANT 1 DRAMA HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671252&extension=ts&play_token=zNV9DDUalQ
+http://localhost/ch/671252_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA CINEMA 1 FHD" tvg-name="GR\u2503 MAGENTA CINEMA 1 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20cinema%201%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA CINEMA 1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671365&extension=ts&play_token=g8EMcFmzFR
+http://localhost/ch/671365_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA CINEMA 1 HD" tvg-name="GR\u2503 MAGENTA CINEMA 1 HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20cinema%201%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA CINEMA 1 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671322&extension=ts&play_token=BjcyqhkNq2
+http://localhost/ch/671322_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA CINEMA 2 FHD" tvg-name="GR\u2503 MAGENTA CINEMA 2 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20cinema%202%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA CINEMA 2 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671364&extension=ts&play_token=it0GuphvYT
+http://localhost/ch/671364_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA CINEMA 2 HD" tvg-name="GR\u2503 MAGENTA CINEMA 2 HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20cinema%202%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA CINEMA 2 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671321&extension=ts&play_token=z4xODU9ykb
+http://localhost/ch/671321_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA CINEMA 3 FHD" tvg-name="GR\u2503 MAGENTA CINEMA 3 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20cinema%203%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA CINEMA 3 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671363&extension=ts&play_token=ySOjaMP3TH
+http://localhost/ch/671363_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA CINEMA 3 HD" tvg-name="GR\u2503 MAGENTA CINEMA 3 HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20cinema%203%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA CINEMA 3 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671320&extension=ts&play_token=HZIn7voBJH
+http://localhost/ch/671320_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SERIES FHD" tvg-name="GR\u2503 MAGENTA SERIES FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20series%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SERIES FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671362&extension=ts&play_token=nWOEq5jewL
+http://localhost/ch/671362_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SERIES HD" tvg-name="GR\u2503 MAGENTA SERIES HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20series%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA SERIES HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671324&extension=ts&play_token=wi0JSnleL9
+http://localhost/ch/671324_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA SERIES 2 FHD" tvg-name="GR\u2503 MAGENTA SERIES 2 FHD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20series%202%20fhd.png" group-title="Portal_2",GR\u2503 MAGENTA SERIES 2 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671361&extension=ts&play_token=C39NQSuuqr
+http://localhost/ch/671361_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA CINEMA OSCARS HD" tvg-name="GR\u2503 MAGENTA CINEMA OSCARS HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20cinema%20oscars%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA CINEMA OSCARS HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671326&extension=ts&play_token=v8hyTTqvMF
+http://localhost/ch/671326_
 #EXTINF:-1 tvg-id="GR\u2503 VILLAGE CINEMA FHD" tvg-name="GR\u2503 VILLAGE CINEMA FHD" tvg-logo="https://github.iogr%5Cu2503%20village%20cinema%20fhd.png" group-title="Portal_2",GR\u2503 VILLAGE CINEMA FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671360&extension=ts&play_token=n069raMhFl
+http://localhost/ch/671360_
 #EXTINF:-1 tvg-id="GR\u2503 VILLAGE CINEMA HD" tvg-name="GR\u2503 VILLAGE CINEMA HD" tvg-logo="https://github.iogr%5Cu2503%20village%20cinema%20hd.png" group-title="Portal_2",GR\u2503 VILLAGE CINEMA HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671323&extension=ts&play_token=3B5NwUsDKK
+http://localhost/ch/671323_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA STARS FHD" tvg-name="GR\u2503 NOVA STARS FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20stars%20fhd.png" group-title="Portal_2",GR\u2503 NOVA STARS FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=866630&extension=ts&play_token=ILi0eFUpcP
+http://localhost/ch/866630_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA CINEMA 1 FHD" tvg-name="GR\u2503 NOVA CINEMA 1 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20cinema%201%20fhd.png" group-title="Portal_2",GR\u2503 NOVA CINEMA 1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671359&extension=ts&play_token=5Pd9nQdVM6
+http://localhost/ch/671359_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA CINEMA 1 HD" tvg-name="GR\u2503 NOVA CINEMA 1 HD" tvg-logo="https://github.iogr%5Cu2503%20nova%20cinema%201%20hd.png" group-title="Portal_2",GR\u2503 NOVA CINEMA 1 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671318&extension=ts&play_token=ZqlO6fJwbm
+http://localhost/ch/671318_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA CINEMA 2 FHD" tvg-name="GR\u2503 NOVA CINEMA 2 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20cinema%202%20fhd.png" group-title="Portal_2",GR\u2503 NOVA CINEMA 2 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671358&extension=ts&play_token=2BH4uvHHDn
+http://localhost/ch/671358_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA CINEMA 2 HD" tvg-name="GR\u2503 NOVA CINEMA 2 HD" tvg-logo="https://github.iogr%5Cu2503%20nova%20cinema%202%20hd.png" group-title="Portal_2",GR\u2503 NOVA CINEMA 2 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671317&extension=ts&play_token=UIHFvcyLBz
+http://localhost/ch/671317_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA CINEMA 3 FHD" tvg-name="GR\u2503 NOVA CINEMA 3 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20cinema%203%20fhd.png" group-title="Portal_2",GR\u2503 NOVA CINEMA 3 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671357&extension=ts&play_token=RwGHyJWiyD
+http://localhost/ch/671357_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA CINEMA 3 HD" tvg-name="GR\u2503 NOVA CINEMA 3 HD" tvg-logo="https://github.iogr%5Cu2503%20nova%20cinema%203%20hd.png" group-title="Portal_2",GR\u2503 NOVA CINEMA 3 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671316&extension=ts&play_token=bgobkn8Yj4
+http://localhost/ch/671316_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA CINEMA 4 FHD" tvg-name="GR\u2503 NOVA CINEMA 4 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20cinema%204%20fhd.png" group-title="Portal_2",GR\u2503 NOVA CINEMA 4 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671356&extension=ts&play_token=sDZXC23Hy4
+http://localhost/ch/671356_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA CINEMA 4 HD" tvg-name="GR\u2503 NOVA CINEMA 4 HD" tvg-logo="https://github.iogr%5Cu2503%20nova%20cinema%204%20hd.png" group-title="Portal_2",GR\u2503 NOVA CINEMA 4 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671315&extension=ts&play_token=fpkGBsGQH8
+http://localhost/ch/671315_
 #EXTINF:-1 tvg-id="GR\u2503 CINE GREEK OLD 1" tvg-name="GR\u2503 CINE GREEK OLD 1" tvg-logo="https://github.iogr%5Cu2503%20cine%20greek%20old%201.png" group-title="Portal_2",GR\u2503 CINE GREEK OLD 1
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=712896&extension=ts&play_token=vKTVknkLah
+http://localhost/ch/712896_
 #EXTINF:-1 tvg-id="GR\u2503 CINE GREEK OLD 2" tvg-name="GR\u2503 CINE GREEK OLD 2" tvg-logo="https://github.iogr%5Cu2503%20cine%20greek%20old%202.png" group-title="Portal_2",GR\u2503 CINE GREEK OLD 2
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=712897&extension=ts&play_token=RfhCbmZ1LZ
+http://localhost/ch/712897_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a3\u03c4\u03ac\u03b8\u03b7\u03c2 \u03a8\u03ac\u03bb\u03c4\u03b7\u03c2" tvg-name="GR\u2503 \u03a3\u03c4\u03ac\u03b8\u03b7\u03c2 \u03a8\u03ac\u03bb\u03c4\u03b7\u03c2" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a3%5Cu03c4%5Cu03ac%5Cu03b8%5Cu03b7%5Cu03c2%20%5Cu03a8%5Cu03ac%5Cu03bb%5Cu03c4%5Cu03b7%5Cu03c2.png" group-title="Portal_2",GR\u2503 \u03a3\u03c4\u03ac\u03b8\u03b7\u03c2 \u03a8\u03ac\u03bb\u03c4\u03b7\u03c2
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671479&extension=ts&play_token=PEBiys93dW
+http://localhost/ch/671479_
 #EXTINF:-1 tvg-id="GR\u2503 TCM 4K" tvg-name="GR\u2503 TCM 4K" tvg-logo="https://github.iogr%5Cu2503%20tcm%204k.png" group-title="Portal_2",GR\u2503 TCM 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671354&extension=ts&play_token=Angzja9bAv
+http://localhost/ch/671354_
 #EXTINF:-1 tvg-id="GR\u2503 TCM HD" tvg-name="GR\u2503 TCM HD" tvg-logo="https://github.iogr%5Cu2503%20tcm%20hd.png" group-title="Portal_2",GR\u2503 TCM HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671313&extension=ts&play_token=ohHe38dZxb
+http://localhost/ch/671313_
 #EXTINF:-1 tvg-id="GR\u2503 \u0392\u0399\u03a4\u03a1\u038a\u039d\u0391 NOVA PREMIERE 4K" tvg-name="GR\u2503 \u0392\u0399\u03a4\u03a1\u038a\u039d\u0391 NOVA PREMIERE 4K" tvg-logo="https://github.iogr%5Cu2503%20%5Cu0392%5Cu0399%5Cu03a4%5Cu03a1%5Cu038a%5Cu039d%5Cu0391%20nova%20premiere%204k.png" group-title="Portal_2",GR\u2503 \u0392\u0399\u03a4\u03a1\u038a\u039d\u0391 NOVA PREMIERE 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168691&extension=ts&play_token=Ejal1EUj8d
+http://localhost/ch/1168691_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 1 4K (MULTI)" tvg-name="GR\u2503 NOVA PREMIERE 1 4K (MULTI)" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%201%204k%20%28multi%29.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 1 4K (MULTI)
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168692&extension=ts&play_token=BDX1N5PEDh
+http://localhost/ch/1168692_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 2 4K (MULTI)" tvg-name="GR\u2503 NOVA PREMIERE 2 4K (MULTI)" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%202%204k%20%28multi%29.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 2 4K (MULTI)
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168693&extension=ts&play_token=EKYIfrICrB
+http://localhost/ch/1168693_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 3 4K (MULTI)" tvg-name="GR\u2503 NOVA PREMIERE 3 4K (MULTI)" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%203%204k%20%28multi%29.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 3 4K (MULTI)
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168694&extension=ts&play_token=2hWfFpBt8E
+http://localhost/ch/1168694_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 4 4K (MULTI)" tvg-name="GR\u2503 NOVA PREMIERE 4 4K (MULTI)" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%204%204k%20%28multi%29.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 4 4K (MULTI)
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168695&extension=ts&play_token=R8sdDpPuqE
+http://localhost/ch/1168695_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 5 4K (MULTI)" tvg-name="GR\u2503 NOVA PREMIERE 5 4K (MULTI)" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%205%204k%20%28multi%29.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 5 4K (MULTI)
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168696&extension=ts&play_token=U5KNfwFFlR
+http://localhost/ch/1168696_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 6 4K (MULTI)" tvg-name="GR\u2503 NOVA PREMIERE 6 4K (MULTI)" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%206%204k%20%28multi%29.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 6 4K (MULTI)
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168697&extension=ts&play_token=FvDBeHCzCQ
+http://localhost/ch/1168697_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 7 4K (MULTI)" tvg-name="GR\u2503 NOVA PREMIERE 7 4K (MULTI)" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%207%204k%20%28multi%29.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 7 4K (MULTI)
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168698&extension=ts&play_token=zGI3XQAYQS
+http://localhost/ch/1168698_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 8 4K (MULTI)" tvg-name="GR\u2503 NOVA PREMIERE 8 4K (MULTI)" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%208%204k%20%28multi%29.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 8 4K (MULTI)
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168699&extension=ts&play_token=dP1cnGXUY8
+http://localhost/ch/1168699_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 9 4K (MULTI)" tvg-name="GR\u2503 NOVA PREMIERE 9 4K (MULTI)" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%209%204k%20%28multi%29.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 9 4K (MULTI)
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168700&extension=ts&play_token=kBEpIdje2W
+http://localhost/ch/1168700_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 1 FHD" tvg-name="GR\u2503 NOVA PREMIERE 1 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%201%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168701&extension=ts&play_token=6qWIK2lGZU
+http://localhost/ch/1168701_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 2 FHD" tvg-name="GR\u2503 NOVA PREMIERE 2 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%202%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 2 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168702&extension=ts&play_token=ycsGGqovta
+http://localhost/ch/1168702_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 3 FHD" tvg-name="GR\u2503 NOVA PREMIERE 3 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%203%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 3 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168703&extension=ts&play_token=9v5GevJDSa
+http://localhost/ch/1168703_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 4 FHD" tvg-name="GR\u2503 NOVA PREMIERE 4 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%204%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 4 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168704&extension=ts&play_token=bAxy9CCnLK
+http://localhost/ch/1168704_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 5 FHD" tvg-name="GR\u2503 NOVA PREMIERE 5 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%205%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 5 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168705&extension=ts&play_token=ZMArnhT1Ae
+http://localhost/ch/1168705_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 6 FHD" tvg-name="GR\u2503 NOVA PREMIERE 6 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%206%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 6 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168706&extension=ts&play_token=kTMRv7oN8o
+http://localhost/ch/1168706_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 7 FHD" tvg-name="GR\u2503 NOVA PREMIERE 7 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%207%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 7 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168707&extension=ts&play_token=we6WOXFCVc
+http://localhost/ch/1168707_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 8 FHD" tvg-name="GR\u2503 NOVA PREMIERE 8 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%208%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 8 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168708&extension=ts&play_token=oUnW2WILlc
+http://localhost/ch/1168708_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 9 FHD" tvg-name="GR\u2503 NOVA PREMIERE 9 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%209%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 9 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168709&extension=ts&play_token=lY5zVUFt1J
+http://localhost/ch/1168709_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 10 FHD" tvg-name="GR\u2503 NOVA PREMIERE 10 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%2010%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 10 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168710&extension=ts&play_token=7RCvTcpMz5
+http://localhost/ch/1168710_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 11 FHD" tvg-name="GR\u2503 NOVA PREMIERE 11 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%2011%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 11 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168711&extension=ts&play_token=jpTRoMF2U7
+http://localhost/ch/1168711_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 12 FHD" tvg-name="GR\u2503 NOVA PREMIERE 12 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%2012%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 12 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168712&extension=ts&play_token=QjDJPC2USB
+http://localhost/ch/1168712_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 13 FHD" tvg-name="GR\u2503 NOVA PREMIERE 13 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%2013%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 13 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168713&extension=ts&play_token=VvbAkq0VHX
+http://localhost/ch/1168713_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 14 FHD" tvg-name="GR\u2503 NOVA PREMIERE 14 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%2014%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 14 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168714&extension=ts&play_token=GKSvvSJFCq
+http://localhost/ch/1168714_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 15 FHD" tvg-name="GR\u2503 NOVA PREMIERE 15 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%2015%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 15 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168715&extension=ts&play_token=fHNXPgEED0
+http://localhost/ch/1168715_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 16 FHD" tvg-name="GR\u2503 NOVA PREMIERE 16 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%2016%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 16 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168716&extension=ts&play_token=h78DmtaKkF
+http://localhost/ch/1168716_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 17 FHD" tvg-name="GR\u2503 NOVA PREMIERE 17 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%2017%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 17 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168717&extension=ts&play_token=d3AgsjieyA
+http://localhost/ch/1168717_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE 18 FHD" tvg-name="GR\u2503 NOVA PREMIERE 18 FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%2018%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE 18 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168718&extension=ts&play_token=SYmhftSz2V
+http://localhost/ch/1168718_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE ACTION FHD" tvg-name="GR\u2503 NOVA PREMIERE ACTION FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20action%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE ACTION FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168722&extension=ts&play_token=5ISn9n58lG
+http://localhost/ch/1168722_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE ADVENTURE FHD" tvg-name="GR\u2503 NOVA PREMIERE ADVENTURE FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20adventure%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE ADVENTURE FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168724&extension=ts&play_token=bvwTzSyIPU
+http://localhost/ch/1168724_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE ANIMATION FHD" tvg-name="GR\u2503 NOVA PREMIERE ANIMATION FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20animation%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE ANIMATION FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168723&extension=ts&play_token=1E6PNum7Z7
+http://localhost/ch/1168723_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE BIOGRAPHY FHD" tvg-name="GR\u2503 NOVA PREMIERE BIOGRAPHY FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20biography%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE BIOGRAPHY FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168731&extension=ts&play_token=VgbrDWzVnw
+http://localhost/ch/1168731_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE COMEDY FHD" tvg-name="GR\u2503 NOVA PREMIERE COMEDY FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20comedy%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE COMEDY FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168721&extension=ts&play_token=yCY2kLBg8X
+http://localhost/ch/1168721_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE DRAMA FHD" tvg-name="GR\u2503 NOVA PREMIERE DRAMA FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20drama%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE DRAMA FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168726&extension=ts&play_token=sW1s8TXT0u
+http://localhost/ch/1168726_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE FANTASY FHD" tvg-name="GR\u2503 NOVA PREMIERE FANTASY FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20fantasy%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE FANTASY FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168720&extension=ts&play_token=Asmkm6qqHM
+http://localhost/ch/1168720_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE HELLENIC FHD" tvg-name="GR\u2503 NOVA PREMIERE HELLENIC FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20hellenic%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE HELLENIC FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168730&extension=ts&play_token=TurGaEQ8q7
+http://localhost/ch/1168730_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE HISTORY FHD" tvg-name="GR\u2503 NOVA PREMIERE HISTORY FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20history%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE HISTORY FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168729&extension=ts&play_token=06QbyqkQQG
+http://localhost/ch/1168729_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE HORROR FHD" tvg-name="GR\u2503 NOVA PREMIERE HORROR FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20horror%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE HORROR FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168728&extension=ts&play_token=GH9or3pUgv
+http://localhost/ch/1168728_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE MYTHOLOGY FHD" tvg-name="GR\u2503 NOVA PREMIERE MYTHOLOGY FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20mythology%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE MYTHOLOGY FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168734&extension=ts&play_token=mzr4acmdMo
+http://localhost/ch/1168734_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE PASSION FHD" tvg-name="GR\u2503 NOVA PREMIERE PASSION FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20passion%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE PASSION FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168727&extension=ts&play_token=c8Pqb2DNsK
+http://localhost/ch/1168727_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE SCI-FI FHD" tvg-name="GR\u2503 NOVA PREMIERE SCI-FI FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20sci-fi%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE SCI-FI FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168732&extension=ts&play_token=ANXECKa07v
+http://localhost/ch/1168732_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE STARZ FHD" tvg-name="GR\u2503 NOVA PREMIERE STARZ FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20starz%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE STARZ FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168719&extension=ts&play_token=dEYa2xnc6K
+http://localhost/ch/1168719_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE THRILLER FHD" tvg-name="GR\u2503 NOVA PREMIERE THRILLER FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20thriller%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE THRILLER FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168725&extension=ts&play_token=5pCpWC8MBa
+http://localhost/ch/1168725_
 #EXTINF:-1 tvg-id="GR\u2503 NOVA PREMIERE WESTERN FHD" tvg-name="GR\u2503 NOVA PREMIERE WESTERN FHD" tvg-logo="https://github.iogr%5Cu2503%20nova%20premiere%20western%20fhd.png" group-title="Portal_2",GR\u2503 NOVA PREMIERE WESTERN FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168733&extension=ts&play_token=SrsOFFHBcD
+http://localhost/ch/1168733_
 #EXTINF:-1 tvg-id="GR\u2503 VIP GREEK CINEMA 50S 1" tvg-name="GR\u2503 VIP GREEK CINEMA 50S 1" tvg-logo="https://github.iogr%5Cu2503%20vip%20greek%20cinema%2050s%201.png" group-title="Portal_2",GR\u2503 VIP GREEK CINEMA 50S 1
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168737&extension=ts&play_token=QatxH9QprM
+http://localhost/ch/1168737_
 #EXTINF:-1 tvg-id="GR\u2503 VIP GREEK CINEMA 50S 2" tvg-name="GR\u2503 VIP GREEK CINEMA 50S 2" tvg-logo="https://github.iogr%5Cu2503%20vip%20greek%20cinema%2050s%202.png" group-title="Portal_2",GR\u2503 VIP GREEK CINEMA 50S 2
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168738&extension=ts&play_token=VJ5d5sVkLC
+http://localhost/ch/1168738_
 #EXTINF:-1 tvg-id="GR\u2503 VIP GREEK CINEMA 60S 1" tvg-name="GR\u2503 VIP GREEK CINEMA 60S 1" tvg-logo="https://github.iogr%5Cu2503%20vip%20greek%20cinema%2060s%201.png" group-title="Portal_2",GR\u2503 VIP GREEK CINEMA 60S 1
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168739&extension=ts&play_token=ed2bvpj5RE
+http://localhost/ch/1168739_
 #EXTINF:-1 tvg-id="GR\u2503 VIP GREEK CINEMA 60S 2" tvg-name="GR\u2503 VIP GREEK CINEMA 60S 2" tvg-logo="https://github.iogr%5Cu2503%20vip%20greek%20cinema%2060s%202.png" group-title="Portal_2",GR\u2503 VIP GREEK CINEMA 60S 2
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168740&extension=ts&play_token=OakZJJoEdc
+http://localhost/ch/1168740_
 #EXTINF:-1 tvg-id="GR\u2503 VIP GREEK CINEMA 60S 3" tvg-name="GR\u2503 VIP GREEK CINEMA 60S 3" tvg-logo="https://github.iogr%5Cu2503%20vip%20greek%20cinema%2060s%203.png" group-title="Portal_2",GR\u2503 VIP GREEK CINEMA 60S 3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168741&extension=ts&play_token=U9g784glp8
+http://localhost/ch/1168741_
 #EXTINF:-1 tvg-id="GR\u2503 VIP GREEK CINEMA 70S 1" tvg-name="GR\u2503 VIP GREEK CINEMA 70S 1" tvg-logo="https://github.iogr%5Cu2503%20vip%20greek%20cinema%2070s%201.png" group-title="Portal_2",GR\u2503 VIP GREEK CINEMA 70S 1
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168742&extension=ts&play_token=F8shYwKSVf
+http://localhost/ch/1168742_
 #EXTINF:-1 tvg-id="GR\u2503 VIP GREEK CINEMA 70S 2" tvg-name="GR\u2503 VIP GREEK CINEMA 70S 2" tvg-logo="https://github.iogr%5Cu2503%20vip%20greek%20cinema%2070s%202.png" group-title="Portal_2",GR\u2503 VIP GREEK CINEMA 70S 2
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168743&extension=ts&play_token=3ASJIOGh4X
+http://localhost/ch/1168743_
 #EXTINF:-1 tvg-id="GR\u2503 VIP GREEK CINEMA 70S 3" tvg-name="GR\u2503 VIP GREEK CINEMA 70S 3" tvg-logo="https://github.iogr%5Cu2503%20vip%20greek%20cinema%2070s%203.png" group-title="Portal_2",GR\u2503 VIP GREEK CINEMA 70S 3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168744&extension=ts&play_token=iKVVVCrRGj
+http://localhost/ch/1168744_
 #EXTINF:-1 tvg-id="GR\u2503 VIP GREEK CINEMA 80S 1" tvg-name="GR\u2503 VIP GREEK CINEMA 80S 1" tvg-logo="https://github.iogr%5Cu2503%20vip%20greek%20cinema%2080s%201.png" group-title="Portal_2",GR\u2503 VIP GREEK CINEMA 80S 1
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168745&extension=ts&play_token=LDg7MvykMr
+http://localhost/ch/1168745_
 #EXTINF:-1 tvg-id="GR\u2503 VIP GREEK CINEMA 80S 2" tvg-name="GR\u2503 VIP GREEK CINEMA 80S 2" tvg-logo="https://github.iogr%5Cu2503%20vip%20greek%20cinema%2080s%202.png" group-title="Portal_2",GR\u2503 VIP GREEK CINEMA 80S 2
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168746&extension=ts&play_token=q5vOuykbnG
+http://localhost/ch/1168746_
 #EXTINF:-1 tvg-id="GR\u2503 VIP GREEK CINEMA 80S 3" tvg-name="GR\u2503 VIP GREEK CINEMA 80S 3" tvg-logo="https://github.iogr%5Cu2503%20vip%20greek%20cinema%2080s%203.png" group-title="Portal_2",GR\u2503 VIP GREEK CINEMA 80S 3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168747&extension=ts&play_token=ZclZjZp7yd
+http://localhost/ch/1168747_
 #EXTINF:-1 tvg-id="GR\u2503 VIP GREEK CINEMA 90S 1" tvg-name="GR\u2503 VIP GREEK CINEMA 90S 1" tvg-logo="https://github.iogr%5Cu2503%20vip%20greek%20cinema%2090s%201.png" group-title="Portal_2",GR\u2503 VIP GREEK CINEMA 90S 1
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168736&extension=ts&play_token=cyJ6cgwZ57
+http://localhost/ch/1168736_
 #EXTINF:-1 tvg-id="GR\u2503 VIP GREEK CINEMA 90S 2" tvg-name="GR\u2503 VIP GREEK CINEMA 90S 2" tvg-logo="https://github.iogr%5Cu2503%20vip%20greek%20cinema%2090s%202.png" group-title="Portal_2",GR\u2503 VIP GREEK CINEMA 90S 2
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168735&extension=ts&play_token=dT7NztdXGO
+http://localhost/ch/1168735_
 #EXTINF:-1 tvg-id="GR\u2503 VIP GREEK CINEMA USA" tvg-name="GR\u2503 VIP GREEK CINEMA USA" tvg-logo="https://github.iogr%5Cu2503%20vip%20greek%20cinema%20usa.png" group-title="Portal_2",GR\u2503 VIP GREEK CINEMA USA
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1168748&extension=ts&play_token=Nvh3oE6e0o
+http://localhost/ch/1168748_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 1" tvg-name="GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 1" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a0%5Cu0391%5Cu039b%5Cu0399%5Cu0395%5Cu03a3%20%5Cu0395%5Cu039b%5Cu039b%5Cu0397%5Cu039d%5Cu0399%5Cu039a%5Cu0395%5Cu03a3%20%5Cu03a4%5Cu0391%5Cu0399%5Cu039d%5Cu0399%5Cu0395%5Cu03a3%201.png" group-title="Portal_2",GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 1
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154014&extension=ts&play_token=C8ZLCY2YxR
+http://localhost/ch/1154014_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 2" tvg-name="GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 2" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a0%5Cu0391%5Cu039b%5Cu0399%5Cu0395%5Cu03a3%20%5Cu0395%5Cu039b%5Cu039b%5Cu0397%5Cu039d%5Cu0399%5Cu039a%5Cu0395%5Cu03a3%20%5Cu03a4%5Cu0391%5Cu0399%5Cu039d%5Cu0399%5Cu0395%5Cu03a3%202.png" group-title="Portal_2",GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 2
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154015&extension=ts&play_token=c0FYdpy1P6
+http://localhost/ch/1154015_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 3" tvg-name="GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a0%5Cu0391%5Cu039b%5Cu0399%5Cu0395%5Cu03a3%20%5Cu0395%5Cu039b%5Cu039b%5Cu0397%5Cu039d%5Cu0399%5Cu039a%5Cu0395%5Cu03a3%20%5Cu03a4%5Cu0391%5Cu0399%5Cu039d%5Cu0399%5Cu0395%5Cu03a3%203.png" group-title="Portal_2",GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154016&extension=ts&play_token=WOntKuEBGP
+http://localhost/ch/1154016_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 4" tvg-name="GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 4" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a0%5Cu0391%5Cu039b%5Cu0399%5Cu0395%5Cu03a3%20%5Cu0395%5Cu039b%5Cu039b%5Cu0397%5Cu039d%5Cu0399%5Cu039a%5Cu0395%5Cu03a3%20%5Cu03a4%5Cu0391%5Cu0399%5Cu039d%5Cu0399%5Cu0395%5Cu03a3%204.png" group-title="Portal_2",GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 4
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154017&extension=ts&play_token=aRpCvy7LB4
+http://localhost/ch/1154017_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 5" tvg-name="GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 5" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a0%5Cu0391%5Cu039b%5Cu0399%5Cu0395%5Cu03a3%20%5Cu0395%5Cu039b%5Cu039b%5Cu0397%5Cu039d%5Cu0399%5Cu039a%5Cu0395%5Cu03a3%20%5Cu03a4%5Cu0391%5Cu0399%5Cu039d%5Cu0399%5Cu0395%5Cu03a3%205.png" group-title="Portal_2",GR\u2503 \u03a0\u0391\u039b\u0399\u0395\u03a3 \u0395\u039b\u039b\u0397\u039d\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 5
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154018&extension=ts&play_token=ODMb5eazyx
+http://localhost/ch/1154018_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a0\u0391\u0399\u0394\u0399\u039a\u0395\u03a3 1" tvg-name="GR\u2503 \u03a0\u0391\u0399\u0394\u0399\u039a\u0395\u03a3 1" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a0%5Cu0391%5Cu0399%5Cu0394%5Cu0399%5Cu039a%5Cu0395%5Cu03a3%201.png" group-title="Portal_2",GR\u2503 \u03a0\u0391\u0399\u0394\u0399\u039a\u0395\u03a3 1
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154026&extension=ts&play_token=EImEI3kxvE
+http://localhost/ch/1154026_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a0\u0391\u0399\u0394\u0399\u039a\u0395\u03a3 2" tvg-name="GR\u2503 \u03a0\u0391\u0399\u0394\u0399\u039a\u0395\u03a3 2" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a0%5Cu0391%5Cu0399%5Cu0394%5Cu0399%5Cu039a%5Cu0395%5Cu03a3%202.png" group-title="Portal_2",GR\u2503 \u03a0\u0391\u0399\u0394\u0399\u039a\u0395\u03a3 2
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154027&extension=ts&play_token=GU4pZKCulC
+http://localhost/ch/1154027_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a0\u0391\u0399\u0394\u0399\u039a\u0395\u03a3 3" tvg-name="GR\u2503 \u03a0\u0391\u0399\u0394\u0399\u039a\u0395\u03a3 3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a0%5Cu0391%5Cu0399%5Cu0394%5Cu0399%5Cu039a%5Cu0395%5Cu03a3%203.png" group-title="Portal_2",GR\u2503 \u03a0\u0391\u0399\u0394\u0399\u039a\u0395\u03a3 3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154028&extension=ts&play_token=9ephQdxUxn
+http://localhost/ch/1154028_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a0\u0395\u03a1\u0399\u03a0\u0395\u03a4\u0395\u0399\u0395\u03a3" tvg-name="GR\u2503 \u03a0\u0395\u03a1\u0399\u03a0\u0395\u03a4\u0395\u0399\u0395\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a0%5Cu0395%5Cu03a1%5Cu0399%5Cu03a0%5Cu0395%5Cu03a4%5Cu0395%5Cu0399%5Cu0395%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u03a0\u0395\u03a1\u0399\u03a0\u0395\u03a4\u0395\u0399\u0395\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154020&extension=ts&play_token=EGuNoLUtfC
+http://localhost/ch/1154020_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a0\u03a1\u0395\u039c\u0399\u0395\u03a1\u0395\u03a3" tvg-name="GR\u2503 \u03a0\u03a1\u0395\u039c\u0399\u0395\u03a1\u0395\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a0%5Cu03a1%5Cu0395%5Cu039c%5Cu0399%5Cu0395%5Cu03a1%5Cu0395%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u03a0\u03a1\u0395\u039c\u0399\u0395\u03a1\u0395\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154036&extension=ts&play_token=owaBxgTCyN
+http://localhost/ch/1154036_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a1\u039f\u039c\u0391\u039d\u03a4\u0399\u039a\u0395\u03a3" tvg-name="GR\u2503 \u03a1\u039f\u039c\u0391\u039d\u03a4\u0399\u039a\u0395\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a1%5Cu039f%5Cu039c%5Cu0391%5Cu039d%5Cu03a4%5Cu0399%5Cu039a%5Cu0395%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u03a1\u039f\u039c\u0391\u039d\u03a4\u0399\u039a\u0395\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154033&extension=ts&play_token=I55DKQ1ofK
+http://localhost/ch/1154033_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a3\u0392\u0391\u03a1\u03a4\u03a3\u0395\u039d\u0395\u0393\u039a\u0395\u03a1 FHD" tvg-name="GR\u2503 \u03a3\u0392\u0391\u03a1\u03a4\u03a3\u0395\u039d\u0395\u0393\u039a\u0395\u03a1 FHD" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a3%5Cu0392%5Cu0391%5Cu03a1%5Cu03a4%5Cu03a3%5Cu0395%5Cu039d%5Cu0395%5Cu0393%5Cu039a%5Cu0395%5Cu03a1%20fhd.png" group-title="Portal_2",GR\u2503 \u03a3\u0392\u0391\u03a1\u03a4\u03a3\u0395\u039d\u0395\u0393\u039a\u0395\u03a1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154005&extension=ts&play_token=hKZmbMCH9n
+http://localhost/ch/1154005_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a3\u03a4\u0391\u039b\u039f\u039d\u0395 FHD" tvg-name="GR\u2503 \u03a3\u03a4\u0391\u039b\u039f\u039d\u0395 FHD" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a3%5Cu03a4%5Cu0391%5Cu039b%5Cu039f%5Cu039d%5Cu0395%20fhd.png" group-title="Portal_2",GR\u2503 \u03a3\u03a4\u0391\u039b\u039f\u039d\u0395 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154006&extension=ts&play_token=FAHW2TWk5I
+http://localhost/ch/1154006_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 \u039f\u03a3\u039a\u0391\u03a1 FHD" tvg-name="GR\u2503 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 \u039f\u03a3\u039a\u0391\u03a1 FHD" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a4%5Cu0391%5Cu0399%5Cu039d%5Cu0399%5Cu0395%5Cu03a3%20%5Cu039f%5Cu03a3%5Cu039a%5Cu0391%5Cu03a1%20fhd.png" group-title="Portal_2",GR\u2503 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3 \u039f\u03a3\u039a\u0391\u03a1 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154037&extension=ts&play_token=UeM32D0043
+http://localhost/ch/1154037_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a4\u0396\u0391\u039a\u0399 \u03a4\u03a3\u0391\u039d FHD" tvg-name="GR\u2503 \u03a4\u0396\u0391\u039a\u0399 \u03a4\u03a3\u0391\u039d FHD" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a4%5Cu0396%5Cu0391%5Cu039a%5Cu0399%20%5Cu03a4%5Cu03a3%5Cu0391%5Cu039d%20fhd.png" group-title="Portal_2",GR\u2503 \u03a4\u0396\u0391\u039a\u0399 \u03a4\u03a3\u0391\u039d FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154007&extension=ts&play_token=FXBvGdTAzh
+http://localhost/ch/1154007_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a4\u03a1\u039f\u039c\u039f\u03a5" tvg-name="GR\u2503 \u03a4\u03a1\u039f\u039c\u039f\u03a5" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a4%5Cu03a1%5Cu039f%5Cu039c%5Cu039f%5Cu03a5.png" group-title="Portal_2",GR\u2503 \u03a4\u03a1\u039f\u039c\u039f\u03a5
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154029&extension=ts&play_token=Tj64OvXqmE
+http://localhost/ch/1154029_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a6\u0391\u039d\u03a4\u0391\u03a3\u0399\u0391\u03a3" tvg-name="GR\u2503 \u03a6\u0391\u039d\u03a4\u0391\u03a3\u0399\u0391\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a6%5Cu0391%5Cu039d%5Cu03a4%5Cu0391%5Cu03a3%5Cu0399%5Cu0391%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u03a6\u0391\u039d\u03a4\u0391\u03a3\u0399\u0391\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154030&extension=ts&play_token=ILS3UMxm0y
+http://localhost/ch/1154030_
 #EXTINF:-1 tvg-id="GR\u2503 ANIME HD" tvg-name="GR\u2503 ANIME HD" tvg-logo="https://github.iogr%5Cu2503%20anime%20hd.png" group-title="Portal_2",GR\u2503 ANIME HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154003&extension=ts&play_token=VVtWGMf3z6
+http://localhost/ch/1154003_
 #EXTINF:-1 tvg-id="GR\u2503 BOLLYWOOD" tvg-name="GR\u2503 BOLLYWOOD" tvg-logo="https://github.iogr%5Cu2503%20bollywood.png" group-title="Portal_2",GR\u2503 BOLLYWOOD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154013&extension=ts&play_token=eyArH8jvIg
+http://localhost/ch/1154013_
 #EXTINF:-1 tvg-id="GR\u2503 DC TV FHD" tvg-name="GR\u2503 DC TV FHD" tvg-logo="https://github.iogr%5Cu2503%20dc%20tv%20fhd.png" group-title="Portal_2",GR\u2503 DC TV FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154010&extension=ts&play_token=s590ELC5sH
+http://localhost/ch/1154010_
 #EXTINF:-1 tvg-id="GR\u2503 MARVEL TV FHD" tvg-name="GR\u2503 MARVEL TV FHD" tvg-logo="https://github.iogr%5Cu2503%20marvel%20tv%20fhd.png" group-title="Portal_2",GR\u2503 MARVEL TV FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154011&extension=ts&play_token=W12BUpqRPt
+http://localhost/ch/1154011_
 #EXTINF:-1 tvg-id="GR\u2503 \u0392\u0399\u039f\u0393\u03a1\u0391\u03a6\u0399\u0395\u03a3" tvg-name="GR\u2503 \u0392\u0399\u039f\u0393\u03a1\u0391\u03a6\u0399\u0395\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu0392%5Cu0399%5Cu039f%5Cu0393%5Cu03a1%5Cu0391%5Cu03a6%5Cu0399%5Cu0395%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u0392\u0399\u039f\u0393\u03a1\u0391\u03a6\u0399\u0395\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154031&extension=ts&play_token=qjG3A469MM
+http://localhost/ch/1154031_
 #EXTINF:-1 tvg-id="GR\u2503 \u0394\u03a1\u0391\u039c\u0391\u03a4\u0399\u039a\u0395\u03a3" tvg-name="GR\u2503 \u0394\u03a1\u0391\u039c\u0391\u03a4\u0399\u039a\u0395\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu0394%5Cu03a1%5Cu0391%5Cu039c%5Cu0391%5Cu03a4%5Cu0399%5Cu039a%5Cu0395%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u0394\u03a1\u0391\u039c\u0391\u03a4\u0399\u039a\u0395\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154024&extension=ts&play_token=ycol2ghKQU
+http://localhost/ch/1154024_
 #EXTINF:-1 tvg-id="GR\u2503 \u0394\u03a1\u0391\u03a3\u0397\u03a3" tvg-name="GR\u2503 \u0394\u03a1\u0391\u03a3\u0397\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu0394%5Cu03a1%5Cu0391%5Cu03a3%5Cu0397%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u0394\u03a1\u0391\u03a3\u0397\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154019&extension=ts&play_token=5oEzSdG12b
+http://localhost/ch/1154019_
 #EXTINF:-1 tvg-id="GR\u2503 \u0395\u0393\u039a\u039b\u0397\u039c\u0391\u03a4\u039f\u03a3" tvg-name="GR\u2503 \u0395\u0393\u039a\u039b\u0397\u039c\u0391\u03a4\u039f\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu0395%5Cu0393%5Cu039a%5Cu039b%5Cu0397%5Cu039c%5Cu0391%5Cu03a4%5Cu039f%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u0395\u0393\u039a\u039b\u0397\u039c\u0391\u03a4\u039f\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154022&extension=ts&play_token=uIVKt46xJ8
+http://localhost/ch/1154022_
 #EXTINF:-1 tvg-id="GR\u2503 \u0395\u03a0\u0399\u03a3\u03a4. \u03a6\u0391\u039d\u03a4\u0391\u03a3\u0399\u0391\u03a3" tvg-name="GR\u2503 \u0395\u03a0\u0399\u03a3\u03a4. \u03a6\u0391\u039d\u03a4\u0391\u03a3\u0399\u0391\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu0395%5Cu03a0%5Cu0399%5Cu03a3%5Cu03a4.%20%5Cu03a6%5Cu0391%5Cu039d%5Cu03a4%5Cu0391%5Cu03a3%5Cu0399%5Cu0391%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u0395\u03a0\u0399\u03a3\u03a4. \u03a6\u0391\u039d\u03a4\u0391\u03a3\u0399\u0391\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154035&extension=ts&play_token=7Cou2jEVyt
+http://localhost/ch/1154035_
 #EXTINF:-1 tvg-id="GR\u2503 \u0398\u0395\u0391\u03a4\u03a1\u039f HD" tvg-name="GR\u2503 \u0398\u0395\u0391\u03a4\u03a1\u039f HD" tvg-logo="https://github.iogr%5Cu2503%20%5Cu0398%5Cu0395%5Cu0391%5Cu03a4%5Cu03a1%5Cu039f%20hd.png" group-title="Portal_2",GR\u2503 \u0398\u0395\u0391\u03a4\u03a1\u039f HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154004&extension=ts&play_token=kg80Wl5rns
+http://localhost/ch/1154004_
 #EXTINF:-1 tvg-id="GR\u2503 \u0398\u03a1\u0397\u03a3\u039a\u0395\u03a5\u03a4\u0399\u039a\u0395\u03a3" tvg-name="GR\u2503 \u0398\u03a1\u0397\u03a3\u039a\u0395\u03a5\u03a4\u0399\u039a\u0395\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu0398%5Cu03a1%5Cu0397%5Cu03a3%5Cu039a%5Cu0395%5Cu03a5%5Cu03a4%5Cu0399%5Cu039a%5Cu0395%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u0398\u03a1\u0397\u03a3\u039a\u0395\u03a5\u03a4\u0399\u039a\u0395\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154012&extension=ts&play_token=ppx0XLhJ6N
+http://localhost/ch/1154012_
 #EXTINF:-1 tvg-id="GR\u2503 \u0398\u03a1\u0399\u039b\u039b\u0395\u03a1" tvg-name="GR\u2503 \u0398\u03a1\u0399\u039b\u039b\u0395\u03a1" tvg-logo="https://github.iogr%5Cu2503%20%5Cu0398%5Cu03a1%5Cu0399%5Cu039b%5Cu039b%5Cu0395%5Cu03a1.png" group-title="Portal_2",GR\u2503 \u0398\u03a1\u0399\u039b\u039b\u0395\u03a1
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154034&extension=ts&play_token=FLRZgQt70F
+http://localhost/ch/1154034_
 #EXTINF:-1 tvg-id="GR\u2503 \u039a\u039b\u0391\u03a3\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3" tvg-name="GR\u2503 \u039a\u039b\u0391\u03a3\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039a%5Cu039b%5Cu0391%5Cu03a3%5Cu0399%5Cu039a%5Cu0395%5Cu03a3%20%5Cu03a4%5Cu0391%5Cu0399%5Cu039d%5Cu0399%5Cu0395%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u039a\u039b\u0391\u03a3\u0399\u039a\u0395\u03a3 \u03a4\u0391\u0399\u039d\u0399\u0395\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154009&extension=ts&play_token=cZfRnuOr5j
+http://localhost/ch/1154009_
 #EXTINF:-1 tvg-id="GR\u2503 \u039a\u03a9\u039c\u03a9\u0394\u0399\u0395\u03a3" tvg-name="GR\u2503 \u039a\u03a9\u039c\u03a9\u0394\u0399\u0395\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039a%5Cu03a9%5Cu039c%5Cu03a9%5Cu0394%5Cu0399%5Cu0395%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u039a\u03a9\u039c\u03a9\u0394\u0399\u0395\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154021&extension=ts&play_token=BGEyMfnCtg
+http://localhost/ch/1154021_
 #EXTINF:-1 tvg-id="GR\u2503 \u039c\u03a0\u03a1\u039f\u03a5\u03a3 \u039b\u0397 FHD" tvg-name="GR\u2503 \u039c\u03a0\u03a1\u039f\u03a5\u03a3 \u039b\u0397 FHD" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039c%5Cu03a0%5Cu03a1%5Cu039f%5Cu03a5%5Cu03a3%20%5Cu039b%5Cu0397%20fhd.png" group-title="Portal_2",GR\u2503 \u039c\u03a0\u03a1\u039f\u03a5\u03a3 \u039b\u0397 FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154008&extension=ts&play_token=22TL2V3hFO
+http://localhost/ch/1154008_
 #EXTINF:-1 tvg-id="GR\u2503 \u039c\u03a5\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a5" tvg-name="GR\u2503 \u039c\u03a5\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a5" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039c%5Cu03a5%5Cu03a3%5Cu03a4%5Cu0397%5Cu03a1%5Cu0399%5Cu039f%5Cu03a5.png" group-title="Portal_2",GR\u2503 \u039c\u03a5\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a5
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154032&extension=ts&play_token=pPabbX6Y8Z
+http://localhost/ch/1154032_
 #EXTINF:-1 tvg-id="GR\u2503 \u039d\u03a4\u039f\u039a\u03a5\u039c\u0391\u039d\u03a4\u0395\u03a1" tvg-name="GR\u2503 \u039d\u03a4\u039f\u039a\u03a5\u039c\u0391\u039d\u03a4\u0395\u03a1" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039d%5Cu03a4%5Cu039f%5Cu039a%5Cu03a5%5Cu039c%5Cu0391%5Cu039d%5Cu03a4%5Cu0395%5Cu03a1.png" group-title="Portal_2",GR\u2503 \u039d\u03a4\u039f\u039a\u03a5\u039c\u0391\u039d\u03a4\u0395\u03a1
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154023&extension=ts&play_token=2YOo3rdpz0
+http://localhost/ch/1154023_
 #EXTINF:-1 tvg-id="GR\u2503 \u039f\u0399\u039a\u039f\u0393\u0395\u039d\u0395\u0399\u0391\u039a\u0395\u03a3" tvg-name="GR\u2503 \u039f\u0399\u039a\u039f\u0393\u0395\u039d\u0395\u0399\u0391\u039a\u0395\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039f%5Cu0399%5Cu039a%5Cu039f%5Cu0393%5Cu0395%5Cu039d%5Cu0395%5Cu0399%5Cu0391%5Cu039a%5Cu0395%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u039f\u0399\u039a\u039f\u0393\u0395\u039d\u0395\u0399\u0391\u039a\u0395\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154025&extension=ts&play_token=CBz7hOCgfy
+http://localhost/ch/1154025_
 #EXTINF:-1 tvg-id="GR\u2503 ACTION" tvg-name="GR\u2503 ACTION" tvg-logo="https://github.iogr%5Cu2503%20action.png" group-title="Portal_2",GR\u2503 ACTION
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154067&extension=ts&play_token=Jo0Ri3kT6O
+http://localhost/ch/1154067_
 #EXTINF:-1 tvg-id="GR\u2503 ADVENTURE" tvg-name="GR\u2503 ADVENTURE" tvg-logo="https://github.iogr%5Cu2503%20adventure.png" group-title="Portal_2",GR\u2503 ADVENTURE
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154068&extension=ts&play_token=lvIJ5wymyO
+http://localhost/ch/1154068_
 #EXTINF:-1 tvg-id="GR\u2503 AMERICAN PIE" tvg-name="GR\u2503 AMERICAN PIE" tvg-logo="https://github.iogr%5Cu2503%20american%20pie.png" group-title="Portal_2",GR\u2503 AMERICAN PIE
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154045&extension=ts&play_token=kNEYqrOUXe
+http://localhost/ch/1154045_
 #EXTINF:-1 tvg-id="GR\u2503 BIOGRAPHY" tvg-name="GR\u2503 BIOGRAPHY" tvg-logo="https://github.iogr%5Cu2503%20biography.png" group-title="Portal_2",GR\u2503 BIOGRAPHY
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154064&extension=ts&play_token=wpX73seBdb
+http://localhost/ch/1154064_
 #EXTINF:-1 tvg-id="GR\u2503 BOLLYWOOD" tvg-name="GR\u2503 BOLLYWOOD" tvg-logo="https://github.iogr%5Cu2503%20bollywood.png" group-title="Portal_2",GR\u2503 BOLLYWOOD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154058&extension=ts&play_token=aZ5FVwSNAS
+http://localhost/ch/1154058_
 #EXTINF:-1 tvg-id="GR\u2503 CHRISTMAS" tvg-name="GR\u2503 CHRISTMAS" tvg-logo="https://github.iogr%5Cu2503%20christmas.png" group-title="Portal_2",GR\u2503 CHRISTMAS
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154040&extension=ts&play_token=QkWr48UeiU
+http://localhost/ch/1154040_
 #EXTINF:-1 tvg-id="GR\u2503 CHRISTMAS" tvg-name="GR\u2503 CHRISTMAS" tvg-logo="https://github.iogr%5Cu2503%20christmas.png" group-title="Portal_2",GR\u2503 CHRISTMAS
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154043&extension=ts&play_token=LltNO2KCzu
+http://localhost/ch/1154043_
 #EXTINF:-1 tvg-id="GR\u2503 COMEDY" tvg-name="GR\u2503 COMEDY" tvg-logo="https://github.iogr%5Cu2503%20comedy.png" group-title="Portal_2",GR\u2503 COMEDY
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154069&extension=ts&play_token=nFUazlxcTm
+http://localhost/ch/1154069_
 #EXTINF:-1 tvg-id="GR\u2503 CRIME" tvg-name="GR\u2503 CRIME" tvg-logo="https://github.iogr%5Cu2503%20crime.png" group-title="Portal_2",GR\u2503 CRIME
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154080&extension=ts&play_token=of35SvCHa0
+http://localhost/ch/1154080_
 #EXTINF:-1 tvg-id="GR\u2503 DETECTIVE" tvg-name="GR\u2503 DETECTIVE" tvg-logo="https://github.iogr%5Cu2503%20detective.png" group-title="Portal_2",GR\u2503 DETECTIVE
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154054&extension=ts&play_token=RuE8CaKPbr
+http://localhost/ch/1154054_
 #EXTINF:-1 tvg-id="GR\u2503 DOCUMENTARY" tvg-name="GR\u2503 DOCUMENTARY" tvg-logo="https://github.iogr%5Cu2503%20documentary.png" group-title="Portal_2",GR\u2503 DOCUMENTARY
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154065&extension=ts&play_token=0dVdkLffow
+http://localhost/ch/1154065_
 #EXTINF:-1 tvg-id="GR\u2503 DRAMA" tvg-name="GR\u2503 DRAMA" tvg-logo="https://github.iogr%5Cu2503%20drama.png" group-title="Portal_2",GR\u2503 DRAMA
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154079&extension=ts&play_token=hMGpyWCYuA
+http://localhost/ch/1154079_
 #EXTINF:-1 tvg-id="GR\u2503 FAMILY" tvg-name="GR\u2503 FAMILY" tvg-logo="https://github.iogr%5Cu2503%20family.png" group-title="Portal_2",GR\u2503 FAMILY
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154066&extension=ts&play_token=4Hwu3n3c9B
+http://localhost/ch/1154066_
 #EXTINF:-1 tvg-id="GR\u2503 FANTASY" tvg-name="GR\u2503 FANTASY" tvg-logo="https://github.iogr%5Cu2503%20fantasy.png" group-title="Portal_2",GR\u2503 FANTASY
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154075&extension=ts&play_token=xfDl7PHIrs
+http://localhost/ch/1154075_
 #EXTINF:-1 tvg-id="GR\u2503 FINAL DESTINATION" tvg-name="GR\u2503 FINAL DESTINATION" tvg-logo="https://github.iogr%5Cu2503%20final%20destination.png" group-title="Portal_2",GR\u2503 FINAL DESTINATION
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154046&extension=ts&play_token=2rBAQmxYeO
+http://localhost/ch/1154046_
 #EXTINF:-1 tvg-id="GR\u2503 HISTORY" tvg-name="GR\u2503 HISTORY" tvg-logo="https://github.iogr%5Cu2503%20history.png" group-title="Portal_2",GR\u2503 HISTORY
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154078&extension=ts&play_token=sfuCVW1r5g
+http://localhost/ch/1154078_
 #EXTINF:-1 tvg-id="GR\u2503 HORROR" tvg-name="GR\u2503 HORROR" tvg-logo="https://github.iogr%5Cu2503%20horror.png" group-title="Portal_2",GR\u2503 HORROR
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154070&extension=ts&play_token=f9fAFMhi3K
+http://localhost/ch/1154070_
 #EXTINF:-1 tvg-id="GR\u2503 JAMES BOND 2" tvg-name="GR\u2503 JAMES BOND 2" tvg-logo="https://github.iogr%5Cu2503%20james%20bond%202.png" group-title="Portal_2",GR\u2503 JAMES BOND 2
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154081&extension=ts&play_token=bTJGRAxLQ1
+http://localhost/ch/1154081_
 #EXTINF:-1 tvg-id="GR\u2503 KIDS" tvg-name="GR\u2503 KIDS" tvg-logo="https://github.iogr%5Cu2503%20kids.png" group-title="Portal_2",GR\u2503 KIDS
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154071&extension=ts&play_token=smGxamaHBk
+http://localhost/ch/1154071_
 #EXTINF:-1 tvg-id="GR\u2503 LEGO" tvg-name="GR\u2503 LEGO" tvg-logo="https://github.iogr%5Cu2503%20lego.png" group-title="Portal_2",GR\u2503 LEGO
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154042&extension=ts&play_token=LSWD961SsW
+http://localhost/ch/1154042_
 #EXTINF:-1 tvg-id="GR\u2503 MUSICAL" tvg-name="GR\u2503 MUSICAL" tvg-logo="https://github.iogr%5Cu2503%20musical.png" group-title="Portal_2",GR\u2503 MUSICAL
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154074&extension=ts&play_token=p7DED5qhj2
+http://localhost/ch/1154074_
 #EXTINF:-1 tvg-id="GR\u2503 MYSTERY" tvg-name="GR\u2503 MYSTERY" tvg-logo="https://github.iogr%5Cu2503%20mystery.png" group-title="Portal_2",GR\u2503 MYSTERY
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154072&extension=ts&play_token=7YE49PMsv8
+http://localhost/ch/1154072_
 #EXTINF:-1 tvg-id="GR\u2503 NEW GREEK" tvg-name="GR\u2503 NEW GREEK" tvg-logo="https://github.iogr%5Cu2503%20new%20greek.png" group-title="Portal_2",GR\u2503 NEW GREEK
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154063&extension=ts&play_token=gftVIjivkl
+http://localhost/ch/1154063_
 #EXTINF:-1 tvg-id="GR\u2503 PAW PATROL" tvg-name="GR\u2503 PAW PATROL" tvg-logo="https://github.iogr%5Cu2503%20paw%20patrol.png" group-title="Portal_2",GR\u2503 PAW PATROL
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154041&extension=ts&play_token=oZrXDW0TC0
+http://localhost/ch/1154041_
 #EXTINF:-1 tvg-id="GR\u2503 PIRATES OF THE CARIBBEAN" tvg-name="GR\u2503 PIRATES OF THE CARIBBEAN" tvg-logo="https://github.iogr%5Cu2503%20pirates%20of%20the%20caribbean.png" group-title="Portal_2",GR\u2503 PIRATES OF THE CARIBBEAN
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154047&extension=ts&play_token=wQbwdjWAC7
+http://localhost/ch/1154047_
 #EXTINF:-1 tvg-id="GR\u2503 PREMIERE" tvg-name="GR\u2503 PREMIERE" tvg-logo="https://github.iogr%5Cu2503%20premiere.png" group-title="Portal_2",GR\u2503 PREMIERE
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154053&extension=ts&play_token=RnpifnvrNA
+http://localhost/ch/1154053_
 #EXTINF:-1 tvg-id="GR\u2503 RAMBO" tvg-name="GR\u2503 RAMBO" tvg-logo="https://github.iogr%5Cu2503%20rambo.png" group-title="Portal_2",GR\u2503 RAMBO
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154082&extension=ts&play_token=3UFuL5DGft
+http://localhost/ch/1154082_
 #EXTINF:-1 tvg-id="GR\u2503 RESIDENT EVIL" tvg-name="GR\u2503 RESIDENT EVIL" tvg-logo="https://github.iogr%5Cu2503%20resident%20evil.png" group-title="Portal_2",GR\u2503 RESIDENT EVIL
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154048&extension=ts&play_token=3cRtLOElxf
+http://localhost/ch/1154048_
 #EXTINF:-1 tvg-id="GR\u2503 ROCKY" tvg-name="GR\u2503 ROCKY" tvg-logo="https://github.iogr%5Cu2503%20rocky.png" group-title="Portal_2",GR\u2503 ROCKY
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154049&extension=ts&play_token=iAJ9tJJb3d
+http://localhost/ch/1154049_
 #EXTINF:-1 tvg-id="GR\u2503 ROMANTIC" tvg-name="GR\u2503 ROMANTIC" tvg-logo="https://github.iogr%5Cu2503%20romantic.png" group-title="Portal_2",GR\u2503 ROMANTIC
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154073&extension=ts&play_token=1QgifPdrJ6
+http://localhost/ch/1154073_
 #EXTINF:-1 tvg-id="GR\u2503 SAW" tvg-name="GR\u2503 SAW" tvg-logo="https://github.iogr%5Cu2503%20saw.png" group-title="Portal_2",GR\u2503 SAW
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154050&extension=ts&play_token=JYW4StAVEG
+http://localhost/ch/1154050_
 #EXTINF:-1 tvg-id="GR\u2503 SCI-FI" tvg-name="GR\u2503 SCI-FI" tvg-logo="https://github.iogr%5Cu2503%20sci-fi.png" group-title="Portal_2",GR\u2503 SCI-FI
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154062&extension=ts&play_token=WcjCZiAakn
+http://localhost/ch/1154062_
 #EXTINF:-1 tvg-id="GR\u2503 SERIAL KILLER" tvg-name="GR\u2503 SERIAL KILLER" tvg-logo="https://github.iogr%5Cu2503%20serial%20killer.png" group-title="Portal_2",GR\u2503 SERIAL KILLER
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154057&extension=ts&play_token=7KZohDFCN8
+http://localhost/ch/1154057_
 #EXTINF:-1 tvg-id="GR\u2503 SPORT" tvg-name="GR\u2503 SPORT" tvg-logo="https://github.iogr%5Cu2503%20sport.png" group-title="Portal_2",GR\u2503 SPORT
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154076&extension=ts&play_token=UCxjnMPoE6
+http://localhost/ch/1154076_
 #EXTINF:-1 tvg-id="GR\u2503 SUPERHERO" tvg-name="GR\u2503 SUPERHERO" tvg-logo="https://github.iogr%5Cu2503%20superhero.png" group-title="Portal_2",GR\u2503 SUPERHERO
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154056&extension=ts&play_token=c9EeCCYqzW
+http://localhost/ch/1154056_
 #EXTINF:-1 tvg-id="GR\u2503 TERMINATOR" tvg-name="GR\u2503 TERMINATOR" tvg-logo="https://github.iogr%5Cu2503%20terminator.png" group-title="Portal_2",GR\u2503 TERMINATOR
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154044&extension=ts&play_token=0YJ0yrB9sn
+http://localhost/ch/1154044_
 #EXTINF:-1 tvg-id="GR\u2503 THE TRANSPORTER" tvg-name="GR\u2503 THE TRANSPORTER" tvg-logo="https://github.iogr%5Cu2503%20the%20transporter.png" group-title="Portal_2",GR\u2503 THE TRANSPORTER
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154051&extension=ts&play_token=Feio0f98Bk
+http://localhost/ch/1154051_
 #EXTINF:-1 tvg-id="GR\u2503 THRILLER" tvg-name="GR\u2503 THRILLER" tvg-logo="https://github.iogr%5Cu2503%20thriller.png" group-title="Portal_2",GR\u2503 THRILLER
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154077&extension=ts&play_token=jbKkOTz4Nf
+http://localhost/ch/1154077_
 #EXTINF:-1 tvg-id="GR\u2503 VAMPIRE" tvg-name="GR\u2503 VAMPIRE" tvg-logo="https://github.iogr%5Cu2503%20vampire.png" group-title="Portal_2",GR\u2503 VAMPIRE
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154059&extension=ts&play_token=Y3jYiLeN10
+http://localhost/ch/1154059_
 #EXTINF:-1 tvg-id="GR\u2503 WAR" tvg-name="GR\u2503 WAR" tvg-logo="https://github.iogr%5Cu2503%20war.png" group-title="Portal_2",GR\u2503 WAR
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154061&extension=ts&play_token=5NODu8A4FU
+http://localhost/ch/1154061_
 #EXTINF:-1 tvg-id="GR\u2503 WESTERN" tvg-name="GR\u2503 WESTERN" tvg-logo="https://github.iogr%5Cu2503%20western.png" group-title="Portal_2",GR\u2503 WESTERN
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154060&extension=ts&play_token=v8lCcMxCU2
+http://localhost/ch/1154060_
 #EXTINF:-1 tvg-id="GR\u2503 X-MEN" tvg-name="GR\u2503 X-MEN" tvg-logo="https://github.iogr%5Cu2503%20x-men.png" group-title="Portal_2",GR\u2503 X-MEN
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154052&extension=ts&play_token=b5CE8SURMC
+http://localhost/ch/1154052_
 #EXTINF:-1 tvg-id="GR\u2503 ZOMBIE" tvg-name="GR\u2503 ZOMBIE" tvg-logo="https://github.iogr%5Cu2503%20zombie.png" group-title="Portal_2",GR\u2503 ZOMBIE
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1154055&extension=ts&play_token=RuGCwHgfi2
+http://localhost/ch/1154055_
 #EXTINF:-1 tvg-id="GR\u2503 \u039d\u03a4\u0395\u03a1\u03a4\u0399" tvg-name="GR\u2503 \u039d\u03a4\u0395\u03a1\u03a4\u0399" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039d%5Cu03a4%5Cu0395%5Cu03a1%5Cu03a4%5Cu0399.png" group-title="Portal_2",GR\u2503 \u039d\u03a4\u0395\u03a1\u03a4\u0399
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293188&extension=ts&play_token=WPaQxPlPbg
+http://localhost/ch/2293188_
 #EXTINF:-1 tvg-id="GR\u2503 \u039a\u03a1\u0399\u039d\u039f \u039a\u0391\u0399 \u0391\u0393\u039a\u0391\u0398\u0399" tvg-name="GR\u2503 \u039a\u03a1\u0399\u039d\u039f \u039a\u0391\u0399 \u0391\u0393\u039a\u0391\u0398\u0399" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039a%5Cu03a1%5Cu0399%5Cu039d%5Cu039f%20%5Cu039a%5Cu0391%5Cu0399%20%5Cu0391%5Cu0393%5Cu039a%5Cu0391%5Cu0398%5Cu0399.png" group-title="Portal_2",GR\u2503 \u039a\u03a1\u0399\u039d\u039f \u039a\u0391\u0399 \u0391\u0393\u039a\u0391\u0398\u0399
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293187&extension=ts&play_token=w9GOpUwdoe
+http://localhost/ch/2293187_
 #EXTINF:-1 tvg-id="GR\u2503 \u0394\u03a5\u039f \u039c\u0391\u03a5\u03a1\u0391 \u03a0\u039f\u03a5\u039a\u0391\u039c\u0399\u03a3\u0391" tvg-name="GR\u2503 \u0394\u03a5\u039f \u039c\u0391\u03a5\u03a1\u0391 \u03a0\u039f\u03a5\u039a\u0391\u039c\u0399\u03a3\u0391" tvg-logo="https://github.iogr%5Cu2503%20%5Cu0394%5Cu03a5%5Cu039f%20%5Cu039c%5Cu0391%5Cu03a5%5Cu03a1%5Cu0391%20%5Cu03a0%5Cu039f%5Cu03a5%5Cu039a%5Cu0391%5Cu039c%5Cu0399%5Cu03a3%5Cu0391.png" group-title="Portal_2",GR\u2503 \u0394\u03a5\u039f \u039c\u0391\u03a5\u03a1\u0391 \u03a0\u039f\u03a5\u039a\u0391\u039c\u0399\u03a3\u0391
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293186&extension=ts&play_token=Lt4O2YfLIt
+http://localhost/ch/2293186_
 #EXTINF:-1 tvg-id="GR\u2503 \u039f\u0399 \u039a\u039f\u03a1\u0395\u03a3 \u03a4\u0397\u03a3 \u0391\u03a1\u0395\u03a4\u0397\u03a3" tvg-name="GR\u2503 \u039f\u0399 \u039a\u039f\u03a1\u0395\u03a3 \u03a4\u0397\u03a3 \u0391\u03a1\u0395\u03a4\u0397\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039f%5Cu0399%20%5Cu039a%5Cu039f%5Cu03a1%5Cu0395%5Cu03a3%20%5Cu03a4%5Cu0397%5Cu03a3%20%5Cu0391%5Cu03a1%5Cu0395%5Cu03a4%5Cu0397%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u039f\u0399 \u039a\u039f\u03a1\u0395\u03a3 \u03a4\u0397\u03a3 \u0391\u03a1\u0395\u03a4\u0397\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293191&extension=ts&play_token=bteFQX8znz
+http://localhost/ch/2293191_
 #EXTINF:-1 tvg-id="GR\u2503 \u039c\u03a0\u039b\u0395 \u03a9\u03a1\u0395\u03a3" tvg-name="GR\u2503 \u039c\u03a0\u039b\u0395 \u03a9\u03a1\u0395\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039c%5Cu03a0%5Cu039b%5Cu0395%20%5Cu03a9%5Cu03a1%5Cu0395%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u039c\u03a0\u039b\u0395 \u03a9\u03a1\u0395\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293189&extension=ts&play_token=EGOuZ26jRD
+http://localhost/ch/2293189_
 #EXTINF:-1 tvg-id="GR\u2503 \u039c\u0399\u0391 \u0393\u03a5\u039d\u0391\u0399\u039a\u0391" tvg-name="GR\u2503 \u039c\u0399\u0391 \u0393\u03a5\u039d\u0391\u0399\u039a\u0391" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039c%5Cu0399%5Cu0391%20%5Cu0393%5Cu03a5%5Cu039d%5Cu0391%5Cu0399%5Cu039a%5Cu0391.png" group-title="Portal_2",GR\u2503 \u039c\u0399\u0391 \u0393\u03a5\u039d\u0391\u0399\u039a\u0391
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293190&extension=ts&play_token=SKMD8Iz5q1
+http://localhost/ch/2293190_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a4\u039f \u039d\u0397\u03a3\u0399" tvg-name="GR\u2503 \u03a4\u039f \u039d\u0397\u03a3\u0399" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a4%5Cu039f%20%5Cu039d%5Cu0397%5Cu03a3%5Cu0399.png" group-title="Portal_2",GR\u2503 \u03a4\u039f \u039d\u0397\u03a3\u0399
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292722&extension=ts&play_token=Ji1jZvqeSs
+http://localhost/ch/2292722_
 #EXTINF:-1 tvg-id="GR\u2503 GRAND HOTEL" tvg-name="GR\u2503 GRAND HOTEL" tvg-logo="https://github.iogr%5Cu2503%20grand%20hotel.png" group-title="Portal_2",GR\u2503 GRAND HOTEL
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292719&extension=ts&play_token=yyMa7OTyNg
+http://localhost/ch/2292719_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a3\u039f\u03a5\u03a0\u0395\u03a1 \u0397\u03a1\u03a9\u0395\u03a3" tvg-name="GR\u2503 \u03a3\u039f\u03a5\u03a0\u0395\u03a1 \u0397\u03a1\u03a9\u0395\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a3%5Cu039f%5Cu03a5%5Cu03a0%5Cu0395%5Cu03a1%20%5Cu0397%5Cu03a1%5Cu03a9%5Cu0395%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u03a3\u039f\u03a5\u03a0\u0395\u03a1 \u0397\u03a1\u03a9\u0395\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292715&extension=ts&play_token=3PRtd7SeLr
+http://localhost/ch/2292715_
 #EXTINF:-1 tvg-id="GR\u2503 \u039c\u0391\u03a5\u03a1\u039f \u03a1\u039f\u0394\u039f" tvg-name="GR\u2503 \u039c\u0391\u03a5\u03a1\u039f \u03a1\u039f\u0394\u039f" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039c%5Cu0391%5Cu03a5%5Cu03a1%5Cu039f%20%5Cu03a1%5Cu039f%5Cu0394%5Cu039f.png" group-title="Portal_2",GR\u2503 \u039c\u0391\u03a5\u03a1\u039f \u03a1\u039f\u0394\u039f
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292747&extension=ts&play_token=iJ5lEM7TkC
+http://localhost/ch/2292747_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a0\u0391\u0399\u03a7\u039d\u0399\u0394\u0399\u0391 \u0395\u039a\u0394\u0399\u039a\u0397\u03a3\u0397\u03a3" tvg-name="GR\u2503 \u03a0\u0391\u0399\u03a7\u039d\u0399\u0394\u0399\u0391 \u0395\u039a\u0394\u0399\u039a\u0397\u03a3\u0397\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a0%5Cu0391%5Cu0399%5Cu03a7%5Cu039d%5Cu0399%5Cu0394%5Cu0399%5Cu0391%20%5Cu0395%5Cu039a%5Cu0394%5Cu0399%5Cu039a%5Cu0397%5Cu03a3%5Cu0397%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u03a0\u0391\u0399\u03a7\u039d\u0399\u0394\u0399\u0391 \u0395\u039a\u0394\u0399\u039a\u0397\u03a3\u0397\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292716&extension=ts&play_token=cEIpdfPEfM
+http://localhost/ch/2292716_
 #EXTINF:-1 tvg-id="GR\u2503 \u0391\u0393\u03a1\u0399\u0395\u03a3 \u039c\u0395\u039b\u0399\u03a3\u03a3\u0395\u03a3" tvg-name="GR\u2503 \u0391\u0393\u03a1\u0399\u0395\u03a3 \u039c\u0395\u039b\u0399\u03a3\u03a3\u0395\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu0391%5Cu0393%5Cu03a1%5Cu0399%5Cu0395%5Cu03a3%20%5Cu039c%5Cu0395%5Cu039b%5Cu0399%5Cu03a3%5Cu03a3%5Cu0395%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u0391\u0393\u03a1\u0399\u0395\u03a3 \u039c\u0395\u039b\u0399\u03a3\u03a3\u0395\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292746&extension=ts&play_token=Kk1iKEc9ul
+http://localhost/ch/2292746_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a8\u03a5\u03a7\u039f\u039a\u039f\u03a1\u0395\u03a3" tvg-name="GR\u2503 \u03a8\u03a5\u03a7\u039f\u039a\u039f\u03a1\u0395\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a8%5Cu03a5%5Cu03a7%5Cu039f%5Cu039a%5Cu039f%5Cu03a1%5Cu0395%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u03a8\u03a5\u03a7\u039f\u039a\u039f\u03a1\u0395\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292741&extension=ts&play_token=bN8KGJJ2gg
+http://localhost/ch/2292741_
 #EXTINF:-1 tvg-id="GR\u2503 \u0397 \u03a0\u0391\u03a1\u0391\u039b\u0399\u0391" tvg-name="GR\u2503 \u0397 \u03a0\u0391\u03a1\u0391\u039b\u0399\u0391" tvg-logo="https://github.iogr%5Cu2503%20%5Cu0397%20%5Cu03a0%5Cu0391%5Cu03a1%5Cu0391%5Cu039b%5Cu0399%5Cu0391.png" group-title="Portal_2",GR\u2503 \u0397 \u03a0\u0391\u03a1\u0391\u039b\u0399\u0391
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292749&extension=ts&play_token=BgieztqTWH
+http://localhost/ch/2292749_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a4\u039f \u039a\u039f\u039a\u039a\u0399\u039d\u039f \u03a0\u039f\u03a4\u0391\u039c\u0399" tvg-name="GR\u2503 \u03a4\u039f \u039a\u039f\u039a\u039a\u0399\u039d\u039f \u03a0\u039f\u03a4\u0391\u039c\u0399" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a4%5Cu039f%20%5Cu039a%5Cu039f%5Cu039a%5Cu039a%5Cu0399%5Cu039d%5Cu039f%20%5Cu03a0%5Cu039f%5Cu03a4%5Cu0391%5Cu039c%5Cu0399.png" group-title="Portal_2",GR\u2503 \u03a4\u039f \u039a\u039f\u039a\u039a\u0399\u039d\u039f \u03a0\u039f\u03a4\u0391\u039c\u0399
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292740&extension=ts&play_token=bF5nqSPsCc
+http://localhost/ch/2292740_
 #EXTINF:-1 tvg-id="GR\u2503 \u039d\u03a5\u03a7\u03a4\u0391 \u03a3\u03a4\u0391\u03a3\u039f\u03a5" tvg-name="GR\u2503 \u039d\u03a5\u03a7\u03a4\u0391 \u03a3\u03a4\u0391\u03a3\u039f\u03a5" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039d%5Cu03a5%5Cu03a7%5Cu03a4%5Cu0391%20%5Cu03a3%5Cu03a4%5Cu0391%5Cu03a3%5Cu039f%5Cu03a5.png" group-title="Portal_2",GR\u2503 \u039d\u03a5\u03a7\u03a4\u0391 \u03a3\u03a4\u0391\u03a3\u039f\u03a5
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292721&extension=ts&play_token=76tplG08z4
+http://localhost/ch/2292721_
 #EXTINF:-1 tvg-id="GR\u2503 \u0391\u0393\u0399\u039f\u03a3 \u03a0\u0391\u03aa\u03a3\u0399\u039f\u03a3" tvg-name="GR\u2503 \u0391\u0393\u0399\u039f\u03a3 \u03a0\u0391\u03aa\u03a3\u0399\u039f\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu0391%5Cu0393%5Cu0399%5Cu039f%5Cu03a3%20%5Cu03a0%5Cu0391%5Cu03aa%5Cu03a3%5Cu0399%5Cu039f%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u0391\u0393\u0399\u039f\u03a3 \u03a0\u0391\u03aa\u03a3\u0399\u039f\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292720&extension=ts&play_token=mkFChyXHro
+http://localhost/ch/2292720_
 #EXTINF:-1 tvg-id="GR\u2503 \u039f\u0399 \u039c\u0391\u0393\u0399\u03a3\u03a3\u0395\u03a3 \u03a4\u0397\u03a3 \u03a3\u039c\u03a5\u03a1\u039d\u0397\u03a3" tvg-name="GR\u2503 \u039f\u0399 \u039c\u0391\u0393\u0399\u03a3\u03a3\u0395\u03a3 \u03a4\u0397\u03a3 \u03a3\u039c\u03a5\u03a1\u039d\u0397\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039f%5Cu0399%20%5Cu039c%5Cu0391%5Cu0393%5Cu0399%5Cu03a3%5Cu03a3%5Cu0395%5Cu03a3%20%5Cu03a4%5Cu0397%5Cu03a3%20%5Cu03a3%5Cu039c%5Cu03a5%5Cu03a1%5Cu039d%5Cu0397%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u039f\u0399 \u039c\u0391\u0393\u0399\u03a3\u03a3\u0395\u03a3 \u03a4\u0397\u03a3 \u03a3\u039c\u03a5\u03a1\u039d\u0397\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292718&extension=ts&play_token=9alYEuEaKS
+http://localhost/ch/2292718_
 #EXTINF:-1 tvg-id="GR\u2503 \u039f \u0394\u0399\u039a\u0391\u03a3\u03a4\u0397\u03a3" tvg-name="GR\u2503 \u039f \u0394\u0399\u039a\u0391\u03a3\u03a4\u0397\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039f%20%5Cu0394%5Cu0399%5Cu039a%5Cu0391%5Cu03a3%5Cu03a4%5Cu0397%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u039f \u0394\u0399\u039a\u0391\u03a3\u03a4\u0397\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292717&extension=ts&play_token=beyHYB95By
+http://localhost/ch/2292717_
 #EXTINF:-1 tvg-id="GR\u2503 VI\u03a0 - \u039a\u0391\u039b\u0391 \u0393\u0395\u03a1\u0391\u039c\u0391\u03a4\u0391" tvg-name="GR\u2503 VI\u03a0 - \u039a\u0391\u039b\u0391 \u0393\u0395\u03a1\u0391\u039c\u0391\u03a4\u0391" tvg-logo="https://github.iogr%5Cu2503%20vi%5Cu03a0%20-%20%5Cu039a%5Cu0391%5Cu039b%5Cu0391%20%5Cu0393%5Cu0395%5Cu03a1%5Cu0391%5Cu039c%5Cu0391%5Cu03a4%5Cu0391.png" group-title="Portal_2",GR\u2503 VI\u03a0 - \u039a\u0391\u039b\u0391 \u0393\u0395\u03a1\u0391\u039c\u0391\u03a4\u0391
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292739&extension=ts&play_token=fFhyH4cH5H
+http://localhost/ch/2292739_
 #EXTINF:-1 tvg-id="GR\u2503 \u03a4\u039f \u03a0\u03a1\u039f\u039e\u0395\u039d\u0399\u039f \u03a4\u0397\u03a3 \u0399\u039f\u03a5\u039b\u0399\u0391\u03a3" tvg-name="GR\u2503 \u03a4\u039f \u03a0\u03a1\u039f\u039e\u0395\u039d\u0399\u039f \u03a4\u0397\u03a3 \u0399\u039f\u03a5\u039b\u0399\u0391\u03a3" tvg-logo="https://github.iogr%5Cu2503%20%5Cu03a4%5Cu039f%20%5Cu03a0%5Cu03a1%5Cu039f%5Cu039e%5Cu0395%5Cu039d%5Cu0399%5Cu039f%20%5Cu03a4%5Cu0397%5Cu03a3%20%5Cu0399%5Cu039f%5Cu03a5%5Cu039b%5Cu0399%5Cu0391%5Cu03a3.png" group-title="Portal_2",GR\u2503 \u03a4\u039f \u03a0\u03a1\u039f\u039e\u0395\u039d\u0399\u039f \u03a4\u0397\u03a3 \u0399\u039f\u03a5\u039b\u0399\u0391\u03a3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292750&extension=ts&play_token=bdrtTtlmH9
+http://localhost/ch/2292750_
 #EXTINF:-1 tvg-id="GR\u2503 \u039f \u03a0\u0391\u03a1\u0391\u0394\u0395\u0399\u03a3\u039f\u03a3 \u03a4\u03a9\u039d \u039a\u03a5\u03a1\u0399\u03a9\u039d" tvg-name="GR\u2503 \u039f \u03a0\u0391\u03a1\u0391\u0394\u0395\u0399\u03a3\u039f\u03a3 \u03a4\u03a9\u039d \u039a\u03a5\u03a1\u0399\u03a9\u039d" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039f%20%5Cu03a0%5Cu0391%5Cu03a1%5Cu0391%5Cu0394%5Cu0395%5Cu0399%5Cu03a3%5Cu039f%5Cu03a3%20%5Cu03a4%5Cu03a9%5Cu039d%20%5Cu039a%5Cu03a5%5Cu03a1%5Cu0399%5Cu03a9%5Cu039d.png" group-title="Portal_2",GR\u2503 \u039f \u03a0\u0391\u03a1\u0391\u0394\u0395\u0399\u03a3\u039f\u03a3 \u03a4\u03a9\u039d \u039a\u03a5\u03a1\u0399\u03a9\u039d
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2292748&extension=ts&play_token=nenZGzDJCd
+http://localhost/ch/2292748_
 #EXTINF:-1 tvg-id="GR\u2503 AMERICAN GIGOLO" tvg-name="GR\u2503 AMERICAN GIGOLO" tvg-logo="https://github.iogr%5Cu2503%20american%20gigolo.png" group-title="Portal_2",GR\u2503 AMERICAN GIGOLO
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293204&extension=ts&play_token=T2O2ASYNfx
+http://localhost/ch/2293204_
 #EXTINF:-1 tvg-id="GR\u2503 THE CLUB" tvg-name="GR\u2503 THE CLUB" tvg-logo="https://github.iogr%5Cu2503%20the%20club.png" group-title="Portal_2",GR\u2503 THE CLUB
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293203&extension=ts&play_token=kZV37fjQyL
+http://localhost/ch/2293203_
 #EXTINF:-1 tvg-id="GR\u2503 THE LAST KINGDOM" tvg-name="GR\u2503 THE LAST KINGDOM" tvg-logo="https://github.iogr%5Cu2503%20the%20last%20kingdom.png" group-title="Portal_2",GR\u2503 THE LAST KINGDOM
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293202&extension=ts&play_token=9d2X9bFTU3
+http://localhost/ch/2293202_
 #EXTINF:-1 tvg-id="GR\u2503 THE SANDMAN" tvg-name="GR\u2503 THE SANDMAN" tvg-logo="https://github.iogr%5Cu2503%20the%20sandman.png" group-title="Portal_2",GR\u2503 THE SANDMAN
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293201&extension=ts&play_token=oGfeBlbQY2
+http://localhost/ch/2293201_
 #EXTINF:-1 tvg-id="GR\u2503 THE MIDNIGHT CLUB" tvg-name="GR\u2503 THE MIDNIGHT CLUB" tvg-logo="https://github.iogr%5Cu2503%20the%20midnight%20club.png" group-title="Portal_2",GR\u2503 THE MIDNIGHT CLUB
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293200&extension=ts&play_token=rEgVvMcfER
+http://localhost/ch/2293200_
 #EXTINF:-1 tvg-id="GR\u2503 VELVET" tvg-name="GR\u2503 VELVET" tvg-logo="https://github.iogr%5Cu2503%20velvet.png" group-title="Portal_2",GR\u2503 VELVET
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293199&extension=ts&play_token=MB4kQWrkRS
+http://localhost/ch/2293199_
 #EXTINF:-1 tvg-id="GR\u2503 VIKINGS VALHALIA" tvg-name="GR\u2503 VIKINGS VALHALIA" tvg-logo="https://github.iogr%5Cu2503%20vikings%20valhalia.png" group-title="Portal_2",GR\u2503 VIKINGS VALHALIA
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293198&extension=ts&play_token=sT0wUBWp1J
+http://localhost/ch/2293198_
 #EXTINF:-1 tvg-id="GR\u2503 1899" tvg-name="GR\u2503 1899" tvg-logo="https://github.iogr%5Cu2503%201899.png" group-title="Portal_2",GR\u2503 1899
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293197&extension=ts&play_token=HkCyd3XGZU
+http://localhost/ch/2293197_
 #EXTINF:-1 tvg-id="GR\u2503 EL CHAPO" tvg-name="GR\u2503 EL CHAPO" tvg-logo="https://github.iogr%5Cu2503%20el%20chapo.png" group-title="Portal_2",GR\u2503 EL CHAPO
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293196&extension=ts&play_token=QGHI4Gy3ry
+http://localhost/ch/2293196_
 #EXTINF:-1 tvg-id="GR\u2503 NINE PERFECT STRANGERS" tvg-name="GR\u2503 NINE PERFECT STRANGERS" tvg-logo="https://github.iogr%5Cu2503%20nine%20perfect%20strangers.png" group-title="Portal_2",GR\u2503 NINE PERFECT STRANGERS
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293195&extension=ts&play_token=XiMGK7Z1wV
+http://localhost/ch/2293195_
 #EXTINF:-1 tvg-id="GR\u2503 HANNA" tvg-name="GR\u2503 HANNA" tvg-logo="https://github.iogr%5Cu2503%20hanna.png" group-title="Portal_2",GR\u2503 HANNA
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293194&extension=ts&play_token=y83ti1zFhB
+http://localhost/ch/2293194_
 #EXTINF:-1 tvg-id="GR\u2503 AMERICAN GODS" tvg-name="GR\u2503 AMERICAN GODS" tvg-logo="https://github.iogr%5Cu2503%20american%20gods.png" group-title="Portal_2",GR\u2503 AMERICAN GODS
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293193&extension=ts&play_token=N58iqRKhla
+http://localhost/ch/2293193_
 #EXTINF:-1 tvg-id="GR\u2503 CARNIVAL ROW" tvg-name="GR\u2503 CARNIVAL ROW" tvg-logo="https://github.iogr%5Cu2503%20carnival%20row.png" group-title="Portal_2",GR\u2503 CARNIVAL ROW
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2293192&extension=ts&play_token=FfN5KJmDQj
+http://localhost/ch/2293192_
 #EXTINF:-1 tvg-id="GR\u2503 ZONE+ BRUCE LEE" tvg-name="GR\u2503 ZONE+ BRUCE LEE" tvg-logo="https://github.iogr%5Cu2503%20zone%2B%20bruce%20lee.png" group-title="Portal_2",GR\u2503 ZONE+ BRUCE LEE
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1981009&extension=ts&play_token=qmj8hGyQF3
+http://localhost/ch/1981009_
 #EXTINF:-1 tvg-id="GR\u2503 ZONE+ FAST & FURIOUS HD" tvg-name="GR\u2503 ZONE+ FAST & FURIOUS HD" tvg-logo="https://github.iogr%5Cu2503%20zone%2B%20fast%20%26%20furious%20hd.png" group-title="Portal_2",GR\u2503 ZONE+ FAST & FURIOUS HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1981066&extension=ts&play_token=aLpgkqiuk4
+http://localhost/ch/1981066_
 #EXTINF:-1 tvg-id="GR\u2503 ZONE+ JAMES BOND HD" tvg-name="GR\u2503 ZONE+ JAMES BOND HD" tvg-logo="https://github.iogr%5Cu2503%20zone%2B%20james%20bond%20hd.png" group-title="Portal_2",GR\u2503 ZONE+ JAMES BOND HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1981067&extension=ts&play_token=IUYJY8Y3pi
+http://localhost/ch/1981067_
 #EXTINF:-1 tvg-id="GR\u2503 NAT GEO FHD" tvg-name="GR\u2503 NAT GEO FHD" tvg-logo="https://github.iogr%5Cu2503%20nat%20geo%20fhd.png" group-title="Portal_2",GR\u2503 NAT GEO FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671283&extension=ts&play_token=31TVUaJhEc
+http://localhost/ch/671283_
 #EXTINF:-1 tvg-id="GR\u2503 NAT GEO WILD FHD" tvg-name="GR\u2503 NAT GEO WILD FHD" tvg-logo="https://github.iogr%5Cu2503%20nat%20geo%20wild%20fhd.png" group-title="Portal_2",GR\u2503 NAT GEO WILD FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671282&extension=ts&play_token=Z2YcQlmfCZ
+http://localhost/ch/671282_
 #EXTINF:-1 tvg-id="GR\u2503 DISCOVERY HISTORY FHD" tvg-name="GR\u2503 DISCOVERY HISTORY FHD" tvg-logo="https://github.iogr%5Cu2503%20discovery%20history%20fhd.png" group-title="Portal_2",GR\u2503 DISCOVERY HISTORY FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1461621&extension=ts&play_token=NjMzUdAYQZ
+http://localhost/ch/1461621_
 #EXTINF:-1 tvg-id="GR\u2503 DISCOVERY CHANNEL FHD" tvg-name="GR\u2503 DISCOVERY CHANNEL FHD" tvg-logo="https://github.iogr%5Cu2503%20discovery%20channel%20fhd.png" group-title="Portal_2",GR\u2503 DISCOVERY CHANNEL FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671281&extension=ts&play_token=icxiGbV1fj
+http://localhost/ch/671281_
 #EXTINF:-1 tvg-id="GR\u2503 DISCOVERY ID FHD" tvg-name="GR\u2503 DISCOVERY ID FHD" tvg-logo="https://github.iogr%5Cu2503%20discovery%20id%20fhd.png" group-title="Portal_2",GR\u2503 DISCOVERY ID FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671279&extension=ts&play_token=jFUFGkSrif
+http://localhost/ch/671279_
 #EXTINF:-1 tvg-id="GR\u2503 CRIME+ INVESTIGATION SD" tvg-name="GR\u2503 CRIME+ INVESTIGATION SD" tvg-logo="https://github.iogr%5Cu2503%20crime%2B%20investigation%20sd.png" group-title="Portal_2",GR\u2503 CRIME+ INVESTIGATION SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671277&extension=ts&play_token=p6YkjbWc02
+http://localhost/ch/671277_
 #EXTINF:-1 tvg-id="GR\u2503 HISTORY FHD" tvg-name="GR\u2503 HISTORY FHD" tvg-logo="https://github.iogr%5Cu2503%20history%20fhd.png" group-title="Portal_2",GR\u2503 HISTORY FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671287&extension=ts&play_token=dW6TAL4elT
+http://localhost/ch/671287_
 #EXTINF:-1 tvg-id="GR\u2503 ANIMAL PLANET FHD" tvg-name="GR\u2503 ANIMAL PLANET FHD" tvg-logo="https://github.iogr%5Cu2503%20animal%20planet%20fhd.png" group-title="Portal_2",GR\u2503 ANIMAL PLANET FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671276&extension=ts&play_token=isgEOCDqLr
+http://localhost/ch/671276_
 #EXTINF:-1 tvg-id="GR\u2503 MAGENTA HISTORY HD" tvg-name="GR\u2503 MAGENTA HISTORY HD" tvg-logo="https://github.iogr%5Cu2503%20magenta%20history%20hd.png" group-title="Portal_2",GR\u2503 MAGENTA HISTORY HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671275&extension=ts&play_token=6E40wvU2gV
+http://localhost/ch/671275_
 #EXTINF:-1 tvg-id="GR\u2503 VIASAT NATURE FHD" tvg-name="GR\u2503 VIASAT NATURE FHD" tvg-logo="https://github.iogr%5Cu2503%20viasat%20nature%20fhd.png" group-title="Portal_2",GR\u2503 VIASAT NATURE FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671274&extension=ts&play_token=XAx3Hsrxxb
+http://localhost/ch/671274_
 #EXTINF:-1 tvg-id="GR\u2503 VIASAT HISTORY FHD" tvg-name="GR\u2503 VIASAT HISTORY FHD" tvg-logo="https://github.iogr%5Cu2503%20viasat%20history%20fhd.png" group-title="Portal_2",GR\u2503 VIASAT HISTORY FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671273&extension=ts&play_token=MxluNyp1r1
+http://localhost/ch/671273_
 #EXTINF:-1 tvg-id="GR\u2503 VIASAT EXPLORE FHD" tvg-name="GR\u2503 VIASAT EXPLORE FHD" tvg-logo="https://github.iogr%5Cu2503%20viasat%20explore%20fhd.png" group-title="Portal_2",GR\u2503 VIASAT EXPLORE FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671272&extension=ts&play_token=58zfXe3DzF
+http://localhost/ch/671272_
 #EXTINF:-1 tvg-id="GR\u2503 VIASAT TRUE CRIME HD" tvg-name="GR\u2503 VIASAT TRUE CRIME HD" tvg-logo="https://github.iogr%5Cu2503%20viasat%20true%20crime%20hd.png" group-title="Portal_2",GR\u2503 VIASAT TRUE CRIME HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1461624&extension=ts&play_token=wCUEyGnrIQ
+http://localhost/ch/1461624_
 #EXTINF:-1 tvg-id="GR\u2503 VIASAT EPIC DRAMA HD" tvg-name="GR\u2503 VIASAT EPIC DRAMA HD" tvg-logo="https://github.iogr%5Cu2503%20viasat%20epic%20drama%20hd.png" group-title="Portal_2",GR\u2503 VIASAT EPIC DRAMA HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1461623&extension=ts&play_token=I5iPLN3UWH
+http://localhost/ch/1461623_
 #EXTINF:-1 tvg-id="GR\u2503 BBC EARTH FHD" tvg-name="GR\u2503 BBC EARTH FHD" tvg-logo="https://github.iogr%5Cu2503%20bbc%20earth%20fhd.png" group-title="Portal_2",GR\u2503 BBC EARTH FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671271&extension=ts&play_token=XxoXztyeVa
+http://localhost/ch/671271_
 #EXTINF:-1 tvg-id="GR\u2503 MY ZEN TV HD" tvg-name="GR\u2503 MY ZEN TV HD" tvg-logo="https://github.iogr%5Cu2503%20my%20zen%20tv%20hd.png" group-title="Portal_2",GR\u2503 MY ZEN TV HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671312&extension=ts&play_token=P3VLQ9mcal
+http://localhost/ch/671312_
 #EXTINF:-1 tvg-id="GR\u2503 CARTOONITO FHD" tvg-name="GR\u2503 CARTOONITO FHD" tvg-logo="https://github.iogr%5Cu2503%20cartoonito%20fhd.png" group-title="Portal_2",GR\u2503 CARTOONITO FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=724036&extension=ts&play_token=FbVZCytyx9
+http://localhost/ch/724036_
 #EXTINF:-1 tvg-id="GR\u2503 DISNEY CHANNEL SD" tvg-name="GR\u2503 DISNEY CHANNEL SD" tvg-logo="https://github.iogr%5Cu2503%20disney%20channel%20sd.png" group-title="Portal_2",GR\u2503 DISNEY CHANNEL SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671268&extension=ts&play_token=8hIRMZv1mV
+http://localhost/ch/671268_
 #EXTINF:-1 tvg-id="GR\u2503 DISNEY JUNIOR SD" tvg-name="GR\u2503 DISNEY JUNIOR SD" tvg-logo="https://github.iogr%5Cu2503%20disney%20junior%20sd.png" group-title="Portal_2",GR\u2503 DISNEY JUNIOR SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671267&extension=ts&play_token=gKMJ5ySTot
+http://localhost/ch/671267_
 #EXTINF:-1 tvg-id="GR\u2503 KEEDOO SD" tvg-name="GR\u2503 KEEDOO SD" tvg-logo="https://github.iogr%5Cu2503%20keedoo%20sd.png" group-title="Portal_2",GR\u2503 KEEDOO SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671266&extension=ts&play_token=kZ3z8PW5ig
+http://localhost/ch/671266_
 #EXTINF:-1 tvg-id="GR\u2503 BABY TV SD" tvg-name="GR\u2503 BABY TV SD" tvg-logo="https://github.iogr%5Cu2503%20baby%20tv%20sd.png" group-title="Portal_2",GR\u2503 BABY TV SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671265&extension=ts&play_token=LCzfsnRMLN
+http://localhost/ch/671265_
 #EXTINF:-1 tvg-id="GR\u2503 DUCK TV SD" tvg-name="GR\u2503 DUCK TV SD" tvg-logo="https://github.iogr%5Cu2503%20duck%20tv%20sd.png" group-title="Portal_2",GR\u2503 DUCK TV SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=699930&extension=ts&play_token=iHhpIyIMoK
+http://localhost/ch/699930_
 #EXTINF:-1 tvg-id="GR\u2503 SMILE SD" tvg-name="GR\u2503 SMILE SD" tvg-logo="https://github.iogr%5Cu2503%20smile%20sd.png" group-title="Portal_2",GR\u2503 SMILE SD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671288&extension=ts&play_token=jYjef8It6L
+http://localhost/ch/671288_
 #EXTINF:-1 tvg-id="GR\u2503 IDJ KIDS HD" tvg-name="GR\u2503 IDJ KIDS HD" tvg-logo="https://github.iogr%5Cu2503%20idj%20kids%20hd.png" group-title="Portal_2",GR\u2503 IDJ KIDS HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=866629&extension=ts&play_token=4eZwqaZv6i
+http://localhost/ch/866629_
 #EXTINF:-1 tvg-id="GR\u2503 ERT KIDS FHD" tvg-name="GR\u2503 ERT KIDS FHD" tvg-logo="https://github.iogr%5Cu2503%20ert%20kids%20fhd.png" group-title="Portal_2",GR\u2503 ERT KIDS FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=779489&extension=ts&play_token=zYEJf38Tyh
+http://localhost/ch/779489_
 #EXTINF:-1 tvg-id="GR\u2503 CINE KIDS 2" tvg-name="GR\u2503 CINE KIDS 2" tvg-logo="https://github.iogr%5Cu2503%20cine%20kids%202.png" group-title="Portal_2",GR\u2503 CINE KIDS 2
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=712898&extension=ts&play_token=Qrj4b4686t
+http://localhost/ch/712898_
 #EXTINF:-1 tvg-id="GR\u2503 CINE KIDS 3" tvg-name="GR\u2503 CINE KIDS 3" tvg-logo="https://github.iogr%5Cu2503%20cine%20kids%203.png" group-title="Portal_2",GR\u2503 CINE KIDS 3
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=712899&extension=ts&play_token=AQDKJU0jV4
+http://localhost/ch/712899_
 #EXTINF:-1 tvg-id="GR\u2503 DA VINCI HD" tvg-name="GR\u2503 DA VINCI HD" tvg-logo="https://github.iogr%5Cu2503%20da%20vinci%20hd.png" group-title="Portal_2",GR\u2503 DA VINCI HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=866628&extension=ts&play_token=2XxFgtMzSQ
+http://localhost/ch/866628_
 #EXTINF:-1 tvg-id="GR\u2503 STAR \u039a\u03b5\u03bd\u03c4\u03c1\u03b9\u03ba\u03ae\u03c2 \u0395\u03bb\u03bb\u03ac\u03b4\u03b1\u03c2" tvg-name="GR\u2503 STAR \u039a\u03b5\u03bd\u03c4\u03c1\u03b9\u03ba\u03ae\u03c2 \u0395\u03bb\u03bb\u03ac\u03b4\u03b1\u03c2" tvg-logo="https://github.iogr%5Cu2503%20star%20%5Cu039a%5Cu03b5%5Cu03bd%5Cu03c4%5Cu03c1%5Cu03b9%5Cu03ba%5Cu03ae%5Cu03c2%20%5Cu0395%5Cu03bb%5Cu03bb%5Cu03ac%5Cu03b4%5Cu03b1%5Cu03c2.png" group-title="Portal_2",GR\u2503 STAR \u039a\u03b5\u03bd\u03c4\u03c1\u03b9\u03ba\u03ae\u03c2 \u0395\u03bb\u03bb\u03ac\u03b4\u03b1\u03c2
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=697959&extension=ts&play_token=wx13iBpoll
+http://localhost/ch/697959_
 #EXTINF:-1 tvg-id="GR\u2503 CRETA TV 4K" tvg-name="GR\u2503 CRETA TV 4K" tvg-logo="https://github.iogr%5Cu2503%20creta%20tv%204k.png" group-title="Portal_2",GR\u2503 CRETA TV 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671343&extension=ts&play_token=fvLng3gG3u
+http://localhost/ch/671343_
 #EXTINF:-1 tvg-id="GR\u2503 CRETA TV HD" tvg-name="GR\u2503 CRETA TV HD" tvg-logo="https://github.iogr%5Cu2503%20creta%20tv%20hd.png" group-title="Portal_2",GR\u2503 CRETA TV HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671243&extension=ts&play_token=0MASNSbyGO
+http://localhost/ch/671243_
 #EXTINF:-1 tvg-id="GR\u2503 \u039a\u03c1\u03ae\u03c4\u03b7 TV [Kriti TV]" tvg-name="GR\u2503 \u039a\u03c1\u03ae\u03c4\u03b7 TV [Kriti TV]" tvg-logo="https://github.iogr%5Cu2503%20%5Cu039a%5Cu03c1%5Cu03ae%5Cu03c4%5Cu03b7%20tv%20%5Bkriti%20tv%5D.png" group-title="Portal_2",GR\u2503 \u039a\u03c1\u03ae\u03c4\u03b7 TV [Kriti TV]
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671329&extension=ts&play_token=TejIs4jMIV
+http://localhost/ch/671329_
 #EXTINF:-1 tvg-id="GR\u2503 KONTRA TV HD" tvg-name="GR\u2503 KONTRA TV HD" tvg-logo="https://github.iogr%5Cu2503%20kontra%20tv%20hd.png" group-title="Portal_2",GR\u2503 KONTRA TV HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671242&extension=ts&play_token=Jh7qBspVWs
+http://localhost/ch/671242_
 #EXTINF:-1 tvg-id="GR\u2503 ONE HD" tvg-name="GR\u2503 ONE HD" tvg-logo="https://github.iogr%5Cu2503%20one%20hd.png" group-title="Portal_2",GR\u2503 ONE HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671237&extension=ts&play_token=FO1xan0z6o
+http://localhost/ch/671237_
 #EXTINF:-1 tvg-id="GR\u2503 IONIAN TV HD" tvg-name="GR\u2503 IONIAN TV HD" tvg-logo="https://github.iogr%5Cu2503%20ionian%20tv%20hd.png" group-title="Portal_2",GR\u2503 IONIAN TV HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671310&extension=ts&play_token=KjCKFc7oc3
+http://localhost/ch/671310_
 #EXTINF:-1 tvg-id="GR\u2503 TV 100 HD" tvg-name="GR\u2503 TV 100 HD" tvg-logo="https://github.iogr%5Cu2503%20tv%20100%20hd.png" group-title="Portal_2",GR\u2503 TV 100 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671308&extension=ts&play_token=EyMfbo4dlb
+http://localhost/ch/671308_
 #EXTINF:-1 tvg-id="GR\u2503 START TV" tvg-name="GR\u2503 START TV" tvg-logo="https://github.iogr%5Cu2503%20start%20tv.png" group-title="Portal_2",GR\u2503 START TV
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671302&extension=ts&play_token=jdGU9C7c5O
+http://localhost/ch/671302_
 #EXTINF:-1 tvg-id="GR\u2503 HIGH TV" tvg-name="GR\u2503 HIGH TV" tvg-logo="https://github.iogr%5Cu2503%20high%20tv.png" group-title="Portal_2",GR\u2503 HIGH TV
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671301&extension=ts&play_token=TBFvROMztp
+http://localhost/ch/671301_
 #EXTINF:-1 tvg-id="GR\u2503 4E TV" tvg-name="GR\u2503 4E TV" tvg-logo="https://github.iogr%5Cu2503%204e%20tv.png" group-title="Portal_2",GR\u2503 4E TV
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671300&extension=ts&play_token=R03pHK2hdH
+http://localhost/ch/671300_
 #EXTINF:-1 tvg-id="GR\u2503 ALERT TV" tvg-name="GR\u2503 ALERT TV" tvg-logo="https://github.iogr%5Cu2503%20alert%20tv.png" group-title="Portal_2",GR\u2503 ALERT TV
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671299&extension=ts&play_token=kRXvSEBK7Z
+http://localhost/ch/671299_
 #EXTINF:-1 tvg-id="GR\u2503 BLUE SKY" tvg-name="GR\u2503 BLUE SKY" tvg-logo="https://github.iogr%5Cu2503%20blue%20sky.png" group-title="Portal_2",GR\u2503 BLUE SKY
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671294&extension=ts&play_token=buz455AZ4g
+http://localhost/ch/671294_
 #EXTINF:-1 tvg-id="GR\u2503 CAPITAL TV" tvg-name="GR\u2503 CAPITAL TV" tvg-logo="https://github.iogr%5Cu2503%20capital%20tv.png" group-title="Portal_2",GR\u2503 CAPITAL TV
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671293&extension=ts&play_token=s9XX5VJIab
+http://localhost/ch/671293_
 #EXTINF:-1 tvg-id="GR\u2503 NEA TV" tvg-name="GR\u2503 NEA TV" tvg-logo="https://github.iogr%5Cu2503%20nea%20tv.png" group-title="Portal_2",GR\u2503 NEA TV
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=671289&extension=ts&play_token=uVJN1KSFpD
+http://localhost/ch/671289_
 #EXTINF:-1 tvg-id="GR\u2503 CORFU TV" tvg-name="GR\u2503 CORFU TV" tvg-logo="https://github.iogr%5Cu2503%20corfu%20tv.png" group-title="Portal_2",GR\u2503 CORFU TV
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=728834&extension=ts&play_token=jB8be5oWg1
+http://localhost/ch/728834_
 #EXTINF:-1 tvg-id="GR\u2503 DELTA TV" tvg-name="GR\u2503 DELTA TV" tvg-logo="https://github.iogr%5Cu2503%20delta%20tv.png" group-title="Portal_2",GR\u2503 DELTA TV
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=728833&extension=ts&play_token=97Bx3aTyC6
+http://localhost/ch/728833_
 #EXTINF:-1 tvg-id="GR\u2503 EPILOGES TV" tvg-name="GR\u2503 EPILOGES TV" tvg-logo="https://github.iogr%5Cu2503%20epiloges%20tv.png" group-title="Portal_2",GR\u2503 EPILOGES TV
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=728824&extension=ts&play_token=ZtkBrT00eV
+http://localhost/ch/728824_
 #EXTINF:-1 tvg-id="GR\u2503 DION TV - THESSOLINIKI" tvg-name="GR\u2503 DION TV - THESSOLINIKI" tvg-logo="https://github.iogr%5Cu2503%20dion%20tv%20-%20thessoliniki.png" group-title="Portal_2",GR\u2503 DION TV - THESSOLINIKI
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1187271&extension=ts&play_token=8KWP9K0lnv
+http://localhost/ch/1187271_
 #EXTINF:-1 tvg-id="GR\u2503 PONTOS TV" tvg-name="GR\u2503 PONTOS TV" tvg-logo="https://github.iogr%5Cu2503%20pontos%20tv.png" group-title="Portal_2",GR\u2503 PONTOS TV
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1701403&extension=ts&play_token=llnUJZBWcH
+http://localhost/ch/1701403_
 #EXTINF:-1 tvg-id="GR\u2503 BEST TV HD" tvg-name="GR\u2503 BEST TV HD" tvg-logo="https://github.iogr%5Cu2503%20best%20tv%20hd.png" group-title="Portal_2",GR\u2503 BEST TV HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1701402&extension=ts&play_token=G6v4PxvBlm
+http://localhost/ch/1701402_
 #EXTINF:-1 tvg-id="GR\u2503 SYROS TV HD" tvg-name="GR\u2503 SYROS TV HD" tvg-logo="https://github.iogr%5Cu2503%20syros%20tv%20hd.png" group-title="Portal_2",GR\u2503 SYROS TV HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1701401&extension=ts&play_token=xCnthcF0gu
+http://localhost/ch/1701401_
 #EXTINF:-1 tvg-id="GR\u2503 IONIAN TVloc" tvg-name="GR\u2503 IONIAN TVloc" tvg-logo="https://github.iogr%5Cu2503%20ionian%20tvloc.png" group-title="Portal_2",GR\u2503 IONIAN TVloc
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1701405&extension=ts&play_token=1cGwkf5kPu
+http://localhost/ch/1701405_
 #EXTINF:-1 tvg-id="GR\u2503 EPIRUS TV HD" tvg-name="GR\u2503 EPIRUS TV HD" tvg-logo="https://github.iogr%5Cu2503%20epirus%20tv%20hd.png" group-title="Portal_2",GR\u2503 EPIRUS TV HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1701399&extension=ts&play_token=pUh4TcEA0a
+http://localhost/ch/1701399_
 #EXTINF:-1 tvg-id="GR\u2503 NAFTEMPORIKI HD" tvg-name="GR\u2503 NAFTEMPORIKI HD" tvg-logo="https://github.iogr%5Cu2503%20naftemporiki%20hd.png" group-title="Portal_2",GR\u2503 NAFTEMPORIKI HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1701404&extension=ts&play_token=af7q7XQPhR
+http://localhost/ch/1701404_
 #EXTINF:-1 tvg-id="GR\u2503 THRAKINET HD" tvg-name="GR\u2503 THRAKINET HD" tvg-logo="https://github.iogr%5Cu2503%20thrakinet%20hd.png" group-title="Portal_2",GR\u2503 THRAKINET HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1701400&extension=ts&play_token=dOG3eYS32v
+http://localhost/ch/1701400_
 #EXTINF:-1 tvg-id="CY\u2503 RIK 1 4K" tvg-name="CY\u2503 RIK 1 4K" tvg-logo="https://github.iocy%5Cu2503%20rik%201%204k.png" group-title="Portal_2",CY\u2503 RIK 1 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=779491&extension=ts&play_token=wMNix4mtxe
+http://localhost/ch/779491_
 #EXTINF:-1 tvg-id="CY\u2503 RIK 1" tvg-name="CY\u2503 RIK 1" tvg-logo="https://github.iocy%5Cu2503%20rik%201.png" group-title="Portal_2",CY\u2503 RIK 1
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244175&extension=ts&play_token=4eSBdKJr2W
+http://localhost/ch/244175_
 #EXTINF:-1 tvg-id="CY\u2503 RIK 2 4K" tvg-name="CY\u2503 RIK 2 4K" tvg-logo="https://github.iocy%5Cu2503%20rik%202%204k.png" group-title="Portal_2",CY\u2503 RIK 2 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=779492&extension=ts&play_token=N6LZrs68Ux
+http://localhost/ch/779492_
 #EXTINF:-1 tvg-id="CY\u2503 RIK 2 HD" tvg-name="CY\u2503 RIK 2 HD" tvg-logo="https://github.iocy%5Cu2503%20rik%202%20hd.png" group-title="Portal_2",CY\u2503 RIK 2 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244174&extension=ts&play_token=OMVuyMaXEB
+http://localhost/ch/244174_
 #EXTINF:-1 tvg-id="CY\u2503 RIK SAT" tvg-name="CY\u2503 RIK SAT" tvg-logo="https://github.iocy%5Cu2503%20rik%20sat.png" group-title="Portal_2",CY\u2503 RIK SAT
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=664442&extension=ts&play_token=yORY62XD4h
+http://localhost/ch/664442_
 #EXTINF:-1 tvg-id="CY\u2503 OMEGA 4K" tvg-name="CY\u2503 OMEGA 4K" tvg-logo="https://github.iocy%5Cu2503%20omega%204k.png" group-title="Portal_2",CY\u2503 OMEGA 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=779494&extension=ts&play_token=yPRAvFldKj
+http://localhost/ch/779494_
 #EXTINF:-1 tvg-id="CY\u2503 ANT 1 CYPRUS 4K" tvg-name="CY\u2503 ANT 1 CYPRUS 4K" tvg-logo="https://github.iocy%5Cu2503%20ant%201%20cyprus%204k.png" group-title="Portal_2",CY\u2503 ANT 1 CYPRUS 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=779495&extension=ts&play_token=cNPtJPmHdc
+http://localhost/ch/779495_
 #EXTINF:-1 tvg-id="CY\u2503 ANT 1 CYPRUS" tvg-name="CY\u2503 ANT 1 CYPRUS" tvg-logo="https://github.iocy%5Cu2503%20ant%201%20cyprus.png" group-title="Portal_2",CY\u2503 ANT 1 CYPRUS
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244171&extension=ts&play_token=PJpvwmuscS
+http://localhost/ch/244171_
 #EXTINF:-1 tvg-id="CY\u2503 ALPHA CYPRUS 4K" tvg-name="CY\u2503 ALPHA CYPRUS 4K" tvg-logo="https://github.iocy%5Cu2503%20alpha%20cyprus%204k.png" group-title="Portal_2",CY\u2503 ALPHA CYPRUS 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=779498&extension=ts&play_token=w9QPGM9Pvb
+http://localhost/ch/779498_
 #EXTINF:-1 tvg-id="CY\u2503 ALPHA CYPRUS" tvg-name="CY\u2503 ALPHA CYPRUS" tvg-logo="https://github.iocy%5Cu2503%20alpha%20cyprus.png" group-title="Portal_2",CY\u2503 ALPHA CYPRUS
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244169&extension=ts&play_token=NTcuTmw5wQ
+http://localhost/ch/244169_
 #EXTINF:-1 tvg-id="CY\u2503 SIGMA 4K" tvg-name="CY\u2503 SIGMA 4K" tvg-logo="https://github.iocy%5Cu2503%20sigma%204k.png" group-title="Portal_2",CY\u2503 SIGMA 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=779497&extension=ts&play_token=QI7JNBwvg0
+http://localhost/ch/779497_
 #EXTINF:-1 tvg-id="CY\u2503 SIGMA" tvg-name="CY\u2503 SIGMA" tvg-logo="https://github.iocy%5Cu2503%20sigma.png" group-title="Portal_2",CY\u2503 SIGMA
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244170&extension=ts&play_token=m8FM9W5Zw2
+http://localhost/ch/244170_
 #EXTINF:-1 tvg-id="CY\u2503 PLUS TV 4K" tvg-name="CY\u2503 PLUS TV 4K" tvg-logo="https://github.iocy%5Cu2503%20plus%20tv%204k.png" group-title="Portal_2",CY\u2503 PLUS TV 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=779499&extension=ts&play_token=gYwW2QUdBg
+http://localhost/ch/779499_
 #EXTINF:-1 tvg-id="CY\u2503 PLUS TV" tvg-name="CY\u2503 PLUS TV" tvg-logo="https://github.iocy%5Cu2503%20plus%20tv.png" group-title="Portal_2",CY\u2503 PLUS TV
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244168&extension=ts&play_token=5bJtwPYwBj
+http://localhost/ch/244168_
 #EXTINF:-1 tvg-id="CY\u2503 CAPITAL TV 4K" tvg-name="CY\u2503 CAPITAL TV 4K" tvg-logo="https://github.iocy%5Cu2503%20capital%20tv%204k.png" group-title="Portal_2",CY\u2503 CAPITAL TV 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=779500&extension=ts&play_token=ZHVf5mEkLs
+http://localhost/ch/779500_
 #EXTINF:-1 tvg-id="CY\u2503 CAPITAL" tvg-name="CY\u2503 CAPITAL" tvg-logo="https://github.iocy%5Cu2503%20capital.png" group-title="Portal_2",CY\u2503 CAPITAL
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244167&extension=ts&play_token=LgSHmzFepI
+http://localhost/ch/244167_
 #EXTINF:-1 tvg-id="CY\u2503 OMEGA HD" tvg-name="CY\u2503 OMEGA HD" tvg-logo="https://github.iocy%5Cu2503%20omega%20hd.png" group-title="Portal_2",CY\u2503 OMEGA HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=779503&extension=ts&play_token=rb7OXsemek
+http://localhost/ch/779503_
 #EXTINF:-1 tvg-id="CY\u2503 ONE CHANNEL CY" tvg-name="CY\u2503 ONE CHANNEL CY" tvg-logo="https://github.iocy%5Cu2503%20one%20channel%20cy.png" group-title="Portal_2",CY\u2503 ONE CHANNEL CY
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1017404&extension=ts&play_token=bKf64XrC0k
+http://localhost/ch/1017404_
 #EXTINF:-1 tvg-id="CY\u2503 MOVIES BEST FHD" tvg-name="CY\u2503 MOVIES BEST FHD" tvg-logo="https://github.iocy%5Cu2503%20movies%20best%20fhd.png" group-title="Portal_2",CY\u2503 MOVIES BEST FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1017406&extension=ts&play_token=23S3Y3UzAM
+http://localhost/ch/1017406_
 #EXTINF:-1 tvg-id="CY\u2503 BABY TV" tvg-name="CY\u2503 BABY TV" tvg-logo="https://github.iocy%5Cu2503%20baby%20tv.png" group-title="Portal_2",CY\u2503 BABY TV
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=866622&extension=ts&play_token=kbSG8cR06p
+http://localhost/ch/866622_
 #EXTINF:-1 tvg-id="CY\u2503 VERGINA CYPRUS 4K" tvg-name="CY\u2503 VERGINA CYPRUS 4K" tvg-logo="https://github.iocy%5Cu2503%20vergina%20cyprus%204k.png" group-title="Portal_2",CY\u2503 VERGINA CYPRUS 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=779504&extension=ts&play_token=QWLgmc7KWW
+http://localhost/ch/779504_
 #EXTINF:-1 tvg-id="CY\u2503 VERGINA CYPRUS" tvg-name="CY\u2503 VERGINA CYPRUS" tvg-logo="https://github.iocy%5Cu2503%20vergina%20cyprus.png" group-title="Portal_2",CY\u2503 VERGINA CYPRUS
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=664440&extension=ts&play_token=IWtPFv8dPA
+http://localhost/ch/664440_
 #EXTINF:-1 tvg-id="CY\u2503 AEK PASS HD" tvg-name="CY\u2503 AEK PASS HD" tvg-logo="https://github.iocy%5Cu2503%20aek%20pass%20hd.png" group-title="Portal_2",CY\u2503 AEK PASS HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=866580&extension=ts&play_token=MOsZKVkQsb
+http://localhost/ch/866580_
 #EXTINF:-1 tvg-id="CY\u2503 OLYMPICOS PASS HD" tvg-name="CY\u2503 OLYMPICOS PASS HD" tvg-logo="https://github.iocy%5Cu2503%20olympicos%20pass%20hd.png" group-title="Portal_2",CY\u2503 OLYMPICOS PASS HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=866579&extension=ts&play_token=hHi68xednp
+http://localhost/ch/866579_
 #EXTINF:-1 tvg-id="CY\u2503 PANATHINAIKOS PASS HD" tvg-name="CY\u2503 PANATHINAIKOS PASS HD" tvg-logo="https://github.iocy%5Cu2503%20panathinaikos%20pass%20hd.png" group-title="Portal_2",CY\u2503 PANATHINAIKOS PASS HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=866578&extension=ts&play_token=L7emoNJHYm
+http://localhost/ch/866578_
 #EXTINF:-1 tvg-id="CY\u2503 OMONOIA TV" tvg-name="CY\u2503 OMONOIA TV" tvg-logo="https://github.iocy%5Cu2503%20omonoia%20tv.png" group-title="Portal_2",CY\u2503 OMONOIA TV
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1017407&extension=ts&play_token=rNDMyCAf3y
+http://localhost/ch/1017407_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT PREMIERE LEAGUE HD" tvg-name="CY\u2503 CYTAVISION SPORT PREMIERE LEAGUE HD" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%20premiere%20league%20hd.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT PREMIERE LEAGUE HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1017405&extension=ts&play_token=S4guK6gO00
+http://localhost/ch/1017405_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 1 4K" tvg-name="CY\u2503 CYTAVISION SPORT 1 4K" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%201%204k.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 1 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=758636&extension=ts&play_token=U7eE79AxkG
+http://localhost/ch/758636_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 1 HD" tvg-name="CY\u2503 CYTAVISION SPORT 1 HD" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%201%20hd.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 1 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244151&extension=ts&play_token=Lb80dJypU9
+http://localhost/ch/244151_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 2 4K" tvg-name="CY\u2503 CYTAVISION SPORT 2 4K" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%202%204k.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 2 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=758637&extension=ts&play_token=cmdmQiAzR2
+http://localhost/ch/758637_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 2 HD" tvg-name="CY\u2503 CYTAVISION SPORT 2 HD" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%202%20hd.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 2 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244152&extension=ts&play_token=ooI5pkeVLD
+http://localhost/ch/244152_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 3 4K" tvg-name="CY\u2503 CYTAVISION SPORT 3 4K" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%203%204k.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 3 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=758638&extension=ts&play_token=Pn00z33JYK
+http://localhost/ch/758638_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 3 HD" tvg-name="CY\u2503 CYTAVISION SPORT 3 HD" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%203%20hd.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 3 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244153&extension=ts&play_token=KBaBbEYh8y
+http://localhost/ch/244153_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 4 4K" tvg-name="CY\u2503 CYTAVISION SPORT 4 4K" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%204%204k.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 4 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=758640&extension=ts&play_token=xyuwJrZpy2
+http://localhost/ch/758640_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 4 HD" tvg-name="CY\u2503 CYTAVISION SPORT 4 HD" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%204%20hd.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 4 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244154&extension=ts&play_token=43U3wNxm7N
+http://localhost/ch/244154_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 5 4K" tvg-name="CY\u2503 CYTAVISION SPORT 5 4K" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%205%204k.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 5 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=758641&extension=ts&play_token=RbQj7noCaP
+http://localhost/ch/758641_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 5 HD" tvg-name="CY\u2503 CYTAVISION SPORT 5 HD" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%205%20hd.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 5 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244155&extension=ts&play_token=FJ0oh4B0Ko
+http://localhost/ch/244155_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 6 4K" tvg-name="CY\u2503 CYTAVISION SPORT 6 4K" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%206%204k.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 6 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=758644&extension=ts&play_token=1rumYnekLB
+http://localhost/ch/758644_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 6 HD" tvg-name="CY\u2503 CYTAVISION SPORT 6 HD" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%206%20hd.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 6 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244156&extension=ts&play_token=Xenu2p3Oar
+http://localhost/ch/244156_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 7 4K" tvg-name="CY\u2503 CYTAVISION SPORT 7 4K" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%207%204k.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 7 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=758648&extension=ts&play_token=Bp0Ybt4sg6
+http://localhost/ch/758648_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 7 HD" tvg-name="CY\u2503 CYTAVISION SPORT 7 HD" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%207%20hd.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 7 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244157&extension=ts&play_token=cHAqiqNUht
+http://localhost/ch/244157_
 #EXTINF:-1 tvg-id="CY\u2503 CYTAVISION SPORT 8 HD" tvg-name="CY\u2503 CYTAVISION SPORT 8 HD" tvg-logo="https://github.iocy%5Cu2503%20cytavision%20sport%208%20hd.png" group-title="Portal_2",CY\u2503 CYTAVISION SPORT 8 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=1017408&extension=ts&play_token=DCZWxi6nld
+http://localhost/ch/1017408_
 #EXTINF:-1 tvg-id="CY\u2503 CABELNET SPORT 1 4K" tvg-name="CY\u2503 CABELNET SPORT 1 4K" tvg-logo="https://github.iocy%5Cu2503%20cabelnet%20sport%201%204k.png" group-title="Portal_2",CY\u2503 CABELNET SPORT 1 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=758652&extension=ts&play_token=1iq3j4caKg
+http://localhost/ch/758652_
 #EXTINF:-1 tvg-id="CY\u2503 CABELNET SPORT 1 HD" tvg-name="CY\u2503 CABELNET SPORT 1 HD" tvg-logo="https://github.iocy%5Cu2503%20cabelnet%20sport%201%20hd.png" group-title="Portal_2",CY\u2503 CABELNET SPORT 1 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244149&extension=ts&play_token=My0bKLIUR2
+http://localhost/ch/244149_
 #EXTINF:-1 tvg-id="CY\u2503 CABELNET SPORT 2 4K" tvg-name="CY\u2503 CABELNET SPORT 2 4K" tvg-logo="https://github.iocy%5Cu2503%20cabelnet%20sport%202%204k.png" group-title="Portal_2",CY\u2503 CABELNET SPORT 2 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=758653&extension=ts&play_token=7jdEVAFvax
+http://localhost/ch/758653_
 #EXTINF:-1 tvg-id="CY\u2503 CABELNET SPORT 2 HD" tvg-name="CY\u2503 CABELNET SPORT 2 HD" tvg-logo="https://github.iocy%5Cu2503%20cabelnet%20sport%202%20hd.png" group-title="Portal_2",CY\u2503 CABELNET SPORT 2 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=244150&extension=ts&play_token=xZxoijhShJ
+http://localhost/ch/244150_
 #EXTINF:-1 tvg-id="CY\u2503 CABELNET SPORT 3 HD" tvg-name="CY\u2503 CABELNET SPORT 3 HD" tvg-logo="https://github.iocy%5Cu2503%20cabelnet%20sport%203%20hd.png" group-title="Portal_2",CY\u2503 CABELNET SPORT 3 HD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=983268&extension=ts&play_token=zwHkUwV6En
+http://localhost/ch/983268_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX THE NETHERLANDS 4K" tvg-name="RX\u2503 RELAX THE NETHERLANDS 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20the%20netherlands%204k.png" group-title="Portal_2",RX\u2503 RELAX THE NETHERLANDS 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2282816&extension=ts&play_token=dJbfQWPdKE
+http://localhost/ch/2282816_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX GERMANY 4K" tvg-name="RX\u2503 RELAX GERMANY 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20germany%204k.png" group-title="Portal_2",RX\u2503 RELAX GERMANY 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2282817&extension=ts&play_token=zVfZ4cwD9t
+http://localhost/ch/2282817_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX GREECE 4K" tvg-name="RX\u2503 RELAX GREECE 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20greece%204k.png" group-title="Portal_2",RX\u2503 RELAX GREECE 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2282818&extension=ts&play_token=nhaCTA2yzl
+http://localhost/ch/2282818_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX CYPRUS 4K" tvg-name="RX\u2503 RELAX CYPRUS 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20cyprus%204k.png" group-title="Portal_2",RX\u2503 RELAX CYPRUS 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276406&extension=ts&play_token=vaOgxDWIpI
+http://localhost/ch/2276406_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX TURKEY 4K" tvg-name="RX\u2503 RELAX TURKEY 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20turkey%204k.png" group-title="Portal_2",RX\u2503 RELAX TURKEY 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2282820&extension=ts&play_token=0Idu7m216L
+http://localhost/ch/2282820_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX SPAIN 4K" tvg-name="RX\u2503 RELAX SPAIN 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20spain%204k.png" group-title="Portal_2",RX\u2503 RELAX SPAIN 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2282819&extension=ts&play_token=aAzRhOdxSy
+http://localhost/ch/2282819_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX MOROCCO 4K" tvg-name="RX\u2503 RELAX MOROCCO 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20morocco%204k.png" group-title="Portal_2",RX\u2503 RELAX MOROCCO 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2282815&extension=ts&play_token=CTJdSmFp4l
+http://localhost/ch/2282815_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX EGYPT 4K" tvg-name="RX\u2503 RELAX EGYPT 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20egypt%204k.png" group-title="Portal_2",RX\u2503 RELAX EGYPT 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2282814&extension=ts&play_token=JC5v41lnKP
+http://localhost/ch/2282814_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX DUBAI 4K" tvg-name="RX\u2503 RELAX DUBAI 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20dubai%204k.png" group-title="Portal_2",RX\u2503 RELAX DUBAI 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2282813&extension=ts&play_token=HJahazYKK8
+http://localhost/ch/2282813_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX ALBANIA 4K" tvg-name="RX\u2503 RELAX ALBANIA 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20albania%204k.png" group-title="Portal_2",RX\u2503 RELAX ALBANIA 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2282812&extension=ts&play_token=X2Ih6MpC9S
+http://localhost/ch/2282812_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX ITALY 4K" tvg-name="RX\u2503 RELAX ITALY 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20italy%204k.png" group-title="Portal_2",RX\u2503 RELAX ITALY 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276408&extension=ts&play_token=v72BOW3u9i
+http://localhost/ch/2276408_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX SWEDEN 4K" tvg-name="RX\u2503 RELAX SWEDEN 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20sweden%204k.png" group-title="Portal_2",RX\u2503 RELAX SWEDEN 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276540&extension=ts&play_token=5ZFCO9uMD9
+http://localhost/ch/2276540_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX LONDON 4K" tvg-name="RX\u2503 RELAX LONDON 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20london%204k.png" group-title="Portal_2",RX\u2503 RELAX LONDON 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276410&extension=ts&play_token=ELV4FQQn5u
+http://localhost/ch/2276410_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX WALES 4K" tvg-name="RX\u2503 RELAX WALES 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20wales%204k.png" group-title="Portal_2",RX\u2503 RELAX WALES 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276418&extension=ts&play_token=YVk5MRIKs0
+http://localhost/ch/2276418_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX SAO TOME 4K" tvg-name="RX\u2503 RELAX SAO TOME 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20sao%20tome%204k.png" group-title="Portal_2",RX\u2503 RELAX SAO TOME 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276416&extension=ts&play_token=ZlyOliy0Cd
+http://localhost/ch/2276416_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX SERBIA 4K" tvg-name="RX\u2503 RELAX SERBIA 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20serbia%204k.png" group-title="Portal_2",RX\u2503 RELAX SERBIA 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276415&extension=ts&play_token=lsVQmByPmy
+http://localhost/ch/2276415_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX PATAGONIA 4K" tvg-name="RX\u2503 RELAX PATAGONIA 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20patagonia%204k.png" group-title="Portal_2",RX\u2503 RELAX PATAGONIA 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276413&extension=ts&play_token=kPz7X0OBun
+http://localhost/ch/2276413_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX BRAZIL 4K" tvg-name="RX\u2503 RELAX BRAZIL 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20brazil%204k.png" group-title="Portal_2",RX\u2503 RELAX BRAZIL 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276407&extension=ts&play_token=2Vct13ecX1
+http://localhost/ch/2276407_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX BALI INDONESIA 4K" tvg-name="RX\u2503 RELAX BALI INDONESIA 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20bali%20indonesia%204k.png" group-title="Portal_2",RX\u2503 RELAX BALI INDONESIA 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276405&extension=ts&play_token=pDKNv41pi9
+http://localhost/ch/2276405_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX NEW ZEELAND 4K" tvg-name="RX\u2503 RELAX NEW ZEELAND 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20new%20zeeland%204k.png" group-title="Portal_2",RX\u2503 RELAX NEW ZEELAND 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2270364&extension=ts&play_token=LB8oYqjNvu
+http://localhost/ch/2270364_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX GRINDELWALD SWITZERLAND 4K" tvg-name="RX\u2503 RELAX GRINDELWALD SWITZERLAND 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20grindelwald%20switzerland%204k.png" group-title="Portal_2",RX\u2503 RELAX GRINDELWALD SWITZERLAND 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2270357&extension=ts&play_token=SVUG3s17td
+http://localhost/ch/2270357_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX INDONESIA 4K" tvg-name="RX\u2503 RELAX INDONESIA 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20indonesia%204k.png" group-title="Portal_2",RX\u2503 RELAX INDONESIA 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2270356&extension=ts&play_token=PovV3XQzX9
+http://localhost/ch/2270356_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX HAWAII 4K" tvg-name="RX\u2503 RELAX HAWAII 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20hawaii%204k.png" group-title="Portal_2",RX\u2503 RELAX HAWAII 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2270355&extension=ts&play_token=8Ayic7vJEM
+http://localhost/ch/2270355_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX CANADA 4K" tvg-name="RX\u2503 RELAX CANADA 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20canada%204k.png" group-title="Portal_2",RX\u2503 RELAX CANADA 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2270354&extension=ts&play_token=P3xJ1ZcEwo
+http://localhost/ch/2270354_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX TOKYO 4K" tvg-name="RX\u2503 RELAX TOKYO 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20tokyo%204k.png" group-title="Portal_2",RX\u2503 RELAX TOKYO 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276417&extension=ts&play_token=0VFE0oDxWO
+http://localhost/ch/2276417_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX LAPLAND 4K" tvg-name="RX\u2503 RELAX LAPLAND 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20lapland%204k.png" group-title="Portal_2",RX\u2503 RELAX LAPLAND 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276541&extension=ts&play_token=qHcNqNlWc1
+http://localhost/ch/2276541_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX TROPICAL BEACH LOUNGE 4K" tvg-name="RX\u2503 RELAX TROPICAL BEACH LOUNGE 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20tropical%20beach%20lounge%204k.png" group-title="Portal_2",RX\u2503 RELAX TROPICAL BEACH LOUNGE 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276539&extension=ts&play_token=rsAg2jeFhH
+http://localhost/ch/2276539_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX YOUR SOUL 4K" tvg-name="RX\u2503 RELAX YOUR SOUL 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20your%20soul%204k.png" group-title="Portal_2",RX\u2503 RELAX YOUR SOUL 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276414&extension=ts&play_token=AS34CXGohs
+http://localhost/ch/2276414_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX MOST STUNNING 4K" tvg-name="RX\u2503 RELAX MOST STUNNING 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20most%20stunning%204k.png" group-title="Portal_2",RX\u2503 RELAX MOST STUNNING 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276412&extension=ts&play_token=A9My3Z8mXI
+http://localhost/ch/2276412_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX WORLD MOST BEAUTIFUL PLACES 4K" tvg-name="RX\u2503 RELAX WORLD MOST BEAUTIFUL PLACES 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20world%20most%20beautiful%20places%204k.png" group-title="Portal_2",RX\u2503 RELAX WORLD MOST BEAUTIFUL PLACES 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276411&extension=ts&play_token=3CYf0mqePX
+http://localhost/ch/2276411_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX LAKE COMO 4K" tvg-name="RX\u2503 RELAX LAKE COMO 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20lake%20como%204k.png" group-title="Portal_2",RX\u2503 RELAX LAKE COMO 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276409&extension=ts&play_token=6shdwceGaR
+http://localhost/ch/2276409_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX AUSTRALIA ANIMALS 4K" tvg-name="RX\u2503 RELAX AUSTRALIA ANIMALS 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20australia%20animals%204k.png" group-title="Portal_2",RX\u2503 RELAX AUSTRALIA ANIMALS 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2276404&extension=ts&play_token=UYDAXp9zSF
+http://localhost/ch/2276404_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX NATIONAL PARKS 4K" tvg-name="RX\u2503 RELAX NATIONAL PARKS 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20national%20parks%204k.png" group-title="Portal_2",RX\u2503 RELAX NATIONAL PARKS 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2270363&extension=ts&play_token=DUcuJvUVok
+http://localhost/ch/2270363_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX AERIAL VIEWS 4K" tvg-name="RX\u2503 RELAX AERIAL VIEWS 4K" tvg-logo="https://github.iorx%5Cu2503%20relax%20aerial%20views%204k.png" group-title="Portal_2",RX\u2503 RELAX AERIAL VIEWS 4K
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2270353&extension=ts&play_token=icfa7y38KR
+http://localhost/ch/2270353_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX EUROPE FHD" tvg-name="RX\u2503 RELAX EUROPE FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20europe%20fhd.png" group-title="Portal_2",RX\u2503 RELAX EUROPE FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2244756&extension=ts&play_token=LUyda977IX
+http://localhost/ch/2244756_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX NETHERLANDS FHD" tvg-name="RX\u2503 RELAX NETHERLANDS FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20netherlands%20fhd.png" group-title="Portal_2",RX\u2503 RELAX NETHERLANDS FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2244988&extension=ts&play_token=JpYa7MCK8k
+http://localhost/ch/2244988_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX GREECE FHD" tvg-name="RX\u2503 RELAX GREECE FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20greece%20fhd.png" group-title="Portal_2",RX\u2503 RELAX GREECE FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2244758&extension=ts&play_token=soXRrP8wTE
+http://localhost/ch/2244758_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX GREEK ISLANDS FHD" tvg-name="RX\u2503 RELAX GREEK ISLANDS FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20greek%20islands%20fhd.png" group-title="Portal_2",RX\u2503 RELAX GREEK ISLANDS FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2196455&extension=ts&play_token=iGNGjx8yHI
+http://localhost/ch/2196455_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX GERMANY FHD" tvg-name="RX\u2503 RELAX GERMANY FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20germany%20fhd.png" group-title="Portal_2",RX\u2503 RELAX GERMANY FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2244757&extension=ts&play_token=SwFqy88GNY
+http://localhost/ch/2244757_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX AUSTRIA FHD" tvg-name="RX\u2503 RELAX AUSTRIA FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20austria%20fhd.png" group-title="Portal_2",RX\u2503 RELAX AUSTRIA FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2244755&extension=ts&play_token=D5AFp2Czvy
+http://localhost/ch/2244755_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX THE UNITED KINGDOM FHD" tvg-name="RX\u2503 RELAX THE UNITED KINGDOM FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20the%20united%20kingdom%20fhd.png" group-title="Portal_2",RX\u2503 RELAX THE UNITED KINGDOM FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2244995&extension=ts&play_token=GmL5sLA5md
+http://localhost/ch/2244995_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX SCOTLAND FHD" tvg-name="RX\u2503 RELAX SCOTLAND FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20scotland%20fhd.png" group-title="Portal_2",RX\u2503 RELAX SCOTLAND FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2244993&extension=ts&play_token=CDsx1wMGHi
+http://localhost/ch/2244993_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX SPAIN FHD" tvg-name="RX\u2503 RELAX SPAIN FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20spain%20fhd.png" group-title="Portal_2",RX\u2503 RELAX SPAIN FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2244994&extension=ts&play_token=QZNIxxLynx
+http://localhost/ch/2244994_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX ITALY FHD" tvg-name="RX\u2503 RELAX ITALY FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20italy%20fhd.png" group-title="Portal_2",RX\u2503 RELAX ITALY FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2244987&extension=ts&play_token=Vm9MRbXnPD
+http://localhost/ch/2244987_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX POLAND FHD" tvg-name="RX\u2503 RELAX POLAND FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20poland%20fhd.png" group-title="Portal_2",RX\u2503 RELAX POLAND FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2244992&extension=ts&play_token=76EYuO8CEA
+http://localhost/ch/2244992_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX ICELAND" tvg-name="RX\u2503 RELAX ICELAND" tvg-logo="https://github.iorx%5Cu2503%20relax%20iceland.png" group-title="Portal_2",RX\u2503 RELAX ICELAND
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2244986&extension=ts&play_token=GwGvsC12Kk
+http://localhost/ch/2244986_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX TURKEY FHD" tvg-name="RX\u2503 RELAX TURKEY FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20turkey%20fhd.png" group-title="Portal_2",RX\u2503 RELAX TURKEY FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2244996&extension=ts&play_token=CrPt5yAktS
+http://localhost/ch/2244996_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX FIREPLACE FHD" tvg-name="RX\u2503 RELAX FIREPLACE FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20fireplace%20fhd.png" group-title="Portal_2",RX\u2503 RELAX FIREPLACE FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2192604&extension=ts&play_token=0vVodeVcZ5
+http://localhost/ch/2192604_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX NATURE FHD" tvg-name="RX\u2503 RELAX NATURE FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20nature%20fhd.png" group-title="Portal_2",RX\u2503 RELAX NATURE FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2244990&extension=ts&play_token=6HVpY0eDOQ
+http://localhost/ch/2244990_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX AMAZON WILDLIFE FHD" tvg-name="RX\u2503 RELAX AMAZON WILDLIFE FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20amazon%20wildlife%20fhd.png" group-title="Portal_2",RX\u2503 RELAX AMAZON WILDLIFE FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2244748&extension=ts&play_token=eQbAi0mWzs
+http://localhost/ch/2244748_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX WINTER WONDERLAND FHD" tvg-name="RX\u2503 RELAX WINTER WONDERLAND FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20winter%20wonderland%20fhd.png" group-title="Portal_2",RX\u2503 RELAX WINTER WONDERLAND FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2192623&extension=ts&play_token=9rPnpiRZgx
+http://localhost/ch/2192623_
 #EXTINF:-1 tvg-id="RX\u2503 RELAX CORAL REEF AQUARIUM FHD" tvg-name="RX\u2503 RELAX CORAL REEF AQUARIUM FHD" tvg-logo="https://github.iorx%5Cu2503%20relax%20coral%20reef%20aquarium%20fhd.png" group-title="Portal_2",RX\u2503 RELAX CORAL REEF AQUARIUM FHD
-http://mag.tiger-ott.net:80/play/live.php?mac=00:1A:79:78:31:42&stream=2192649&extension=ts&play_token=32mdzyTCti
+http://localhost/ch/2192649_
